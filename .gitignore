@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints (large files)
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+ckpt_*/
+
+# Audio files (large binary files)
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Large numpy arrays
+*.npy
+*.npz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+output/
+outputs/
+
+# Temporary
+*.tmp
+*.bak
+
+# Working directories (not part of the public release)
+out/
+utils/wav2vec2_checkpoints/
