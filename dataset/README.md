@@ -1,6 +1,11 @@
 # Dataset Preparation
 
-This directory is intentionally empty. Place downloaded and preprocessed audio files here following the structure below, then run [`setup_dataset.sh`](setup_dataset.sh) to verify paths.
+Place downloaded and preprocessed audio files here following the structure
+below, then run [`setup_dataset.sh`](setup_dataset.sh) to verify paths.
+
+For the `without_coconut` flow supported by this fork, keep raw downloads under
+`.cache/` and write the final extracted audio to the
+same `dataset/` layout referenced by the metadata CSVs.
 
 ## Expected Structure
 
@@ -24,11 +29,36 @@ dataset/
 ```
 
 The `original_file` columns in the metadata CSVs reference the **source** paths above.
-After Sidon restoration (Step 2), the 3,000 restored utterances are stored as `audio/{id}.wav`.
+After Sidon restoration (Step 2), the selected restored utterances are stored as `audio/{id}.wav`.
 
 ---
 
 ## Step 1 — Download
+
+If you are reproducing the `without_coconut` flow in this fork, run:
+
+```bash
+cd /path/to/animescore  # repository root
+uv sync --python 3.11 --extra training --no-managed-python
+hf auth login
+
+uv run python scripts/build_without_coconut_dataset.py \
+  --repo-root . \
+  --cache-dir .cache
+
+bash scripts/download_without_coconut_sources.sh
+
+uv run python scripts/prepare_without_coconut_audio.py \
+  --repo-root . \
+  --utterance-csv data/utterance_set/pair_pool_metadata_without_coconut.csv \
+  --cache-dir .cache
+```
+
+This fork writes:
+
+- raw downloads to `.cache/downloads/`
+- final extracted `Anim-400K` audio to `dataset/anim400k/...`
+- final extracted `ReazonSpeech` WAV files to `dataset/reazonspeech_wav_out/...`
 
 ### Anim-400k
 
@@ -45,15 +75,9 @@ Audio clips from Japanese anime (MP3, organized by UUID).
 Large-scale Japanese speech corpus.
 
 ```bash
-pip install huggingface_hub
-python - <<'EOF'
-from huggingface_hub import snapshot_download
-snapshot_download(
-    repo_id="reazon-research/reazonspeech",
-    repo_type="dataset",
-    local_dir="dataset/reazonspeech_raw",
-)
-EOF
+# In this fork, raw downloads are cached under:
+#   .cache/downloads/reazonspeech/
+#
 # Convert to WAV and organize as:
 #   dataset/reazonspeech_wav_out/{subdir}/{name}.wav
 ```
@@ -76,31 +100,27 @@ Japanese neutral speech corpus.
 
 All utterances were processed with **Sidon** (Nakata et al., ICASSP 2026), a neural speech restoration model that reduces background noise and recording artifacts.
 
-> **Note:** Running Sidon over the full corpora takes a very long time. Instead, run it only on the **3,000 utterances already selected** in the metadata. Use the helper script to extract the required input paths:
->
-> ```bash
-> bash dataset/setup_dataset.sh --list-inputs > sidon_input_list.txt
-> ```
+> **Note:** Running Sidon over the full corpora takes a very long time. In this fork, run it only on the already selected utterances listed in `data/utterance_set/pair_pool_metadata_without_coconut.csv`.
 
-Then restore each file:
+For the `without_coconut` flow, restore the selected files with:
 
 ```bash
-# Install Sidon
-git clone <sidon-repo-url>
-cd sidon && pip install -r requirements.txt && cd ..
-
-# Restore the 3,000 selected files (output to audio/)
-mkdir -p audio
-while IFS= read -r src; do
-    id=$(basename "$src" | sed 's/\.[^.]*$//')
-    python sidon/sidon_gpu.py \
-      --input  "$src" \
-      --output "audio/${id}_restored.wav" \
-      --device cuda
-done < sidon_input_list.txt
+SIDON_ROOT=/path/to/Sidon \
+uv run python scripts/run_sidon_restore.py \
+  --repo-root . \
+  --utterance-csv data/utterance_set/pair_pool_metadata_without_coconut.csv \
+  --device cuda \
+  --batch-size 8 \
+  --target-sample-rate 48000 \
+  --skip-existing
 ```
 
-Rename or remap the restored files to match the `shuffled_file` column (`audio/{id}.wav`) using the `original_file` → `shuffled_file` mapping in `train_metadata.csv` / `test_metadata.csv`.
+If `--feature-extractor` and `--decoder` are omitted, the script uses:
+
+- `${SIDON_ROOT}/checkpoints/feature_extractor_cuda.pt`
+- `${SIDON_ROOT}/checkpoints/decoder_cuda.pt`
+
+The restored files are written directly to `audio/{id}.wav`, matching the `shuffled_file` column.
 
 ---
 
