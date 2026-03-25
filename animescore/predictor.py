@@ -15,6 +15,7 @@ from animescore.ranknet_model import RankNetMos
 from animescore.ssl_encoder import DEFAULT_SSL_NAMES, SSLSpec, build_ssl, freeze_all
 
 
+DEFAULT_HF_REPO_ID = "tsukumijima/animescore-without-coconut-hubert"
 DEFAULT_CHECKPOINT_FILENAME = "animescore_without_coconut_hubert_best.pt"
 logger = logging.getLogger(__name__)
 
@@ -23,14 +24,15 @@ class AnimeScorePredictor:
     """
     Load an AnimeScore checkpoint and score audio files.
 
-    By default, the predictor resolves the checkpoint from Hugging Face. Until a
-    public model repository exists, pass `checkpoint_path` explicitly.
+    By default, the predictor resolves the checkpoint from the public Hugging Face
+    model repository maintained for this fork.
 
     Args:
         checkpoint_path (str | Path | None): Local checkpoint path. When omitted,
             the predictor attempts to download the checkpoint from Hugging Face.
         hf_repo_id (str | None): Hugging Face repository ID. If omitted, the
-            predictor falls back to the `ANIMESCORE_MODEL_ID` environment variable.
+            predictor falls back to the `ANIMESCORE_MODEL_ID` environment variable,
+            then to the default public repository for this fork.
         checkpoint_filename (str): Filename inside the Hugging Face repository.
         ssl_type (str): SSL backbone family.
         ssl_name (str | None): Hugging Face SSL model ID. When omitted, the
@@ -114,12 +116,7 @@ class AnimeScorePredictor:
         if checkpoint_path is not None:
             return Path(checkpoint_path).expanduser().resolve()
 
-        resolved_repo_id = hf_repo_id or os.environ.get("ANIMESCORE_MODEL_ID")
-        if resolved_repo_id is None:
-            raise ValueError(
-                "AnimeScore checkpoint is not available on Hugging Face yet. "
-                "Pass checkpoint_path explicitly, or set hf_repo_id / ANIMESCORE_MODEL_ID after upload.",
-            )
+        resolved_repo_id = hf_repo_id or os.environ.get("ANIMESCORE_MODEL_ID") or DEFAULT_HF_REPO_ID
 
         downloaded_path = hf_hub_download(
             repo_id=resolved_repo_id,

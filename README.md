@@ -19,7 +19,7 @@
 - **学習済みモデルを他プロジェクトから使いやすいように Python パッケージ化**
   - `animescore` という Python パッケージを追加し、checkpoint を指定して推論できる API を用意した
   - 学習と推論の両方で使うモデル定義は `animescore` パッケージへ寄せ、学習スクリプト側は互換レイヤー越しに同じ実装を参照するようにした
-  - 将来的に Hugging Face へ学習済み model をアップロードした後は、git から install したうえで Hugging Face 経由で読む使い方もできるようにしている
+  - 学習済み model は Hugging Face の `tsukumijima/animescore-without-coconut-hubert` へ公開しており、git から install したうえで checkpoint 未指定のまま Hugging Face 経由で利用できるようにしている
 - **論文とは条件が異なるが、公開データだけでもそれなりの性能が出るところまで確認**
   - このフォークの学習条件は論文と同一ではないため、論文値との直接比較はできない
   - 現時点の最良 checkpoint は HuBERT ベースで、`without_coconut` の再分割 eval 683 pair に対して `Acc 0.911 / AUC 0.958`、official test 由来の filtered 1,228 pair に対して `Acc 0.860 / AUC 0.951` を確認している
@@ -42,7 +42,21 @@ uv pip install 'git+https://github.com/tsukumijima/animescore.git'
 
 ## Usage
 
-ローカル checkpoint を使って推論する最小例です。
+デフォルトの Hugging Face モデルを自動取得して推論する最小例です。
+
+```python
+from animescore import AnimeScorePredictor
+
+predictor = AnimeScorePredictor()
+
+score = predictor.score_file('audio/00001.wav')
+comparison = predictor.compare_files(
+    'audio/00001.wav',
+    'audio/00002.wav',
+)
+```
+
+ローカル checkpoint を明示的に使いたい場合は、`checkpoint_path` を指定します。
 
 ```python
 from animescore import AnimeScorePredictor
