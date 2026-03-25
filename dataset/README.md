@@ -39,7 +39,7 @@ If you are reproducing the `without_coconut` flow in this fork, run:
 
 ```bash
 cd /path/to/animescore  # repository root
-uv sync --python 3.11 --group train --group sidon --no-managed-python
+uv sync --python 3.11 --group train --no-managed-python
 hf auth login
 
 uv run python scripts/build_without_coconut_dataset.py \
