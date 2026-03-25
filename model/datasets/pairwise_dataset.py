@@ -1,47 +1,68 @@
-# datasets/pairwise_dataset.py
-import os
+"""Pairwise dataset loader for AnimeScore ranking experiments."""
+
+import csv
+from pathlib import Path
+
+import soundfile
 import torch
 import torchaudio
 from torch.utils.data import Dataset
 from torch.nn.utils.rnn import pad_sequence
 
+
 def _norm_relpath(p: str) -> str:
+    """Normalize a repository-relative audio path."""
+
     p = str(p).strip().replace("\\", "/")
     # allow both "audio/0001.wav" and "0001.wav"
     if p.startswith("./"):
         p = p[2:]
     return p
 
+
 class PairwiseMosDataset(Dataset):
+    """Load pairwise preference rows from the published CSV format."""
+
     def __init__(self, csv_path, wav_root, target_sr=16000, max_sec=None):
-        self.wav_root = wav_root
+        self.wav_root = Path(wav_root)
         self.target_sr = target_sr
         self.max_len = int(target_sr * max_sec) if max_sec else None
         self.pairs = []
 
-        with open(csv_path, "r", encoding="utf-8") as f:
-            next(f)  # header
-            for line in f:
-                a, b, choice = line.strip().split(",")
-                choice = float(choice)
-                y = 1.0 if choice == -1 else 0.0  # y=1 if a>b
-                self.pairs.append((_norm_relpath(a), _norm_relpath(b), y))
+        with open(csv_path, "r", encoding="utf-8", newline="") as file_pointer:
+            reader = csv.DictReader(file_pointer)
+            required_columns = {"file_a", "file_b", "choice"}
+            if required_columns.issubset(set(reader.fieldnames or [])) is False:
+                raise ValueError(
+                    f"Pair CSV must include columns: {sorted(required_columns)}. "
+                    f"Received: {reader.fieldnames}"
+                )
+            for row in reader:
+                choice = float(row["choice"])
+                # y=1 if a is preferred over b
+                y = 1.0 if choice == 1.0 else 0.0
+                self.pairs.append((
+                    _norm_relpath(row["file_a"]),
+                    _norm_relpath(row["file_b"]),
+                    y,
+                ))
 
     def _resolve(self, relpath: str) -> str:
+        """Resolve a relative path against the configured audio root."""
+
         # Try direct join
-        p = os.path.join(self.wav_root, relpath)
-        if os.path.exists(p):
-            return p
-        # If relpath has "audio/" but wav_root already points to "audio", strip it
-        # if relpath.startswith("audio/"):
-        #     p2 = os.path.join(self.wav_root, relpath.replace("audio/", "", 1))
-        #     if os.path.exists(p2):
-        #         return p2
-        return p  # fallback (will error and show path)
+        resolved_path = self.wav_root / relpath
+        if resolved_path.exists() is True:
+            return str(resolved_path)
+        # fallback (will error and show path)
+        return str(resolved_path)
 
     def load_wav(self, relpath):
+        """Load and resample a waveform."""
+
         path = self._resolve(relpath)
-        wav, sr = torchaudio.load(path)
+        wav_array, sr = soundfile.read(path, dtype="float32", always_2d=True)
+        wav = torch.from_numpy(wav_array).transpose(0, 1)
         if sr != self.target_sr:
             wav = torchaudio.functional.resample(wav, sr, self.target_sr)
         wav = wav.mean(0)  # [T]
@@ -58,14 +79,20 @@ class PairwiseMosDataset(Dataset):
     def __len__(self):
         return len(self.pairs)
 
+
 def pairwise_collate(batch):
+    """Pad pairwise waveforms to the batch maximum length."""
+
     wa, wb, y = zip(*batch)
     wa = pad_sequence(wa, batch_first=True)
     wb = pad_sequence(wb, batch_first=True)
     y = torch.stack(y)
     return wa, wb, y
 
+
 def collate_pairwise(batch):
+    """Collate a batch with explicit padding masks."""
+
     # pad to max length in batch
     wav_a, wav_b, y = zip(*batch)
     la = torch.tensor([t.numel() for t in wav_a], dtype=torch.long)

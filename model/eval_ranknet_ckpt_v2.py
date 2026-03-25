@@ -37,9 +37,9 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 
 from datasets.pairwise_dataset import PairwiseMosDataset, pairwise_collate
-from src.ssl_encoder import SSLSpec, build_ssl, freeze_all, DEFAULT_SSL_NAMES
-from src.ranknet_model import RankNetMos
-from src.metrics import mse, lcc, srcc, ktau, load_wav
+from animescore.ssl_encoder import SSLSpec, build_ssl, freeze_all, DEFAULT_SSL_NAMES
+from animescore.ranknet_model import RankNetMos
+from animescore.metrics import mse, lcc, srcc, ktau, load_wav
 
 
 # ── Label helpers ─────────────────────────────────────────────────────────────

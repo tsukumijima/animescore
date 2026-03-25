@@ -27,26 +27,30 @@ L = mean[ softplus( -y · (s_a - s_b) ) ]    y ∈ {-1, +1}
 
 ```
 model/
-├── train_ranknet_v2.py       # Training script
-├── eval_ranknet_ckpt_v2.py   # Evaluation script
-├── train_ranknet.sh          # Training shell script (run from repo root)
-├── eval_ranknet.sh           # Evaluation shell script (run from repo root)
-├── requirements.txt
-├── src/
-│   ├── ssl_encoder.py        # SSL wrappers + freeze helpers
-│   ├── ranknet_model.py      # RankNetMos
-│   └── metrics.py            # mse / lcc / srcc / ktau / load_wav
+├── train_ranknet_v2.py                # Training script
+├── eval_ranknet_ckpt_v2.py            # Evaluation script
+├── train_ranknet.sh                   # Upstream training shell script (run from repo root)
+├── eval_ranknet.sh                    # Upstream evaluation shell script (run from repo root)
+├── train_ranknet_without_coconut.sh   # Fork training shell script
+├── eval_ranknet_without_coconut.sh    # Fork evaluation shell script
 └── datasets/
-    └── pairwise_dataset.py   # PairwiseMosDataset + collate fn
+    └── pairwise_dataset.py            # PairwiseMosDataset + collate fn
+
+animescore/
+├── ssl_encoder.py                     # Shared SSL wrappers + freeze helpers
+├── ranknet_model.py                   # RankNetMos
+├── metrics.py                         # mse / lcc / srcc / ktau / load_wav
+└── predictor.py                       # Inference API
 ```
 
 ## Installation
 
 ```bash
-pip install -r model/requirements.txt
+cd /path/to/animescore  # repository root
+uv sync --python 3.11 --extra training --no-managed-python
 ```
 
-Requires Python ≥ 3.9, PyTorch ≥ 2.0. CUDA recommended.
+Requires Python ≥ 3.11, PyTorch ≥ 2.0. CUDA recommended.
 
 ---
 
@@ -54,16 +58,24 @@ Requires Python ≥ 3.9, PyTorch ≥ 2.0. CUDA recommended.
 
 ### Quick Start
 
-Edit `WAV_ROOT` in `model/train_ranknet.sh`, then run from the **repository root**:
+For the `without_coconut` flow in this fork, run from the **repository root**:
 
 ```bash
-bash model/train_ranknet.sh
+HF_HOME="${HF_HOME:-$PWD/.hf-cache}" \
+bash model/train_ranknet_without_coconut.sh
 ```
+
+The default inputs are:
+
+- `data/pairs/pair_train_metadata_without_coconut.csv`
+- `data/pairs/pair_eval_metadata_without_coconut.csv`
+- `data/utterance_set/pair_eval_utterance_metadata_without_coconut.csv`
+- `WAV_ROOT=.`
 
 ### Manual
 
 ```bash
-python model/train_ranknet_v2.py \
+uv run python model/train_ranknet_v2.py \
   --train_pair_csv data/pairs/pair_train_metadata.csv \
   --val_pair_csv   data/pairs/pair_test_metadata.csv \
   --wav_root       . \
@@ -102,16 +114,17 @@ Saves two checkpoints: `{save_path}` (final) and `{save_path}_best.pt` (best val
 
 ### Quick Start
 
-Edit `CKPT` in `model/eval_ranknet.sh`, then run from the **repository root**:
+For the `without_coconut` flow in this fork, run from the **repository root**:
 
 ```bash
-bash model/eval_ranknet.sh
+HF_HOME="${HF_HOME:-$PWD/.hf-cache}" \
+bash model/eval_ranknet_without_coconut.sh
 ```
 
 ### Manual
 
 ```bash
-python model/eval_ranknet_ckpt_v2.py \
+uv run python model/eval_ranknet_ckpt_v2.py \
   --ckpt           ckpt/animescore_hubert_best.pt \
   --val_pair_csv   data/pairs/pair_test_metadata.csv \
   --wav_root       . \
