@@ -1,10 +1,14 @@
 # Utterance Set
 
-Per-utterance metadata for the 3,000 utterances used in AnimeScore.
+> [!NOTE]  
+> The original description referred to 3,000 utterances, but the metadata files currently published in this repository contain 2,999 rows in total: 2,499 in `train_metadata.csv` and 500 in `test_metadata.csv`.  
+This README updates the counts below to match the published CSV files as they exist today.
+
+Per-utterance metadata for the 2,999 utterances currently present in the published AnimeScore metadata files.
 
 ## Files
 
-### `train_metadata.csv` — 2,500 training utterances
+### `train_metadata.csv` — 2,499 training utterances
 
 | Column | Description |
 |--------|-------------|
@@ -21,7 +25,7 @@ Per-utterance metadata for the 3,000 utterances used in AnimeScore.
 
 | Source | Count |
 |--------|------:|
-| anim400k | 1,065 |
+| anim400k | 1,064 |
 | reazonspeech | 828 |
 | coco_nut | 607 |
 
