@@ -11,13 +11,44 @@ from __future__ import annotations
 
 import argparse
 import csv
+import importlib
+import logging
 import os
 import sys
+from contextlib import contextmanager
 from pathlib import Path
 
 import torch
 import torchaudio
 from torch.nn.utils.rnn import pad_sequence
+
+
+logger = logging.getLogger(__name__)
+
+
+@contextmanager
+def temporary_sys_path(entries: list[str]):
+    """
+    Temporarily prepend paths to `sys.path`.
+
+    Args:
+        entries (list[str]): Paths to prepend while inside the context.
+
+    Yields:
+        None: Control returns to the caller inside the managed context.
+    """
+
+    added_entries: list[str] = []
+    for entry in entries:
+        if entry not in sys.path:
+            sys.path.insert(0, entry)
+            added_entries.append(entry)
+    try:
+        yield
+    finally:
+        for entry in reversed(added_entries):
+            if entry in sys.path:
+                sys.path.remove(entry)
 
 
 def parse_args() -> argparse.Namespace:
@@ -30,51 +61,51 @@ def parse_args() -> argparse.Namespace:
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        '--repo-root',
-        default='.',
-        help='Repository root that contains the derived metadata CSV.',
+        "--repo-root",
+        default=".",
+        help="Repository root that contains the derived metadata CSV.",
     )
     parser.add_argument(
-        '--utterance-csv',
-        default='data/utterance_set/pair_pool_metadata_without_coconut.csv',
-        help='Utterance metadata CSV.',
+        "--utterance-csv",
+        default="data/utterance_set/pair_pool_metadata_without_coconut.csv",
+        help="Utterance metadata CSV.",
     )
     parser.add_argument(
-        '--sidon-root',
-        default=os.environ.get('SIDON_ROOT', '../Sidon'),
-        help='Sidon repository root.',
+        "--sidon-root",
+        default=os.environ.get("SIDON_ROOT", "../Sidon"),
+        help="Sidon repository root.",
     )
     parser.add_argument(
-        '--feature-extractor',
-        default='',
-        help='Sidon TorchScript feature extractor checkpoint.',
+        "--feature-extractor",
+        default="",
+        help="Sidon TorchScript feature extractor checkpoint.",
     )
     parser.add_argument(
-        '--decoder',
-        default='',
-        help='Sidon TorchScript decoder checkpoint.',
+        "--decoder",
+        default="",
+        help="Sidon TorchScript decoder checkpoint.",
     )
     parser.add_argument(
-        '--device',
-        default='cuda',
-        help='Inference device passed to Sidon.',
+        "--device",
+        default="cuda",
+        help="Inference device passed to Sidon.",
     )
     parser.add_argument(
-        '--batch-size',
+        "--batch-size",
         type=int,
         default=8,
-        help='Number of utterances restored per batch.',
+        help="Number of utterances restored per batch.",
     )
     parser.add_argument(
-        '--target-sample-rate',
+        "--target-sample-rate",
         type=int,
         default=48000,
-        help='Sample rate written to restored WAV files.',
+        help="Sample rate written to restored WAV files.",
     )
     parser.add_argument(
-        '--skip-existing',
-        action='store_true',
-        help='Skip utterances whose restored WAV already exists.',
+        "--skip-existing",
+        action="store_true",
+        help="Skip utterances whose restored WAV already exists.",
     )
     return parser.parse_args()
 
@@ -90,16 +121,33 @@ def import_sidon_processor(sidon_root: Path):
         type: `SpeechDenoisingProcessor` class.
     """
 
+    sidon_scripts_dir = sidon_root / "scripts"
+    if sidon_root.exists() is False:
+        raise FileNotFoundError(f"Sidon root directory was not found: {sidon_root}")
+    if sidon_scripts_dir.exists() is False:
+        raise FileNotFoundError(
+            f"Sidon scripts directory was not found: {sidon_scripts_dir}",
+        )
+
     sidon_root_string = str(sidon_root)
-    sidon_scripts_string = str(sidon_root / 'scripts')
-    if sidon_root_string not in sys.path:
-        sys.path.append(sidon_root_string)
-    if sidon_scripts_string not in sys.path:
-        sys.path.append(sidon_scripts_string)
+    sidon_scripts_string = str(sidon_scripts_dir)
 
-    from scripts.cleanse_webdataset import SpeechDenoisingProcessor
+    try:
+        with temporary_sys_path([sidon_root_string, sidon_scripts_string]):
+            sidon_module = importlib.import_module("scripts.cleanse_webdataset")
+    except (ImportError, ModuleNotFoundError) as ex:
+        raise ImportError(
+            "Failed to import SpeechDenoisingProcessor from Sidon. "
+            f"sidon_root: {sidon_root}",
+        ) from ex
 
-    return SpeechDenoisingProcessor
+    if hasattr(sidon_module, "SpeechDenoisingProcessor") is False:
+        raise AttributeError(
+            "SpeechDenoisingProcessor was not found in Sidon module. "
+            f"sidon_root: {sidon_root}",
+        )
+
+    return sidon_module.SpeechDenoisingProcessor
 
 
 def load_rows(utterance_csv: Path) -> list[dict[str, str]]:
@@ -113,7 +161,7 @@ def load_rows(utterance_csv: Path) -> list[dict[str, str]]:
         list[dict[str, str]]: Parsed rows.
     """
 
-    with utterance_csv.open('r', encoding='utf-8', newline='') as file_pointer:
+    with utterance_csv.open("r", encoding="utf-8", newline="") as file_pointer:
         return list(csv.DictReader(file_pointer))
 
 
@@ -174,8 +222,8 @@ def process_batch(
     expected_lengths: list[int] = []
 
     for row in batch_rows:
-        input_path = repo_root / row['original_file'].lstrip('./')
-        output_path = repo_root / row['shuffled_file']
+        input_path = repo_root / row["original_file"].removeprefix("./")
+        output_path = repo_root / row["shuffled_file"]
         waveform, sample_rate = load_waveform(input_path)
         waveforms.append(waveform)
         sample_rates.append(sample_rate)
@@ -201,16 +249,19 @@ def main() -> None:
     """
 
     args = parse_args()
+    logging.basicConfig(level=logging.INFO, format="%(message)s")
     repo_root = Path(args.repo_root).resolve()
     utterance_csv = (repo_root / args.utterance_csv).resolve()
     sidon_root = Path(args.sidon_root).resolve()
     feature_extractor_path = args.feature_extractor.strip()
     decoder_path = args.decoder.strip()
 
-    if feature_extractor_path == '':
-        feature_extractor_path = str(sidon_root / 'checkpoints' / 'feature_extractor_cuda.pt')
-    if decoder_path == '':
-        decoder_path = str(sidon_root / 'checkpoints' / 'decoder_cuda.pt')
+    if feature_extractor_path == "":
+        feature_extractor_path = str(
+            sidon_root / "checkpoints" / "feature_extractor_cuda.pt"
+        )
+    if decoder_path == "":
+        decoder_path = str(sidon_root / "checkpoints" / "decoder_cuda.pt")
 
     SpeechDenoisingProcessor = import_sidon_processor(sidon_root)
     processor = SpeechDenoisingProcessor(
@@ -224,25 +275,42 @@ def main() -> None:
     rows = load_rows(utterance_csv)
     pending_rows: list[dict[str, str]] = []
     for row in rows:
-        output_path = repo_root / row['shuffled_file']
+        output_path = repo_root / row["shuffled_file"]
         if args.skip_existing is True and output_path.exists() is True:
             continue
         pending_rows.append(row)
 
-    print(f'Total utterances listed: {len(rows)}')
-    print(f'Pending utterances to restore: {len(pending_rows)}')
+    print(f"Total utterances listed: {len(rows)}")
+    print(f"Pending utterances to restore: {len(pending_rows)}")
+
+    failed_batch_starts: list[int] = []
 
     for batch_start in range(0, len(pending_rows), args.batch_size):
-        batch_rows = pending_rows[batch_start:batch_start + args.batch_size]
-        process_batch(
-            processor=processor,
-            repo_root=repo_root,
-            batch_rows=batch_rows,
-            target_sample_rate=args.target_sample_rate,
-        )
+        batch_rows = pending_rows[batch_start : batch_start + args.batch_size]
         batch_end = batch_start + len(batch_rows)
-        print(f'Restored utterances: {batch_end}/{len(pending_rows)}')
+        try:
+            process_batch(
+                processor=processor,
+                repo_root=repo_root,
+                batch_rows=batch_rows,
+                target_sample_rate=args.target_sample_rate,
+            )
+            print(f"Restored utterances: {batch_end}/{len(pending_rows)}")
+        except Exception as ex:
+            logger.exception(
+                f"Failed to restore batch. progress: {batch_end}/{len(pending_rows)}",
+                exc_info=ex,
+            )
+            failed_batch_starts.append(batch_start)
+            continue
+
+    if len(failed_batch_starts) > 0:
+        raise RuntimeError(
+            "Sidon restore finished with failed batches. "
+            f"failed_batch_count: {len(failed_batch_starts)}, "
+            f"failed_batch_starts: {failed_batch_starts[:20]}",
+        )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

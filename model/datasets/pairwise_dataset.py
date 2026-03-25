@@ -1,6 +1,7 @@
 """Pairwise dataset loader for AnimeScore ranking experiments."""
 
 import csv
+import math
 from pathlib import Path
 
 import soundfile
@@ -40,7 +41,7 @@ class PairwiseMosDataset(Dataset):
             for row in reader:
                 choice = float(row["choice"])
                 # y=1 if a is preferred over b
-                y = 1.0 if choice == 1.0 else 0.0
+                y = 1.0 if math.isclose(choice, 1.0, abs_tol=1e-8) is True else 0.0
                 self.pairs.append((
                     _norm_relpath(row["file_a"]),
                     _norm_relpath(row["file_b"]),
@@ -50,22 +51,33 @@ class PairwiseMosDataset(Dataset):
     def _resolve(self, relpath: str) -> str:
         """Resolve a relative path against the configured audio root."""
 
-        # Try direct join
         resolved_path = self.wav_root / relpath
         if resolved_path.exists() is True:
             return str(resolved_path)
-        # fallback (will error and show path)
-        return str(resolved_path)
+
+        fallback_path = Path(relpath)
+        if fallback_path.exists() is True:
+            return str(fallback_path)
+
+        resolved_fallback_path = fallback_path.resolve()
+        if resolved_fallback_path.exists() is True:
+            return str(resolved_fallback_path)
+
+        raise FileNotFoundError(
+            "Audio file was not found. "
+            f"primary: {resolved_path}, secondary: {resolved_fallback_path}",
+        )
 
     def load_wav(self, relpath):
         """Load and resample a waveform."""
 
         path = self._resolve(relpath)
         wav_array, sr = soundfile.read(path, dtype="float32", always_2d=True)
-        wav = torch.from_numpy(wav_array).transpose(0, 1)
+        mono_wav_array = wav_array.mean(axis=1)
+        wav = torch.from_numpy(mono_wav_array).unsqueeze(0)
         if sr != self.target_sr:
             wav = torchaudio.functional.resample(wav, sr, self.target_sr)
-        wav = wav.mean(0)  # [T]
+        wav = wav.squeeze(0)
         if self.max_len is not None and wav.numel() > self.max_len:
             wav = wav[: self.max_len]
         return wav

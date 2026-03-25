@@ -39,7 +39,7 @@ from tqdm import tqdm
 from datasets.pairwise_dataset import PairwiseMosDataset, pairwise_collate
 from animescore.ssl_encoder import SSLSpec, build_ssl, freeze_all, DEFAULT_SSL_NAMES
 from animescore.ranknet_model import RankNetMos
-from animescore.metrics import mse, lcc, srcc, ktau, load_wav
+from metrics import mse, lcc, srcc, ktau, load_wav
 
 
 # ── Label helpers ─────────────────────────────────────────────────────────────

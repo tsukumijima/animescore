@@ -53,6 +53,11 @@ def build_padded_batch(waveforms: list[torch.Tensor]) -> torch.Tensor:
         torch.Tensor: Batch tensor of shape `[batch_size, max_num_samples]`.
     """
 
+    if len(waveforms) == 0:
+        raise ValueError(
+            "build_padded_batch: 'waveforms' must be a non-empty list of 1D torch.Tensors.",
+        )
+
     max_num_samples = max(waveform.numel() for waveform in waveforms)
     return torch.stack(
         [

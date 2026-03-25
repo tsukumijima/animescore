@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import logging
+import math
 import os
 from pathlib import Path
 
@@ -14,6 +16,7 @@ from animescore.ssl_encoder import DEFAULT_SSL_NAMES, SSLSpec, build_ssl, freeze
 
 
 DEFAULT_CHECKPOINT_FILENAME = "animescore_without_coconut_hubert_best.pt"
+logger = logging.getLogger(__name__)
 
 
 class AnimeScorePredictor:
@@ -58,13 +61,14 @@ class AnimeScorePredictor:
         )
 
         self.model = self._load_model()
-        self.target_sample_rate = int(
-            getattr(
-                self.model.ssl,
-                "target_sample_rate",
-                getattr(self.model.ssl, "target_sr"),
-            ),
-        )
+        target_sample_rate = getattr(self.model.ssl, "target_sample_rate", None)
+        if target_sample_rate is None:
+            target_sample_rate = getattr(self.model.ssl, "target_sr", None)
+        if target_sample_rate is None:
+            raise ValueError(
+                "The loaded SSL model does not expose target_sample_rate or target_sr.",
+            )
+        self.target_sample_rate = int(target_sample_rate)
 
     @staticmethod
     def _resolve_device(device: str | torch.device | None) -> torch.device:
@@ -151,7 +155,22 @@ class AnimeScorePredictor:
             key[len("module."):] if key.startswith("module.") else key: value
             for key, value in state_dict.items()
         }
-        model.load_state_dict(normalized_state_dict, strict=False)
+        result = model.load_state_dict(normalized_state_dict, strict=False)
+        model_keys = set(model.state_dict().keys())
+        matched_keys = len(set(normalized_state_dict.keys()) & model_keys)
+        if len(result.missing_keys) > 0:
+            logger.warning(
+                f"Checkpoint is missing model keys. first_20: {result.missing_keys[:20]}",
+            )
+        if len(result.unexpected_keys) > 0:
+            logger.warning(
+                f"Checkpoint has unexpected keys. first_20: {result.unexpected_keys[:20]}",
+            )
+        if matched_keys < int(0.9 * len(model_keys)):
+            raise RuntimeError(
+                "Too few checkpoint keys matched the model. "
+                "Check ssl_type, ssl_name, and checkpoint_path.",
+            )
         model.eval()
         return model
 
@@ -216,7 +235,11 @@ class AnimeScorePredictor:
 
         score_a, score_b = self.score_files([audio_path_a, audio_path_b], batch_size=2)
         margin = score_a - score_b
-        probability_a_wins = float(torch.sigmoid(torch.tensor(margin)).item())
+        if margin >= 0.0:
+            probability_a_wins = 1.0 / (1.0 + math.exp(-margin))
+        else:
+            exp_margin = math.exp(margin)
+            probability_a_wins = exp_margin / (1.0 + exp_margin)
         return {
             "score_a": score_a,
             "score_b": score_b,

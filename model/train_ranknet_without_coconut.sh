@@ -2,8 +2,6 @@
 # Train AnimeScore RankNet on the derived without-coconut split.
 set -euo pipefail
 
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 UV_BIN="${UV_BIN:-uv}"
 
 TRAIN_PAIR="${TRAIN_PAIR:-data/pairs/pair_train_metadata_without_coconut.csv}"

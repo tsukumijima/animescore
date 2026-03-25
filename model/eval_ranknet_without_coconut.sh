@@ -2,8 +2,6 @@
 # Evaluate AnimeScore RankNet on the derived without-coconut split.
 set -euo pipefail
 
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 UV_BIN="${UV_BIN:-uv}"
 
 CKPT="${CKPT:-ckpt/animescore_without_coconut_hubert_best.pt}"
