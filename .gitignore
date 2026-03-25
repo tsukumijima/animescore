@@ -55,3 +55,10 @@ outputs/
 # Working directories (not part of the public release)
 out/
 utils/wav2vec2_checkpoints/
+
+.hf-cache/
+.cache/
+audio/
+ckpt/
+dataset/anim400k/
+dataset/reazonspeech_wav_out/
