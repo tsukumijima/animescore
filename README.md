@@ -1,3 +1,74 @@
+# AnimeScore (fork)
+
+このフォークは、各種前提のずれや前処理不足を補ったうえで、**一般ユーザーが入手しやすいデータだけを使って AnimeScore を再学習・再利用しやすくすること**を目的とした派生実装です。
+
+## Changes in this fork
+
+- **`Coco-Nut` を使わない `without_coconut` 派生データセットを追加**
+  - `Coco-Nut` は配布条件の都合で一般ユーザーが即時入手しづらいため、このフォークでは `Anim-400K` と `ReazonSpeech` に対応する公開済み 3,000 件サブセットのうち、`Coco-Nut` を除いた 1,968 発話で再構成した
+  - 残る公開 pairwise アノテーションをできるだけ多く使うように派生 split を作成した
+  - 利用できる規模は、発話数 1,968、pairwise アノテーション総数 6,813、学習用 pair 6,130、評価用 pair 683
+- **公開 CSV と学習スクリプトの不整合を修正**
+  - フォーク元のリポジトリでは、公開されている pair CSV の列構成と学習ローダーの前提が一致していなかった
+  - このフォークでは、学習スクリプト側を現行の公開 CSV 形式に合わせて修正し、そのまま学習を回せるようにした
+- **不足していた前処理スクリプトを追加し、再現用の手順を整理**
+  - `scripts/download_without_coconut_sources.sh` を追加し、今回の再現フローで実際に使った `hf download` コマンドをそのまま再実行できるようにした
+  - `scripts/build_without_coconut_dataset.py`、`scripts/prepare_without_coconut_audio.py`、`scripts/run_sidon_restore.py` を追加し、派生 split の構築、必要音声の抽出、Sidon による復元を段階的に実行できるようにした
+  - 中間生成物とダウンロードキャッシュは `.cache/` 配下に集約し、最終的に本家が参照する `data/`、`dataset/`、`audio/` のみを公開レイアウトとして使うようにした
+  - README も、上から順に実行すれば同じ流れを辿れるように整理した
+- **学習済みモデルを他プロジェクトから使いやすいように Python パッケージ化**
+  - `animescore` という Python パッケージを追加し、checkpoint を指定して推論できる API を用意した
+  - 学習と推論の両方で使うモデル定義は `animescore` パッケージへ寄せ、学習スクリプト側は互換レイヤー越しに同じ実装を参照するようにした
+  - 将来的に Hugging Face へ学習済み model をアップロードした後は、git から install したうえで Hugging Face 経由で読む使い方もできるようにしている
+- **論文とは条件が異なるが、公開データだけでもそれなりの性能が出るところまで確認**
+  - このフォークの学習条件は論文と同一ではないため、論文値との直接比較はできない
+  - 現時点の最良 checkpoint は HuBERT ベースで、`without_coconut` の再分割 eval 683 pair に対して `Acc 0.911 / AUC 0.958`、official test 由来の filtered 1,228 pair に対して `Acc 0.860 / AUC 0.951` を確認している
+  - したがって、少なくとも公開データだけでも実用上かなり強い pairwise scorer は作れていると考えられる
+
+## Installation
+
+学習や前処理まで含めて再現する場合は、リポジトリルートで次を実行します。
+
+```bash
+cd /path/to/animescore  # リポジトリルート
+uv sync --python 3.11 --extra training --no-managed-python
+```
+
+推論ライブラリとして他プロジェクトから使うだけであれば、git URL を直接指定して install できます。
+
+```bash
+uv pip install 'git+https://github.com/tsukumijima/animescore.git'
+```
+
+## Usage
+
+ローカル checkpoint を使って推論する最小例です。
+
+```python
+from animescore import AnimeScorePredictor
+
+predictor = AnimeScorePredictor(
+    checkpoint_path='ckpt/animescore_without_coconut_hubert_best.pt',
+)
+
+score = predictor.score_file('audio/00001.wav')
+comparison = predictor.compare_files(
+    'audio/00001.wav',
+    'audio/00002.wav',
+)
+```
+
+checkpoint を省略した場合は Hugging Face からの取得を優先します。  
+
+## Documentation
+
+- データ準備: [`dataset/README.md`](dataset/README.md)
+- 学習と評価: [`model/README.md`](model/README.md)
+- 推論 API: [`animescore/predictor.py`](/path/to/animescore/animescore/predictor.py)
+
+以下のドキュメントは、フォーク元の AnimeScore リポジトリのドキュメントを改変なしでそのまま引き継いでいます。
+これらのドキュメントの内容がこのフォークにも通用するかは保証されません。
+
 # AnimeScore: A Preference-Based Dataset and Framework for Evaluating Anime-Like Speech Style
 
 > **Joonyong Park, Jerry Li**
