@@ -1,0 +1,913 @@
+shuffled_id,shuffled_file,original_file,source,ref_text,cer,duration_sec,utmos
+1,audio/00001.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/00/00085c4d-0933-486e-ac0d-c088ce397b2c.mp3,anim400k,けど、あんまり器用なよ、ジン,0.182,4.279,3.753215
+2,audio/00002.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/00/004739cf-8a1a-488f-9325-ec81bdc9ce3f.mp3,anim400k,放つのは二級樹霊では 二級では心もとないのでな,0.286,7.519,3.417302
+4,audio/00004.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/00/00e9ae3b-2dc0-4fb6-8af9-9a5af3714e10.mp3,anim400k,編集長、今日の会議キャンセルします。,0.0,4.459,3.386812
+5,audio/00005.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/01/013c3abe-19bb-42cf-b05e-de8f8c36aa25.mp3,anim400k,冷静になれば済むことです。,0.167,4.399,3.424808
+8,audio/00008.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/01/01803cbf-016d-43c2-a924-2e8c34e04b84.mp3,anim400k,アポロが持ち帰った月の石は、すべてはアメリカの国宝……,0.087,6.919,3.333567
+11,audio/00011.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/01/01e6e3f3-9edf-4d9d-8557-29e86b73c4cb.mp3,anim400k,正直に言う、私はニュアに連絡した。,0.214,5.879,3.423257
+15,audio/00015.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/02/02a1ded9-9c5b-4a08-b8e5-becb192f9f71.mp3,anim400k,同植物の生態の観察を好きなのは、明らかに俺と同じ理系の支出だ。,0.103,8.179,3.537431
+16,audio/00016.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/02/02c98ddb-1a6d-4bbf-b70f-a62652489add.mp3,anim400k,手術は成功しました。,0.0,9.459,3.733664
+17,audio/00017.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/02/02d6270d-e3c8-4622-a07f-5b4816f7c011.mp3,anim400k,力を使ったからか、体の軋む音が止まない。,0.211,8.939,3.197825
+18,audio/00018.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/02/02e91e75-742e-44fd-b78b-7b41ae4540a6.mp3,anim400k,藤原デザインは、いい会社だと思うわ。,0.214,5.599,3.659073
+19,audio/00019.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/02/02eb1566-dec5-4025-9023-59f7c50cb642.mp3,anim400k,使います 放山はそれまで待機をお預かりしているにすみません,0.292,7.219,3.038033
+20,audio/00020.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/03/032e294d-9f75-4c61-b574-52c388d1a8fc.mp3,anim400k,細胞の遺伝子が組み替えられていますね,0.0,4.919,3.582599
+28,audio/00028.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/06/066efcfc-355b-4c03-aaed-b2cffc66bfe5.mp3,anim400k,自分の幸せを願うことは,0.0,4.419,3.235547
+35,audio/00035.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/08/0864cf53-0f67-4451-99b0-dc65651ab53d.mp3,anim400k,近々、ゲンパイロットに、決意の出る可能性があるそうだ,0.174,6.919,4.036404
+38,audio/00038.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/09/09d10b3e-254d-4547-aa8d-3616fa13a905.mp3,anim400k,地球は火にかけてい。た。,0.1,5.719,3.523187
+40,audio/00040.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/09/09f90088-e4e5-4398-8bd3-e7bcc64fb7be.mp3,anim400k,その王は在九十年に及ぶ女王とだけしか証刑は知りませんでした,0.259,7.299,3.954487
+44,audio/00044.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0a/0ae13d17-edac-4b0a-a9cd-f53029250f3b.mp3,anim400k,我々が求めているのは君の実績だけだ。,0.0,5.879,3.896997
+45,audio/00045.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0a/0ae39904-65fa-4a08-b3be-6d43d50142e1.mp3,anim400k,高架への疑惑を最初に想像したのは我宝だった,0.3,6.299,3.556906
+49,audio/00049.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0c/0ca578dd-6982-4487-ab46-20e20e6a8ffd.mp3,anim400k,日本をはじめとする各国政府。,0.0,5.479,3.402589
+50,audio/00050.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0c/0cb438f0-6b93-4c44-8e3a-41296ce66951.mp3,anim400k,そんなこと 結構本とか読んでるし そりゃ成績悪いけど,0.263,8.599,3.371113
+53,audio/00053.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0c/0ce3f225-6695-469d-aa4b-96f9b9aa6572.mp3,anim400k,あの黒づくめの連中は自衛隊の上層部に チャンネルがあるんだろう,0.1,6.239,3.32454
+54,audio/00054.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0d/0d247132-6e72-41b8-8742-31d6b62661c4.mp3,anim400k,システムコマンド 管理者権限変更,0.133,5.679,3.600226
+55,audio/00055.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0d/0d9939b8-4c10-4123-a977-b5878b006464.mp3,anim400k,ボクシング好きですか?,0.0,4.439,3.780854
+56,audio/00056.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0d/0dc6b2a7-16a7-43a7-baae-af984c047459.mp3,anim400k,アマネミサはエルに拘束された。 これの真実を自分の口で話してください。,0.167,9.219,3.246977
+57,audio/00057.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0d/0df853b1-62b9-4eb1-84ee-e11184a5dffb.mp3,anim400k,待ちましょう 仏じましょうさ,0.214,5.979,3.675776
+62,audio/00062.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0e/0ee77472-c7e9-48b2-8b93-8dd68598d1bf.mp3,anim400k,これは宅配便のダンボールだ 山手の配送所,0.111,7.499,3.744596
+64,audio/00064.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0f/0f402acf-ddc7-447a-a6e6-6a463b41e2c3.mp3,anim400k,銀時計持ってるって,0.2,5.019,4.045101
+68,audio/00068.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/0f/0ff81a6c-dd40-4999-9f43-e5dda160957d.mp3,anim400k,東京湾の東さんを不当に。救護団が集まっているそうです。,0.28,6.979,3.450295
+69,audio/00069.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/10/1006b27a-5769-4965-8ee1-c64334b7a362.mp3,anim400k,可能ですよ。ですが、どこの業者さんでもうまくできるわけじゃないでしょ。 いやーすごい。,0.273,9.819,3.125494
+73,audio/00073.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/10/10c32bff-21ab-4b4b-98aa-c88c396b83fc.mp3,anim400k,やつはここにはいない,0.0,4.079,3.754178
+75,audio/00075.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/11/11045acd-fd2f-4158-912b-574a9faed4d8.mp3,anim400k,銀翼突撃鐘の上空に伴う。,0.273,4.619,3.470655
+78,audio/00078.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/11/11d4edb3-0dbf-4f7d-87e8-497a6a832547.mp3,anim400k,今日、止まっていきます。,0.2,3.459,3.7434
+80,audio/00080.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/11/11ecc4d3-1567-44e4-a4ef-1009bc57f5b2.mp3,anim400k,国内で割と対等に打ち合えるが、幕の内だけ、唯一。,0.05,8.519,3.797498
+81,audio/00081.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/11/11f8e198-4901-45bd-a18f-c38be49a1495.mp3,anim400k,内閣調査室で、支給ご同行を願えますでしょうか。,0.19,6.679,3.634112
+82,audio/00082.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/12/127b904b-a598-48b0-ad8f-2a44ae22ce1b.mp3,anim400k,白い大理石、いくらぐらいするんだろう?,0.0,7.419,3.091128
+87,audio/00087.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/14/14228c17-c3c6-443c-9e60-2e33a30e7a97.mp3,anim400k,影、死せる太陽に照らされし彼の血より、 遠く地上に刺したる影にすぎぬ。,0.241,9.799,3.345721
+88,audio/00088.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/14/1493e68b-365d-491f-9ec8-d9d2a4a40408.mp3,anim400k,策を講じようにも、公政府軍に包囲されていたのではどうにもならないでしょう。,0.056,8.579,3.702216
+90,audio/00090.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/14/14c87311-46c7-450d-8daa-fcd49260d932.mp3,anim400k,取引に従わず、お前たちが求めてる情報が得られなければ。,0.038,7.099,3.53443
+91,audio/00091.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/14/14fd0202-4364-4221-87d9-31bb6d43ca57.mp3,anim400k,いや、渋谷のせいじゃない,0.222,3.999,3.322898
+92,audio/00092.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/15/1527529d-585d-42a7-935d-93ac3d61fecc.mp3,anim400k,商人なんて、どう騙すような仕事に包まって,0.286,5.779,3.031164
+93,audio/00093.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/15/15665f4a-237a-4bbd-966f-156e3a6fbf8a.mp3,anim400k,人間が宇宙でこういう暮らしを始めたのも,0.0,6.139,3.505428
+95,audio/00095.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/15/15bcda1e-4ef7-43b0-a8f1-26b3933a39f4.mp3,anim400k,ええ実現してほしいと思っています,0.143,5.599,3.58479
+96,audio/00096.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/15/15ed3e8f-b03d-444d-a6fb-ba8fe9db7141.mp3,anim400k,ノナが実験に賭けられているのを見ました 怖くなって逃げ出して,0.103,6.199,3.237196
+97,audio/00097.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/16/1602e8b9-cf54-4fda-b39b-c13b3e2c6458.mp3,anim400k,私たち助かります,0.111,6.119,3.389989
+100,audio/00100.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/17/1715bc97-2323-448c-bb07-e3d7e352e8b9.mp3,anim400k,私たちはまだ彼らが持っていない。発電プラントと生産プラントを用意しています。,0.056,7.579,3.421031
+101,audio/00101.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/17/1748df4f-5f08-47a6-89b0-16b7c541f0b3.mp3,anim400k,食べたかったな 皮がサクサクして具がいっぱい詰まってて 絞りたてのミルクと一緒に食べると,0.2,9.279,3.396602
+102,audio/00102.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/17/1778d516-9e2d-4c36-a0e4-ce0f8eeacc44.mp3,anim400k,では裁判長、直ちに判決を,0.0,7.759,3.217458
+104,audio/00104.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/18/1831e6ea-e681-43a0-bc78-ca63896f010e.mp3,anim400k,人間が行動を起こす前には。必ず予備動作がある。目の動き筋肉の動き。,0.0,7.739,3.288811
+105,audio/00105.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/18/1833bfbd-4a4a-4ab3-ba9c-a8be9b84df7d.mp3,anim400k,しかし驚きましたね。ちょうどの官房長官発表は。,0.286,8.719,3.004586
+107,audio/00107.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/18/1851ebbd-dc24-4264-a3ce-66287de45135.mp3,anim400k,まだ神殿帳と繋がっています,0.154,4.399,3.589602
+108,audio/00108.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/18/187a3611-1177-4ccf-9764-057a86fcb614.mp3,anim400k,笑わせてくれるよ 偽善に得た情報では精神異常者による反抗とされているが,0.118,9.299,3.558309
+111,audio/00111.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/19/19a5cebc-98dd-4579-a659-c68aa83db176.mp3,anim400k,君、僕の親に会ったことあったね はい,0.067,6.199,3.045643
+115,audio/00115.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/1b/1b4f078d-24c9-47fc-b8df-3681a219d8e6.mp3,anim400k,セカンドウェーブは行動面に対し、ほぼ垂直に進行していますから。,0.24,7.759,3.14136
+122,audio/00122.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/1c/1c629a15-ed18-4003-b37a-309f860ac733.mp3,anim400k,ブレンナーに報いとければ,0.182,3.899,3.639072
+125,audio/00125.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/1c/1ca80590-ed33-42a8-9c78-269a57b56faf.mp3,anim400k,少しでも多くの前任が。平等を享受できるように。,0.095,7.179,3.280845
+127,audio/00127.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/1d/1deac781-af60-45d7-931a-2b7790946607.mp3,anim400k,その他、ダイガード運用に関するほとんどの危機は、彼女の講案、設計によるものである。,0.171,8.899,3.156395
+128,audio/00128.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/1d/1df26553-e079-4209-8a69-9156c69f891e.mp3,anim400k,私はチェックとイメージボードくらいだったし,0.211,4.799,3.700875
+129,audio/00129.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/1e/1e40d307-cb50-4afd-908c-fb94a0a999e3.mp3,anim400k,人は誰？しもが裏切る。,0.0,5.119,3.201612
+131,audio/00131.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/1e/1eb464c0-5c18-4128-870c-e39950c7d05f.mp3,anim400k,アルバイトのあてを探してる?,0.154,8.499,3.326226
+135,audio/00135.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/1f/1f840e33-cb02-449d-a0cd-5e2c4c8cf06a.mp3,anim400k,演書生命繊維の活動を停止させました,0.118,5.819,3.099875
+136,audio/00136.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/1f/1fbf49ac-bb88-4f6b-9d34-e400d4ea5c08.mp3,anim400k,都の人々を愛し、豊かにして留めり、 魔王のこの国をよく治める。,0.214,8.519,3.264943
+138,audio/00138.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/20/20197884-ea16-4528-bb9e-d15b709dff3d.mp3,anim400k,……お客様は、こちら捨てておきますね,0.071,6.679,3.659742
+140,audio/00140.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/20/203a833d-1cac-47e3-94c9-32d3b7ae3d62.mp3,anim400k,だったな これで民間のロボット運用を規制する法律を近々整備されるな,0.269,9.239,3.134419
+141,audio/00141.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/20/203cb668-96b2-44e9-ab7d-77ccd622b8d5.mp3,anim400k,失礼いたします 今年度の超税報告書でございます,0.045,8.299,3.266671
+142,audio/00142.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/20/20cdeb26-5561-42b0-8890-fe077a8f99e8.mp3,anim400k,なんか会社みたいだね 私にお任せください、マイン様,0.211,7.559,3.126579
+146,audio/00146.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/21/211768e7-cf83-43a1-97fb-1afce5f77067.mp3,anim400k,大きなウリエットは小さな荒れ さの集合である,0.263,6.199,3.752661
+154,audio/00154.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/25/25114325-48d8-49ef-9913-3e9bc670b64b.mp3,anim400k,民たちの城内への避難、急ごせます。 僧主が呼び寄せたのか。,0.269,7.619,3.273118
+157,audio/00157.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/25/25b0b9c0-1da7-4ee6-80c7-2abd9c3db94c.mp3,anim400k,そうな、他人の人生に口出しするもんじゃない,0.176,5.059,3.336639
+158,audio/00158.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/25/25ec891c-8965-46de-8a54-1850db9bcdc3.mp3,anim400k,3時間 滑走路上の航空機が行き行方不明になっているそうです,0.2,8.259,3.26641
+160,audio/00160.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/26/261d9064-e529-4d03-a655-32fb92b03021.mp3,anim400k,それでは紹介いたします,0.0,5.539,3.170589
+164,audio/00164.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/27/2773cc90-6a49-490e-88da-93e2190405c3.mp3,anim400k,次元が一つ増えれば、情報内放料は自上される。,0.273,8.079,3.621639
+170,audio/00170.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/29/29e922ad-41f2-42b8-a682-9e96c2ea471c.mp3,anim400k,被害はでかいほうがいい,0.3,4.239,3.227275
+171,audio/00171.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2a/2a6661fc-4e53-4cc0-83c0-58e6a7d2aa2c.mp3,anim400k,もう少し人目をはばかるべきです,0.0,4.699,3.697879
+172,audio/00172.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2a/2aa5c505-9a01-4330-93f4-345111f3217f.mp3,anim400k,明日の戦略シートは後ほど送る。,0.231,4.879,3.688095
+174,audio/00174.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2a/2aef01a7-8c26-442b-95a8-4534d8f406b8.mp3,anim400k,こたびは、三友卿が引き起こした事件により……,0.278,7.519,3.561378
+175,audio/00175.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2b/2b2c9c78-bdaf-4e80-8be7-5da25fa388f7.mp3,anim400k,大使として院に支えてまいりました。,0.125,5.679,3.284091
+176,audio/00176.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2b/2b929d7d-cd5d-4652-a681-30f4e65a749d.mp3,anim400k,T.Aが日本の主張する通りの性能ならば,0.176,7.179,3.314036
+177,audio/00177.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2c/2c253246-e48b-4b70-b2b2-5e269af0a1fa.mp3,anim400k,全画面、樋口の車内に 免許書、どこに入れたかな,0.2,7.759,3.41158
+178,audio/00178.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2c/2cb0d9eb-1bd4-48ae-854e-b6b187e5e19e.mp3,anim400k,山田さん、そこさ、半外収縫いの方がいいよ,0.294,5.699,3.316764
+180,audio/00180.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2d/2d9626a1-ed7c-4852-bb4b-f08d02150a7b.mp3,anim400k,他に仲の良い友達もいませんでしたし、親のお下がりのPCで。,0.167,6.339,3.564296
+182,audio/00182.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2e/2e4ae82b-41fc-4d60-9bc4-d32dfc4f9d48.mp3,anim400k,力ある者は闘士としてこの家を支配する,0.167,6.079,3.223034
+185,audio/00185.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2e/2efa3bb1-c243-454d-883b-fcb095ece69d.mp3,anim400k,弱い人間たちが、糸も絶やすく、 いくらでも、誰とでも作るつながり。,0.103,8.899,3.567701
+186,audio/00186.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/2f/2f542c50-8be3-48c1-bfb6-bf3de80d211b.mp3,anim400k,子供まで利用して教門を奪いに来るとは、妖怪もだんだん手が混んできましたね。,0.114,9.779,3.378165
+189,audio/00189.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/30/300d0a3d-547a-482c-8e6d-9522834271d3.mp3,anim400k,情報の隙間は脳味噌の後ろの方が勝手に埋めちゃってるというか,0.069,8.119,3.447392
+190,audio/00190.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/30/300dd900-8bdb-480b-99e0-9fd03dfa4b01.mp3,anim400k,私は街で酒場を営んでいて。,0.0,4.839,3.293199
+191,audio/00191.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/30/301c5cc6-6740-4b4e-88c9-dce72a3e2920.mp3,anim400k,体調管理も含めて自己責任がし 風邪を言い訳にしたくない,0.08,6.459,3.468512
+194,audio/00194.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/30/30e26c13-de66-4fe4-8ca9-10aa4a3a2e9a.mp3,anim400k,むさしの生まれた家は,0.3,6.119,3.560787
+195,audio/00195.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/31/31018bd0-a410-4d8a-8a5c-41c13a44d3f7.mp3,anim400k,しかしまだこの事件は完全解決とは言えない 手錠は外させてもらうが ここで捜査を続けていいな,0.047,9.819,3.014123
+196,audio/00196.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/31/31b498ef-900a-4e0b-8d23-af4b4ec4652d.mp3,anim400k,ご覧になりましたか 彼の試行記録,0.286,6.199,3.34902
+198,audio/00198.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/32/32300358-f942-408f-bb1f-f36d8f3eefd9.mp3,anim400k,人も同じです 同じ場所にいるように見えて 実際には距離がある,0.0,9.699,3.968565
+199,audio/00199.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/32/32519253-d550-43d4-99ad-433cee2376aa.mp3,anim400k,本来世界は破壊し広げる力イント,0.0,8.279,3.894368
+201,audio/00201.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/33/336bc325-acfb-4fbc-a717-761de200343e.mp3,anim400k,夏の黄色は青。大きく高く育つ命を目指すべき。高き空の色。,0.08,9.719,3.555096
+202,audio/00202.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/33/337442cf-0544-41b9-8f0d-76987d742f60.mp3,anim400k,私の母も。正常だった。,0.222,5.099,3.34999
+206,audio/00206.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/34/341530a5-fdfc-427f-9020-338c6593ca50.mp3,anim400k,結局ペンタゴンに一つ仮を作ってしまったな。,0.095,8.039,3.340994
+208,audio/00208.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/34/345a0593-435d-45df-ae5c-04860b7ef7e0.mp3,anim400k,いじかゆうとの介入を許し、極めて心無い方法で真実を知らせることになってしまった。,0.105,9.879,3.937102
+212,audio/00212.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/35/35d63d1f-922c-4a82-92fd-271132ebad42.mp3,anim400k,やっぱり仙道さん有利だと思います,0.267,4.959,3.216742
+214,audio/00214.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/36/36619465-daf6-4e24-8e2c-35811263d8ba.mp3,anim400k,あのですね、夏希さん,0.222,5.039,3.060758
+215,audio/00215.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/36/36896efe-0fe0-458d-9900-6f4f145cdde4.mp3,anim400k,各地の一階業者に ゴミみたいな値段でバラ売りされた,0.13,7.739,3.657817
+216,audio/00216.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/36/36a59094-5781-4182-93b9-1d08c9c8a0b6.mp3,anim400k,流れが今もある 父さんや母さんが紹介できる仕事は前には向かないからな,0.269,7.599,3.071814
+217,audio/00217.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/36/36ee0086-4d69-41b1-a1a1-4f1c18dcf8da.mp3,anim400k,情報を分け合うだけで、互いにリアル結果をもたらくと思うのだがね。,0.094,8.339,3.281794
+218,audio/00218.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/37/37667009-506b-4ee1-a23d-e341f97bdc79.mp3,anim400k,それをないがしろにすることは 民をないがしろにすることだ,0.0,7.819,3.02356
+219,audio/00219.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/37/379e7a67-4da6-4a05-9360-2e17dc0adebd.mp3,anim400k,知るか、なんだその情報通ですって顔は,0.211,5.719,3.090904
+221,audio/00221.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/38/3877bfdb-b50f-495d-8c61-0d1b59d1a509.mp3,anim400k,しっかりと後片付けをすること,0.0,5.879,3.017524
+224,audio/00224.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/38/389b72d2-7ca0-486b-a420-3a3be0b62742.mp3,anim400k,もともとここの主任監守だった男だ,0.062,4.659,3.106371
+232,audio/00232.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3a/3ae9d6c3-11c3-40dc-a254-7afb34022403.mp3,anim400k,現在の人類にこれほどの技術はありません,0.0,5.719,3.286491
+234,audio/00234.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3b/3b47c400-ed31-41ec-9df3-cae3c7054cff.mp3,anim400k,ちょっと昼飯食いに帰るな こいつ連れて,0.167,7.519,3.229475
+238,audio/00238.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3c/3c4a7646-7c9e-46d9-9888-d052dc5406ee.mp3,anim400k,は? われも聞いたことがない,0.3,4.319,3.634884
+239,audio/00239.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3c/3c59eb3d-38b8-4feb-91fe-2ba267a05f71.mp3,anim400k,ロボットの皮はまた作ればいいんだし,0.176,5.779,3.382986
+241,audio/00241.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3c/3c7b9683-16a0-4fa3-8ca9-a37ad30415e7.mp3,anim400k,いるんだ インクは高いぞ原価はちゃんと計算したのか,0.2,6.659,3.010977
+243,audio/00243.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3c/3ce30601-bd77-4bba-81a2-93a08c11ca33.mp3,anim400k,黄金色に湧き上がるイチオナミキの絵の前には、一日中途切れることなく人だかりができていた。,0.119,9.779,3.186663
+247,audio/00247.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3d/3d6bb9aa-60bb-473c-8da3-1687a23e2923.mp3,anim400k,あとはどの段階まで国民に隠し通せるかですが,0.1,6.759,3.032043
+250,audio/00250.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3e/3ea897f9-83cb-4d1d-a4ac-99f7fdedc75a.mp3,anim400k,日のもとに自由を取り戻すために,0.231,6.299,3.195374
+251,audio/00251.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3e/3ef433d4-f0f6-4716-9910-da366349948b.mp3,anim400k,現状では、空間申請力が不足しすぎています。,0.158,7.259,3.4153
+254,audio/00254.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3f/3f32d672-2814-4e16-badc-44228d240281.mp3,anim400k,私は大気にお会いしようと、宝山へ行きました。しかし……,0.087,8.619,3.596612
+255,audio/00255.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3f/3f7dd13b-df32-4f45-87c2-a7b859662e83.mp3,anim400k,詳しいことは、MRIによる検査を行わないと何とも言えません。,0.192,7.439,3.432469
+258,audio/00258.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/3f/3f9714d5-cb49-42e0-9329-b016c1b77aea.mp3,anim400k,会社の。どういうことだ。,0.0,4.659,3.329619
+262,audio/00262.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/40/408f3100-2759-4d14-9a33-0bee12a095bf.mp3,anim400k,今日はもう帰ろう,0.0,3.839,3.360012
+264,audio/00264.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/40/40ba2cd1-1507-44be-99c6-1439a1b931f2.mp3,anim400k,大気は太陽を得て。大国へと帰国しました。,0.056,9.279,3.714245
+265,audio/00265.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/41/410ea7c7-9952-4b5e-87a2-c75d22f8f9b9.mp3,anim400k,んっ 皆さんご承知の通り地球は今非常に不安定な立場にあります,0.074,9.199,3.127603
+269,audio/00269.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/41/41a1ab24-2b16-4400-b4c6-5bb578396647.mp3,anim400k,……拒否権はなさそうですね,0.0,5.559,3.190014
+272,audio/00272.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/42/42ce9706-13b7-4ec2-8962-093152e2aed0.mp3,anim400k,交換の権威は、管理の中で意見が二つに分かれていて,0.087,6.679,3.135156
+281,audio/00281.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/46/46dc83e0-c05d-4e88-a083-378e702d7890.mp3,anim400k,社長、あと5分で選挙対策会議が始まりますが うん,0.143,7.339,3.041997
+284,audio/00284.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/47/4710af04-3f75-48fd-842c-62d6763511c1.mp3,anim400k,どうかそれと工場を拡張するのに 創業資金を増やしたいので株式を さらに発行したいのですが,0.103,9.579,3.745262
+285,audio/00285.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/47/4731d420-d703-4ae1-9562-dcc327dd4d9d.mp3,anim400k,オートから死者の方がお見えになっています,0.278,6.559,3.207474
+288,audio/00288.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/47/4750a74c-ea04-441c-9957-90ff0cacfcdc.mp3,anim400k,梅沢くんたちは就職 当然みんなも進路は決まってるだろうな,0.077,8.499,3.146399
+290,audio/00290.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/48/483c0b96-34b0-44a0-bcd2-123f874aa638.mp3,anim400k,私から指示があったものはそれを,0.0,4.859,3.284676
+291,audio/00291.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/48/4859e8b0-b2a3-4685-acfd-c7f84db10400.mp3,anim400k,おかけになった電話番号は？。現在。電源が入っていないか？。,0.0,6.719,3.583303
+292,audio/00292.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/48/486fdcbc-51c8-4801-aa09-410f069fa684.mp3,anim400k,しかし山は荒れた。人間が入ってきたんだ。,0.0,7.699,3.899288
+293,audio/00293.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/48/488d58c8-73ba-4f2a-b6a0-ce8a039c9091.mp3,anim400k,身元不明の。女児が一人。,0.3,5.879,3.479589
+294,audio/00294.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/49/493176f7-f0a1-4c95-b9b4-e9da439d9ee8.mp3,anim400k,イメージの選択を誤ったな,0.3,6.279,3.916129
+295,audio/00295.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4a/4a667cf5-4af2-4f8b-87e1-0d4ec2f4e598.mp3,anim400k,ネットとか雑誌とか見てねーわ,0.167,4.579,3.66776
+296,audio/00296.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4a/4af83d90-a327-4202-8e19-d5c6a0ff9948.mp3,anim400k,手足の先から絞られるように血液が 心臓に向かって逆流する いや - -,0.0,9.639,3.392837
+297,audio/00297.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4b/4b0e7fbf-297f-41f2-9964-63e7df088a12.mp3,anim400k,文字を覚えたいなら。石版を使えば。,0.067,5.459,3.278612
+299,audio/00299.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4b/4b733dbe-6b00-46fa-9d94-a88174cd89e3.mp3,anim400k,最初は明らかに心拍数の上昇が見られた,0.0,6.639,3.641175
+300,audio/00300.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4b/4b95c88e-8b00-49f6-8698-4eb5e858dbe2.mp3,anim400k,りんやを 医者を手配してくれて感謝する,0.286,5.459,3.471779
+303,audio/00303.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4c/4ccc412f-b086-4142-b538-81a1750795d6.mp3,anim400k,兄さんが考えてるのは…,0.25,3.919,3.185609
+304,audio/00304.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4d/4d78ad9d-c4f7-4baa-b357-9e55dad3f526.mp3,anim400k,何しろ各国政府並びに国連との補調を合わせての もろもろの展開ですので,0.088,9.299,3.192434
+305,audio/00305.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4e/4e04c3a0-a0b4-4b5a-90e4-b2909044642b.mp3,anim400k,ハッチの開閉をもう一度チェックするつ,0.059,4.419,3.897737
+306,audio/00306.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4e/4e80d263-b0a9-43c7-80c7-0e061c241f54.mp3,anim400k,すまつま。以前、街中で私が車に惹かれかけたことがあったのですか?,0.28,8.439,3.248866
+307,audio/00307.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4e/4ea506a8-f250-4251-b48b-7560e7faaf89.mp3,anim400k,そのレポートには、報道されていない東京万事会の行上の一端が記されています。,0.182,9.219,3.245588
+309,audio/00309.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4e/4ed1238f-319a-4de4-b28d-06ab6ae4bdf5.mp3,anim400k,ってさ 買い物したときだって僕は荷物持ち,0.188,5.519,3.434806
+312,audio/00312.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/4f/4ff27287-16eb-49cb-972c-33cabff3c66e.mp3,anim400k,出世から生い立ちまで。架空の人物の出たを。鏡からもらった。,0.154,7.959,3.508155
+313,audio/00313.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/50/50051d1f-1d40-4482-ae1e-91e2252141bb.mp3,anim400k,個人は。礼拝室の両脇に位置していて。男子とうとう女子道に分かれています。,0.212,7.559,3.568513
+315,audio/00315.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/50/5043e2d2-875f-47fd-8d26-d66da3a93851.mp3,anim400k,体力的にはこちらが不利,0.0,5.019,3.014562
+318,audio/00318.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/51/51c03bf2-b57e-4334-a384-9ae19007af20.mp3,anim400k,一度確認しますのは、国連への提出は?,0.133,5.439,3.557975
+321,audio/00321.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/52/525f0d4b-514e-448c-a35b-6a76af9e6849.mp3,anim400k,私はこの世界に招かれて王に逢った,0.188,6.219,3.128257
+323,audio/00323.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/52/5269037d-f241-4317-b180-f9c7f5eed142.mp3,anim400k,関係者ゲート付近で警備の者は倒れているとお勢の子が,0.217,7.019,3.056735
+326,audio/00326.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/53/5313ea2e-a20f-495e-8ac4-22624e387efd.mp3,anim400k,食卓式のとばりのテスト結果は別の人間が見るから,0.143,6.899,3.79648
+330,audio/00330.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/54/543df0e2-799a-403a-82db-a968b913b772.mp3,anim400k,お弁当の時間は各半自由にとって、 2時にはまたこの場所に集合するように。,0.091,7.859,3.248607
+332,audio/00332.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/55/5528b541-64e1-4654-869a-f0b95b8640e3.mp3,anim400k,有効な対処方法はない,0.0,4.159,3.866534
+334,audio/00334.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/55/556ed8af-23ca-4afa-b875-174035637377.mp3,anim400k,戦場で誠意のない味方というものは、敵より困るが。さて行く。,0.292,8.599,3.509757
+336,audio/00336.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/55/559c58fc-6d7d-4f09-a75c-7d3eba319e26.mp3,anim400k,高価なものなので、余ほどの利益が 濁める契約でなければ使われません。,0.094,7.299,3.514841
+338,audio/00338.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/55/55f4060b-f9b0-4105-85c9-2de1e630bd34.mp3,anim400k,ヤマトはどうした? ああ、はい,0.273,5.299,3.116968
+342,audio/00342.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/57/570456c3-9bbb-40d9-bade-b3d9b5fa4c99.mp3,anim400k,彼女の罪を減免する調査記録。,0.0,5.399,3.818697
+343,audio/00343.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/57/57c25079-d05c-4af7-bebf-4434f37e3ea8.mp3,anim400k,家族および親しい間からの証言は,0.286,5.799,3.10913
+344,audio/00344.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/58/58726b70-e9cc-4909-a839-f773965e8b60.mp3,anim400k,故に制約に従い、君たちに危害を加えることはできない。,0.0,6.739,3.460123
+345,audio/00345.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/58/5886814d-ed85-48ed-ab16-42593179c8a0.mp3,anim400k,規模は小さくていい。,0.0,3.739,3.815572
+346,audio/00346.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/58/5897b227-a3e7-433a-8f08-c071b171d6c8.mp3,anim400k,その 市長の家に入って偽物こさえて出る方が難しくないか,0.083,6.679,3.296346
+349,audio/00349.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/59/595aaf17-16df-4273-9d01-97799632e5f8.mp3,anim400k,体液の手続きをとりました,0.083,4.279,3.803191
+350,audio/00350.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/59/598c6d79-f610-449b-ace3-d205526ca665.mp3,anim400k,いい資料は見つかったかい?,0.3,5.139,3.709033
+352,audio/00352.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/5a/5a45c181-d104-4416-9c81-b4fb57e7131d.mp3,anim400k,ここがみやかの世界が,0.273,5.599,3.352356
+354,audio/00354.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/5a/5af6513a-6ec0-41df-98ac-225fcb0e8da9.mp3,anim400k,共通の特技や趣味志向を持つ者たちが集まり交流します。 例えば飛行バトラー。,0.188,9.519,3.201578
+356,audio/00356.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/5a/5afa2f07-dd2c-4b18-b26d-b9016119531a.mp3,anim400k,そうやの連絡は絶対だから 中での息を共用すればいい,0.261,8.039,3.426734
+362,audio/00362.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/5c/5cf14dcb-f5ae-4677-b374-d3cedaa66025.mp3,anim400k,恐怖のあまりすべて意志となった,0.286,6.919,3.232989
+364,audio/00364.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/5d/5d0195b1-71b5-4f32-bf50-670ec1793d02.mp3,anim400k,我が国は、はじめ領土の小さな国だったが、周囲の小国を併合しながら広がってきた。,0.2,9.539,3.492005
+371,audio/00371.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/5e/5ed38c10-bf1a-4e4d-84b1-602aa97bf4f8.mp3,anim400k,うぅ… 市民権はそこで与えられる よそ者が手に入れようと思えば とんでもなく金がかかる,0.054,9.859,3.006701
+373,audio/00373.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/5e/5ef9dbb9-52d3-4802-875b-793d481dce9f.mp3,anim400k,感情に支配されるのは愚か者だということを。,0.053,5.979,3.85599
+375,audio/00375.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/5f/5fc4c5cc-92a7-4952-81fe-774ffc8727bd.mp3,anim400k,それは 捕えたあの男を問い詰めれば分かることです,0.25,6.219,3.344042
+376,audio/00376.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/5f/5fe2d8d0-1795-46ca-99bd-f92767c589ec.mp3,anim400k,AH東京総合病院の系列病院に残っていた,0.118,7.759,3.687205
+379,audio/00379.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/60/60587103-d5fa-4fb1-8e62-ee2607d48aef.mp3,anim400k,現実の会社の所在地は愚か、 デア番号やメールアドレスすら未公開。,0.133,7.079,3.349762
+380,audio/00380.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/60/607d67e5-28bd-4404-9152-1d60a8e87b7c.mp3,anim400k,他にもできることがあれば。支持をください。,0.105,5.559,3.615882
+382,audio/00382.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/60/60c5d4df-ecb8-4fac-8bd6-5d0ec276e010.mp3,anim400k,今日は全く情報がないので,0.0,4.339,3.378154
+383,audio/00383.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/61/6109e60a-552a-4e49-a183-68875e6614bc.mp3,anim400k,私たちを襲ったのは疑心兵ニーズヘッグ 軍の所属名はジョンウィリアム・バンクロフト,0.167,8.679,3.185634
+385,audio/00385.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/61/61cb847c-7868-46fc-82bc-c3dce5af23bf.mp3,anim400k,玄だけが取り残され、他の州と大差なくなった,0.05,5.599,3.671652
+386,audio/00386.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/61/61e45c5d-d47e-42ae-a212-b7a4d123c550.mp3,anim400k,D.O.B.の参加者は、あそこの端末で自分の本名や住所を登録する。,0.24,6.799,3.650812
+388,audio/00388.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/62/62ad6834-e073-4ca9-8463-ecaca1c0db0b.mp3,anim400k,大きなウリエットは小さな荒れさの集合である。,0.143,6.399,3.805641
+391,audio/00391.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/63/637b29be-1715-4e72-a30e-af63fa1d37d9.mp3,anim400k,アンケートに答えるだけで素敵なプレゼントが必ずもらえます。,0.0,7.139,3.173209
+393,audio/00393.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/64/6455cf9c-9206-418a-8674-2e0bbb0bf5d8.mp3,anim400k,9年前、内戦状態に陥ったこの地域に返し、各国の避難が集中する。,0.143,9.979,3.11547
+394,audio/00394.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/64/6462b365-fa70-4bf1-9954-3d4f4cbce3a0.mp3,anim400k,それより、さっきからよくU字回りの映像を切れるね。,0.174,5.879,3.386497
+396,audio/00396.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/64/64913fb8-e446-4c46-8507-bd95f268f5bc.mp3,anim400k,しかぼちでのたたかいで、あえなくダオスをとりにがしたクレシたち。,0.286,7.319,3.723071
+397,audio/00397.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/65/655f5841-d66a-4e9f-af80-d547d6d3cf26.mp3,anim400k,今日はメールを貼なくていいんだ,0.125,5.199,3.558527
+399,audio/00399.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/65/6572257e-b28c-45fc-bb1e-2b7fd857a2fb.mp3,anim400k,人の手柄に手を出さないでください,0.0,5.379,3.093948
+400,audio/00400.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/65/6578d54a-e7cb-41af-bcae-e96474569297.mp3,anim400k,サイは振動かもしれないという疑いを持ったのか? あるいは…,0.167,8.639,3.271345
+402,audio/00402.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/65/65c05583-4f06-4a2f-a137-2120538dcda2.mp3,anim400k,ここまでです ここでカメラが破壊されました,0.0,5.059,3.055232
+403,audio/00403.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/66/663f9ae2-3a01-4df6-88e8-6518b694a73c.mp3,anim400k,私。東京に来たよ。はい。,0.222,5.519,3.273256
+404,audio/00404.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/66/66b21b98-1c54-418c-a71e-06022ca020dc.mp3,anim400k,ああ、ところで君はなぜ高血圧の薬と低血圧の薬を混ぜているのかね?,0.143,8.379,3.437004
+405,audio/00405.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/66/66b37ab3-80d9-431b-82ca-13e5dc513cb0.mp3,anim400k,枝を渡した 枝に巻きついていた蛇は天を持ち上げてこれを支えた,0.292,7.959,3.57926
+406,audio/00406.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/66/66cd8bf3-d3d3-48b3-8689-b880d4bd5cae.mp3,anim400k,無駄口をたたく、暇があったら。,0.154,4.699,3.390591
+407,audio/00407.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/67/6789eb03-54ae-4118-bb81-083bc53b1570.mp3,anim400k,ステロイドが。有効成分布で沈黙して。,0.125,6.979,3.962977
+411,audio/00411.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/68/689490e7-8c5c-4b12-b760-b3c2f6c40bcf.mp3,anim400k,彼らに賛同する都市を次々と 参加に置いていった,0.0,6.479,3.2603
+413,audio/00413.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/68/68a79cea-e042-465e-b0d7-02ca6aa8ee1e.mp3,anim400k,変質は情報にとって、またそれを扱う者にとって好ましいことではない 伝言ゲームか,0.079,9.739,3.226636
+414,audio/00414.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/68/68dc197f-9e6a-4c51-a0a2-371fad34799e.mp3,anim400k,その際に予覚器を取り込んだことについては,0.263,5.879,3.282902
+416,audio/00416.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/69/6929bc68-0705-48d9-ae3e-82e5b88de9fd.mp3,anim400k,やつは支援を晴らすために会社を私物化している。 このままではいかんでしょう。,0.088,8.599,3.42797
+419,audio/00419.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/69/699a750f-b470-440f-ba25-e3325d522aa6.mp3,anim400k,やはり念座です。骨折しなかったのは不幸中の幸いでした。,0.08,6.879,3.374664
+421,audio/00421.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/6a/6a72207d-a916-49df-89f4-b6ef10f763eb.mp3,anim400k,彼女は右肩に銃弾を受け,0.182,4.439,3.786742
+422,audio/00422.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/6a/6a8b8908-2d72-490f-b53a-12c34812b5cf.mp3,anim400k,例えば、視覚や聴覚に障害を持つ人たちにとっては、あの機械はまさに福音なんですよ。,0.0,9.299,3.477228
+423,audio/00423.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/6a/6ae89910-ee49-44bc-9201-90e5d6ffcc0d.mp3,anim400k,利害が一致したならば。,0.0,3.979,3.406547
+429,audio/00429.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/6c/6c672b9c-d01a-425e-8ea2-8ba29ba13d06.mp3,anim400k,重症者がいる 医者が必要だ,0.0,6.199,3.7053
+430,audio/00430.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/6d/6d06aa85-5c87-4ad5-ba3c-d01ea94376e7.mp3,anim400k,一理あるが、では奏で。,0.25,4.959,3.920305
+435,audio/00435.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/6e/6ec951c7-ea30-47ff-96a4-c20f998722fc.mp3,anim400k,リザが推奨しているのは,0.091,5.439,3.606687
+436,audio/00436.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/6f/6f02b963-1e34-4931-b407-c9ed390a871d.mp3,anim400k,一箇所しか撃てませんでした,0.231,5.359,3.755111
+439,audio/00439.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/6f/6fcc6f7e-93cd-4f80-b0e6-b3855db38f9c.mp3,anim400k,特許の名義はすべて法人にかきかえましたし,0.211,5.939,3.633137
+441,audio/00441.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/70/70892cef-a979-4ca4-9719-a1dda44c393f.mp3,anim400k,次回最終負荷実験,0.0,4.839,3.745405
+446,audio/00446.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/72/720061f2-ce53-4aad-b91c-799823d2b653.mp3,anim400k,でも、さすが新郎さんですよね。幼稚賠収の依頼があんな形に落ち着くとは。,0.176,8.359,3.370378
+447,audio/00447.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/72/723bb92f-a9af-4a1e-9f3f-0b9137c513e7.mp3,anim400k,60年生きてきて こうして今国のトップに立っている,0.083,8.799,3.228524
+450,audio/00450.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/72/72f4c89d-2079-4406-9e7a-de450a798ec6.mp3,anim400k,そして。設計はやり直され。,0.091,5.359,3.246411
+453,audio/00453.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/73/73a331b3-a470-45b9-b61b-68a3d0812f95.mp3,anim400k,またまた持って話す。,0.0,5.679,3.715891
+459,audio/00459.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/76/764e8afe-2fbf-4648-be52-9b027407414c.mp3,anim400k,また、アメリカに動きはないようです。,0.062,4.859,3.338058
+462,audio/00462.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/77/77e095a4-b535-44a1-9154-3c9dc0a52381.mp3,anim400k,憲兵隊司令部のヘンリー・ダグラスだ,0.067,5.699,3.731223
+464,audio/00464.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/78/786ed91b-8a03-47de-b9cd-d723b4974e80.mp3,anim400k,僕はメネルを信頼していた,0.25,3.859,3.405701
+465,audio/00465.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/78/789afbaf-d458-452d-89ac-a995128d222d.mp3,anim400k,アメリカの国宝 展示用にかしらされているものを除き大半はヒューストンで保管されているはず,0.289,9.399,3.177389
+467,audio/00467.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/79/7950246b-a939-4b9d-ac1f-5e859c36e894.mp3,anim400k,すべてのものは一から作り出され、一へと帰って行く。,0.182,8.499,3.288796
+470,audio/00470.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7a/7a26be67-5270-4789-b518-e53fc52aca22.mp3,anim400k,庭の鶏は未だにこちらの手のひらの上にある。,0.05,6.559,3.450978
+479,audio/00479.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7b/7ba9f775-11e8-4990-bb25-bfaca42cd42b.mp3,anim400k,谷ザクさん、今日社長は? 大事な用事とかで出かけてるよ,0.087,6.899,3.158218
+481,audio/00481.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7c/7c7a6339-f6a7-4cb6-8977-1eee9c607496.mp3,anim400k,そうなれば。自衛隊は出動できます。,0.0,5.459,3.576299
+482,audio/00482.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7c/7cc6980b-e77d-44aa-9e5e-da34a6e02518.mp3,anim400k,今日はちょっと骨のある苦の問題です 白線黒紙の問題ですじゃあまいちゃんやってみて,0.195,9.219,3.37377
+483,audio/00483.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7d/7d23a7c1-7bb7-42ea-86fc-d32e59aa8165.mp3,anim400k,例を閉じ込めました。,0.111,4.539,3.1826
+484,audio/00484.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7d/7d49fd41-c21d-4741-87d9-a524c6ed7b9a.mp3,anim400k,ダレスは卒業のボーダーラインのランクであり,0.158,6.539,3.3549
+485,audio/00485.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7d/7ded0add-e298-43ee-9695-b61b53be1345.mp3,anim400k,また胃の中からは人間の肉と見られる内容物が見つかりました。,0.115,6.919,3.135294
+488,audio/00488.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7e/7e7dcc27-3249-486a-a3eb-387987b73060.mp3,anim400k,中の酸化を防ぐため、密閉容器から酸素を抜いて、磁素を送り込んでいる。,0.032,8.379,3.242319
+489,audio/00489.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7e/7e86d10c-031c-4e25-aa8e-19897315dc11.mp3,anim400k,サンドバッグって硬いんですね,0.0,6.559,3.452343
+490,audio/00490.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7e/7e9e36cc-8a7a-4e96-9bb1-84bebf1d9418.mp3,anim400k,ええ、こちらでは遺体は発見されていません。 操縦席は無人だったそうです。,0.129,9.439,3.326188
+491,audio/00491.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7f/7f0046a6-b7cf-47ab-855f-4253966e4456.mp3,anim400k,コーンは直接スキャンできないのか? できる。,0.235,5.219,3.289392
+492,audio/00492.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7f/7f8b03f6-80fd-4262-8da3-f25da8ffbb61.mp3,anim400k,もう一人の喫煙車なら、持ってるんじゃないですか?,0.095,5.959,3.161131
+493,audio/00493.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/7f/7faeb0ed-1f95-4274-b4ff-f28a98687033.mp3,anim400k,状況を詳しく教えて下さい,0.154,4.199,3.231126
+497,audio/00497.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/80/8041780b-c3bb-442b-9fd5-8ba67badaedd.mp3,anim400k,そうか で皮を剥いたら根をサイコロ状に切って天ぴに干すんだけど,0.185,7.899,3.241249
+498,audio/00498.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/80/8053d864-c453-485f-81bc-6d2f78c37f85.mp3,anim400k,鍋と灰はそこに運んであります,0.133,4.739,3.253317
+501,audio/00501.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/80/80eadaa0-f556-4997-9695-70086156259e.mp3,anim400k,私はアヤム意識に邪魔されることなく,0.188,6.419,3.930146
+502,audio/00502.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/81/81013b82-c6b6-4d0e-ad5b-047641f36177.mp3,anim400k,気づくの 過去の記録は最大で1週間ですがブレ幅が大きいのでなんとも,0.179,8.519,3.353791
+506,audio/00506.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/82/8273804b-e5b1-4a69-9c5e-17604fbf7c23.mp3,anim400k,私はまず人類にワムを与えた。,0.077,6.339,3.51075
+512,audio/00512.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/84/845d22a7-e55b-4a9e-a77c-916fb362b967.mp3,anim400k,バッドラックがNGでオスに値するバンドなら、僕は喜んで全面的にバックアップしますよ。,0.135,9.739,3.488561
+514,audio/00514.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/84/84a60eba-4eeb-44ed-95f0-a3b8cb0a413a.mp3,anim400k,ん 帝国の歴史において外敵がこの山脈を越えて攻めてきたことは一度もない,0.03,8.639,3.020889
+520,audio/00520.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/86/8652e99c-f05f-48de-b49b-ed103afc7ed8.mp3,anim400k,ペテルギウス・ロマネ・コンティー主教?,0.133,6.079,3.032595
+524,audio/00524.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/86/86d1cd16-4249-4027-8394-3fa961288d6c.mp3,anim400k,こいつを仕掛けた奴はギルドすら利用し,0.263,4.939,3.212954
+527,audio/00527.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/87/876e8e3a-e582-4201-b03c-25a5d3345866.mp3,anim400k,次は2番線 急行列車が通過いたしますな,0.188,7.259,3.924461
+529,audio/00529.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/87/87c71bde-302a-467b-ad18-e515b22f279e.mp3,anim400k,確保はこちらでしますので、そのポルシェに近づかぬよう、全警察官に通達願います。,0.0,8.759,3.414868
+530,audio/00530.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/87/87ee37a7-5edc-47a0-9d4a-fe6ed659b9e2.mp3,anim400k,成分表 カルシウムが極端に多いな,0.25,4.879,3.027039
+539,audio/00539.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8a/8a721267-8f01-49b3-97f2-5bac6b4a8212.mp3,anim400k,とっておきの支度でも,0.2,4.699,3.137542
+540,audio/00540.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8a/8a7ccfbd-6c0f-4667-8d4a-f08ff14878f7.mp3,anim400k,思ったよりも通貨車が多いので、ちょっとまびかせてもらいますね。 まびき?,0.226,9.439,3.149784
+541,audio/00541.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8a/8a84d714-2c3d-49a1-b8ea-68a0eb577547.mp3,anim400k,我々はもう中達を忘れてもいいだろう,0.059,5.739,3.124266
+543,audio/00543.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8b/8b9c0b81-2e54-4b05-9cd2-7ebc347e580f.mp3,anim400k,外部との交信が断絶しています,0.0,4.019,3.528141
+545,audio/00545.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8c/8c0c4791-8b2d-400d-bd27-f31a0d3516cc.mp3,anim400k,おうこくによれば、アイザックは昨夜中央刑務所に潜入した,0.25,8.099,3.640396
+546,audio/00546.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8c/8c58f9ad-a95e-4a23-a703-9cdda01add67.mp3,anim400k,研修は。小径に詫びたいと言っておられた。,0.278,5.259,3.633341
+547,audio/00547.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8c/8cf62109-5fa2-477f-ac06-14dd3b47c8e7.mp3,anim400k,電話がかかってきた。,0.0,4.999,3.047187
+548,audio/00548.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8d/8db89911-f4dc-4865-b3da-8cc68916037f.mp3,anim400k,太陽が怖いとおっしゃった それは恐怖ではなく 威風です,0.08,7.779,3.662644
+549,audio/00549.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8d/8ddfe523-dbe0-4828-99d1-ed16baa328f6.mp3,anim400k,されたって 世界で唯一の設備が整った施設があるんです,0.25,7.299,3.172114
+550,audio/00550.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8d/8def65dc-7330-4e8a-a08d-106a5ff19cd0.mp3,anim400k,……別の資格の毒でやられたんです,0.0,5.739,3.07155
+551,audio/00551.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8e/8e06ceb5-f418-40d3-a9e6-7373f3fea204.mp3,anim400k,誰に言ってるんです。この。,0.182,4.339,3.544589
+556,audio/00556.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8e/8ed4093a-fd25-4eff-b4bb-3d60cabfd695.mp3,anim400k,その人に揺るがない人間性があれば。,0.0,4.859,3.30027
+557,audio/00557.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8e/8ed85570-16e1-473b-9bae-4c6dcb3d50de.mp3,anim400k,て正規は今後州という国家として 出発する,0.111,6.379,3.196641
+558,audio/00558.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8e/8ef0bf24-f6c5-49b4-8e80-61f004a6892d.mp3,anim400k,かなり期待できそうだということが。,0.062,5.799,3.30417
+560,audio/00560.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8f/8f44f341-94e3-4aff-bc8c-58dbb94f083c.mp3,anim400k,今日は少し気分がいいんです そう,0.071,5.959,3.425341
+561,audio/00561.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8f/8f572c8e-87da-4ca4-9ed8-948d4a300aa5.mp3,anim400k,多少近くの変動や異常気象などは起きるでしょうが,0.0,6.079,3.456399
+562,audio/00562.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8f/8f72f463-b54f-4c9d-acb6-75270b616c79.mp3,anim400k,言わない 警察救急には放送に合わせて警戒 体制を減とするよう通達した,0.25,9.319,3.282272
+563,audio/00563.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/8f/8fb47e3c-b706-488a-aecd-37e85f192b9c.mp3,anim400k,水蒸気は、己を隠すためにあらす。,0.154,5.519,3.816959
+565,audio/00565.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/90/90709ee8-fd0d-4bd0-b046-f332ef0bfc06.mp3,anim400k,この街も故障交通の重要拠点でしたが、 数日と持ちこたえられず、寒落しました。,0.118,9.239,3.461018
+566,audio/00566.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/90/90d8c6e7-0987-4bc5-b176-7bd7c036dfd7.mp3,anim400k,え? 衆生、そこで暮らすことを許されます,0.125,5.879,3.299824
+570,audio/00570.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/92/921a0b0e-0b6a-4dae-bb7b-1826efdfa8b0.mp3,anim400k,な法則だ しかしイギリスのロバートマシューズという研究者がこれに反論した,0.25,7.679,3.238248
+572,audio/00572.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/92/9238deea-b127-481d-9587-032af1d95435.mp3,anim400k,秋の貴色は黄色 豊かな実りに色づき 神戸を垂れる麦の色,0.125,8.899,3.239825
+575,audio/00575.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/93/9344e35b-d12e-4a7b-9e9f-cc8834795a98.mp3,anim400k,論文の執筆者は、デグレチャフス少佐なのですね。,0.05,9.379,3.487469
+583,audio/00583.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/94/94f56744-4706-433b-b9a3-dea4f610c1d8.mp3,anim400k,と 汎用の実には強すぎる容力を,0.231,4.919,3.705918
+585,audio/00585.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/95/953bb350-81a5-497e-9419-3522aedb8848.mp3,anim400k,それは私たちの手勢を遅くを取りだ。,0.125,5.299,3.301536
+586,audio/00586.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/95/956a77ff-c8ae-4371-950f-1cec383c211a.mp3,anim400k,もう亡くなりました。,0.0,4.079,3.372557
+589,audio/00589.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/96/9693f9fb-c3f5-4592-995d-86fca2c7de26.mp3,anim400k,孫に。会いに行きました。,0.2,5.599,3.08511
+593,audio/00593.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/96/96e2f8a4-59f1-4472-a5cf-263e2ef05e63.mp3,anim400k,もし結果を出せなければ 会社の仕様に傷がつく,0.095,6.219,3.102876
+596,audio/00596.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/97/975ac657-9d0b-4435-83ff-2efd9bfd521e.mp3,anim400k,キャラクターの用紙はランダムで生成されます。よろしいですか?,0.071,8.039,3.190482
+597,audio/00597.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/97/976df15a-36ba-457f-aa59-a0885227d5e9.mp3,anim400k,昨日午後11時すぎ、渋谷区のコーネリアスタワー屋上から男女5人が飛び降り,0.176,9.519,3.585895
+598,audio/00598.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/97/97c71580-f85a-4dc0-839c-6bc7b7a841a8.mp3,anim400k,水上バスは。高校生の頃に。友達と何度も乗りました。,0.0,6.799,3.013639
+600,audio/00600.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/98/981ef5fd-c60c-47fd-9a67-9f1805be7f45.mp3,anim400k,そう 都会の喧騒もないし何より美人 が多い,0.118,7.399,3.600836
+602,audio/00602.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/98/983f568f-0cd4-450c-8a8d-a417f128f5d4.mp3,anim400k,戦 掴めが個人戦って毎年決まってる 賞犬,0.278,6.299,3.429678
+603,audio/00603.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/98/98dfd742-5962-4101-9e43-bfe4528c53bc.mp3,anim400k,そしてあなたのことを市販するのも。これを最後にすると。,0.08,5.779,3.165224
+604,audio/00604.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/99/99359fd6-8d5c-4d19-bb60-3df084faf853.mp3,anim400k,スタンバイできました,0.167,4.839,3.083024
+608,audio/00608.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9a/9aca44e6-30f7-452a-8f6b-78dfc7ca98cc.mp3,anim400k,ここに。ロストしか。,0.25,5.739,3.296863
+609,audio/00609.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9a/9adc53da-cd38-4d30-9a07-4c87437ca300.mp3,anim400k,違う 誰もが自由に暮らせる民主主義国家を作ることが目的だ,0.08,7.679,3.36274
+610,audio/00610.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9a/9af1340b-4323-41f6-a9c7-7f1f1593386d.mp3,anim400k,います 患者に負担をかけないためには速さと手の多さが重要です,0.115,7.319,3.302692
+611,audio/00611.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9b/9b3ef278-7713-4c90-81a8-9b0d16c38840.mp3,anim400k,呪術師は重力で体を守ることはできても、サマシーを守ることはしてきてない。,0.182,8.179,3.405669
+612,audio/00612.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9b/9b57c819-52e2-47e5-ba90-047824738c07.mp3,anim400k,発生 付近のパドカーは支給現場へ急行してください,0.2,5.719,3.346144
+616,audio/00616.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9c/9ce27468-cef2-440a-9489-62fbed7cbbb1.mp3,anim400k,と、事前にルックな財務協より提案があった。,0.1,6.739,3.030292
+618,audio/00618.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9d/9d7a3f18-86c3-4f10-a3c1-c12bf9965a57.mp3,anim400k,実に合理的、そして誤魔化しのない言葉だった。,0.238,6.839,3.49744
+619,audio/00619.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9d/9d9d6263-075a-4a26-a00e-dd4e518bc687.mp3,anim400k,現地の情報筋によると、本日未明、ベギルスタン共和国でクーデターが発生。,0.125,8.439,3.147353
+622,audio/00622.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9e/9e547e0c-9b66-4b4d-960d-5ceb0c0603dc.mp3,anim400k,昔、ある漁師が水浴びをしている天にお見染めてな。,0.25,6.819,4.059086
+624,audio/00624.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/9e/9edd17aa-2473-4a62-84c2-bdf522f9b349.mp3,anim400k,あるいは死亡した時。,0.0,3.339,3.310968
+627,audio/00627.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a0/a009c03c-8299-4c3b-8535-cf55142839b3.mp3,anim400k,近日中私が死んだら息子さんがキラです,0.111,6.019,3.483249
+630,audio/00630.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a0/a0ee7a63-5526-4f95-9609-4a3e619e7c42.mp3,anim400k,今朝早々に帰りました。今回はもう自分の仕事はこれと言ってないからと。,0.0,7.999,3.620444
+631,audio/00631.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a1/a11bbc85-d7a6-40d7-85a5-71190b15231a.mp3,anim400k,おいおい、これ全部2時間で食う気か? つか、食えそうね,0.227,9.279,3.727504
+632,audio/00632.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a1/a1913d7b-835d-427e-8662-ce3cb112c38e.mp3,anim400k,その違法アップ動画の 広告収入をくれぐって話ですか チカシーがこう用意している,0.229,8.599,3.44775
+633,audio/00633.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a1/a1b1f540-c831-405e-8e0e-d2229e758a3a.mp3,anim400k,飯はみんなで食べたほうがうまい 寝床も患者用のベッドが空いてるから使うといい,0.105,9.399,3.153689
+638,audio/00638.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a3/a31196cf-b628-438c-88db-6e23cdca5ee1.mp3,anim400k,さ 目で見て触れることのできる,0.077,5.099,3.382913
+641,audio/00641.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a4/a4141b3a-e8c5-441f-862c-09e280f4915c.mp3,anim400k,五歳する予定だったが納期の都合で 異婚のみである,0.3,6.419,3.326019
+642,audio/00642.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a4/a46fac2d-4b53-414b-8012-85901a24ad3c.mp3,anim400k,一般人を犠牲にして。,0.0,4.099,3.123499
+643,audio/00643.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a4/a4acf85b-7fa9-40c1-a513-377bd788ef90.mp3,anim400k,メッシ プレゼントギフト,0.3,4.859,3.585438
+645,audio/00645.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a5/a5257f1e-5aa2-499d-908e-e5d8e8a76987.mp3,anim400k,女として家をどうこういうところまでは考えていない いくらか金銭に触れる場面がないではなかったが,0.087,9.979,3.197005
+646,audio/00646.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a5/a554110e-7140-4af1-8ea5-d3256405b408.mp3,anim400k,真剣に議題として取り上げていただくまでは一歩もおのきません?,0.071,7.159,3.084535
+647,audio/00647.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a5/a572219c-975e-4ebf-b893-5e98d62d9592.mp3,anim400k,もうあれからそんなに経つんだ,0.25,4.759,3.224871
+649,audio/00649.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a5/a5bdc703-a5fb-413d-ad3c-b4168f546ac1.mp3,anim400k,亡くなったのは練馬区在住の三谷幸さん18歳と発表されました,0.233,8.379,3.984674
+650,audio/00650.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a5/a5d240c5-dbc3-4191-a5f7-95c33b903970.mp3,anim400k,その後母親が再婚。家庭に複雑な状況を抱えているようだ。,0.0,9.539,3.730122
+652,audio/00652.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a6/a617169e-9d98-4c39-80e9-af7410d5f885.mp3,anim400k,やはり西方で確認されたネーム度に間違いありません。個体称号、ラインの悪魔です。,0.229,9.559,3.064744
+654,audio/00654.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a6/a661e1d5-4afa-468b-ae22-00a0ee148b23.mp3,anim400k,スタッフは一部生徒にも協力を要請するつもりです,0.0,7.099,3.128984
+655,audio/00655.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a6/a696506d-0d77-4386-8913-c462670af76b.mp3,anim400k,目つき変えへんかったら怪我するで,0.25,5.639,3.311961
+656,audio/00656.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a6/a6b3a453-579c-4f1c-806d-ac1c76a189a0.mp3,anim400k,彼が感じる 不安 孤独,0.0,6.739,3.118544
+657,audio/00657.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a6/a6bb5a1d-59bc-4d01-92aa-517bf47950b1.mp3,anim400k,私たちが入社した頃ちょうどコンペがあって,0.0,6.639,3.190675
+662,audio/00662.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a8/a80a2054-e25f-4729-844a-d49ec9a58405.mp3,anim400k,地上は、順番に回復しています。 東京から山梨、静岡とは…,0.211,7.959,3.593995
+663,audio/00663.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a8/a80e4181-c050-4a50-a44b-988d57fbc293.mp3,anim400k,トンネルの最下部にある補修作業用のハッチに滑り込むことだ。,0.111,8.039,3.234518
+667,audio/00667.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/a8/a8ad8c5a-9125-4b65-b439-22d45d3df9bb.mp3,anim400k,首相曹域の件でかなり責任を感じているようです,0.143,5.679,3.808947
+671,audio/00671.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/aa/aa1af9e6-674a-4a98-ad9e-c8b00454a71a.mp3,anim400k,母は優しくて。笑顔が絶えない人でした。,0.059,5.299,3.313641
+681,audio/00681.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ae/ae23c136-5aed-43fa-9ecd-75a16d0082d3.mp3,anim400k,専門的な議論については理解しかねます ん?,0.056,8.439,3.228489
+683,audio/00683.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ae/ae7a9b5b-b8b8-4554-a2ea-e871fe613bdd.mp3,anim400k,おいおい、今から盗聴や盗撮の本買って勉強する気か?,0.286,8.379,3.299653
+685,audio/00685.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ae/ae931b20-1e1f-4cec-a680-6952bb1df263.mp3,anim400k,前に、ユイのプログラム本体を切り離して,0.25,4.619,3.201943
+686,audio/00686.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/af/af34e31f-e146-43e2-81f1-a29ef4815612.mp3,anim400k,医学知識も期待できませんし、 正確的に読めない部分もあるのですが。,0.067,7.899,3.271777
+691,audio/00691.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b1/b1173cc4-a0e6-45f4-a1c1-b02e014f5714.mp3,anim400k,収穫祭では各地の農村におもむき 信じを行う,0.278,6.819,3.306058
+692,audio/00692.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b1/b11a40bc-76e5-471d-8a28-2e84681b893f.mp3,anim400k,我が分銅を受け入れるのは？。,0.167,6.279,3.210104
+694,audio/00694.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b2/b2460fdc-7ba6-4211-a714-d5278c854ee8.mp3,anim400k,君はわかっていないです。,0.182,4.919,3.857551
+696,audio/00696.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b2/b29ec7fd-fbca-43c4-84ae-c1b3199548de.mp3,anim400k,3号も察していることでしょう 結界は3号だけを中に通した,0.222,7.959,3.06073
+697,audio/00697.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b2/b2a7ac35-32bf-4421-aa94-1b200820dd6e.mp3,anim400k,残りの七魔功郎は三人、いずれもアボス・ディルヘビアの手駒となっているだろうな,0.2,9.019,3.73795
+699,audio/00699.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b2/b2b95d72-2e7e-429b-a9bb-893119bcd1a6.mp3,anim400k,唐度の豪華も開かれた,0.1,5.799,3.629221
+701,audio/00701.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b3/b345d6f5-f05a-4a57-ba5f-1765ac97ae1c.mp3,anim400k,ここで右辺の白模様を荒らせば,0.25,7.339,3.019712
+703,audio/00703.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b3/b380f95c-62f9-4aa9-9f70-cdac882d3041.mp3,anim400k,白田さんは出かけた後だったので,0.067,4.179,3.513547
+704,audio/00704.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b3/b3f11681-ef1b-46e9-b6c7-23547bc5f485.mp3,anim400k,そこで日本人と何をしている。,0.077,6.419,3.272038
+705,audio/00705.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b4/b4c94d91-db04-4c97-9a05-2e28605f334c.mp3,anim400k,となった モルグのスピードに何とかついて いく幕の日だったが 次第にテクニックで押されていった,0.244,9.479,3.230739
+706,audio/00706.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b5/b5437b10-30f2-466d-bce2-b3c218382fd0.mp3,anim400k,次はどうすればいい オルガ,0.231,5.059,3.082291
+707,audio/00707.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b5/b5772ad9-3e1f-48c3-bc03-9865d50b805f.mp3,anim400k,では、6ゲーム1セットを選手したほうが勝ちでいいですね わかった,0.207,7.739,3.115356
+710,audio/00710.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b6/b6033893-5f75-4dde-acf0-a505fd73817d.mp3,anim400k,もう情報で回ってるんだ,0.091,4.579,3.243864
+711,audio/00711.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b6/b6557990-6a0d-4214-801a-08a35dc7dbd5.mp3,anim400k,お前、政府が送り込んだ資格だったのか? 俺だけはな,0.286,6.979,3.179286
+712,audio/00712.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b6/b68d4120-e53e-4ba4-9a2c-b74e6b9a2f1c.mp3,anim400k,信号が彼女に貸した文明はあまりにも過酷だ。,0.25,6.839,3.134799
+717,audio/00717.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b7/b727672e-0df5-4b4d-bfe5-8fc4c1a3806a.mp3,anim400k,人間、私はちょうど腹が膨れている。,0.154,5.039,3.750964
+722,audio/00722.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/b8/b81dcba1-2129-477a-a0b5-4408c7f4fbc8.mp3,anim400k,家の前の王、序閣、送り名は王。確か、六年余りの知性だった。,0.292,9.319,3.254054
+728,audio/00728.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ba/ba718bb6-ccd2-4061-8d8e-a8a805627317.mp3,anim400k,寿命が減ると知りながらも。会場を行い続けた。,0.1,7.179,3.008525
+731,audio/00731.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bb/bb5ec239-2d41-48a8-bfcd-8724bd451db8.mp3,anim400k,てめえには関係ないことさ,0.273,4.179,3.363806
+735,audio/00735.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bc/bc59743a-5547-4c9c-adcf-4cf4311e5a53.mp3,anim400k,だから、検事局を刺した,0.2,5.259,3.622984
+736,audio/00736.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bc/bc5bdb9c-b61c-4d4d-aab3-137cfc571bbf.mp3,anim400k,もう終わりました。何もしません。,0.0,5.059,3.321088
+737,audio/00737.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bc/bc6cd58e-750c-4ff6-8c20-d529fda1941f.mp3,anim400k,私は、他者に寄り添うことが苦手は。,0.231,3.839,3.568809
+739,audio/00739.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bc/bc8be4f5-2c8c-48ea-a75a-911df754ec04.mp3,anim400k,人気のニコニア動画発信所,0.167,3.899,3.505055
+741,audio/00741.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bc/bce25fa1-7a5b-4325-a0e9-07242c599e65.mp3,anim400k,犬神殿、誤解心というのはあくまでも名目に過ぎない。それは?,0.115,8.959,3.176353
+742,audio/00742.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bd/bd47978f-01a5-4b0c-b13e-bf7bcac5586d.mp3,anim400k,そうか 江戸のお父さんは一足先にセントラルに行ったわ,0.136,7.399,3.014985
+745,audio/00745.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bd/bdac3181-da48-4a64-9999-093d5e36b0e8.mp3,anim400k,意味は、死。要因では、患者さんが亡くなった時に使うことが。,0.167,7.839,3.142146
+747,audio/00747.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/be/be15c377-88f1-43d9-8ff3-13713d40d7cc.mp3,anim400k,そもそも企画書に書いていない苦し紛れの使用を通すわけにはいかない。うん。,0.176,8.499,3.107868
+749,audio/00749.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bf/bf1aa50d-52d4-4fdf-a230-496c7ad6a6c8.mp3,anim400k,確かめるというのは。,0.0,5.939,3.664939
+751,audio/00751.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bf/bf2c938b-650f-4026-9b86-302cb8d19ef6.mp3,anim400k,世界タイトル。慶応種。,0.111,5.459,3.149463
+752,audio/00752.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/bf/bf53e49f-5678-496b-87fb-39f1c5287cde.mp3,anim400k,かつて日本では、経済的格差の不満から、一期を含む民衆の反乱が行われたという。,0.059,9.399,3.691227
+754,audio/00754.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c0/c06747f6-68ea-4381-a4c6-3ad8270057f5.mp3,anim400k,追って処分を言い渡す,0.0,4.339,3.119813
+755,audio/00755.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c0/c072e0d1-45e2-4a06-a0a1-9f90a633d135.mp3,anim400k,夜分にいきなりすみません。実は…,0.0,5.099,3.268913
+757,audio/00757.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c0/c0a2b86e-c6dd-410f-a3b6-9b62bc55da47.mp3,anim400k,今日は埼玉県富士見自立日暮け学校に来ています,0.286,6.719,3.604893
+759,audio/00759.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c0/c0ba0e25-699d-44cc-b9d2-39411b79b97f.mp3,anim400k,やはり昨日の朝、この首都圏に降りたヘリは2機だけ。 どこのヘリ?,0.143,7.619,3.221697
+760,audio/00760.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c0/c0bbf08d-cc9c-4b88-8a6c-094ad9e9c279.mp3,anim400k,想像よりも重く感じられる期待。,0.0,6.679,3.367059
+762,audio/00762.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c1/c188e1bc-c122-432c-bc37-c474eb1abd90.mp3,anim400k,昨年接点は衛星を取得した 衛星?,0.167,8.179,3.345838
+766,audio/00766.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c1/c1b32968-cc67-4918-8eb8-ccff4924a41e.mp3,anim400k,大切な家族の存在を不幸だと決めつけ、 同情してくる人々。,0.0,7.919,3.355381
+769,audio/00769.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c2/c2f437d0-4d18-48cd-9542-4f5ff929798a.mp3,anim400k,別に。海岸を散歩していた。。,0.0,5.939,3.482127
+771,audio/00771.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c3/c38a3408-84ca-416c-a9fe-65f420139a71.mp3,anim400k,ボトムアップ型 汎用人工知能の開発だ,0.059,6.919,3.549553
+772,audio/00772.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c3/c3b63745-4d2f-4501-bf5e-a2e4ceda796f.mp3,anim400k,アルバムチャートも再び上昇しているそうですし,0.19,5.699,3.494723
+774,audio/00774.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c3/c3c36d3d-710f-4c5e-80e3-7632e805c716.mp3,anim400k,同様の指示を全体に徹底する。,0.0,5.119,3.20639
+775,audio/00775.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c3/c3c8ecf7-8935-4257-8411-870b69171b77.mp3,anim400k,米軍がtaの機密を入手したがっている という情報がありましてね,0.172,8.759,3.882827
+776,audio/00776.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c3/c3fdf352-71d2-4dfe-b46d-76d1f9703b3a.mp3,anim400k,すねに冷静に、理事的に対応する。それが理系、だからな。,0.091,8.579,3.62137
+777,audio/00777.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c4/c44342ea-5114-4896-b8a8-d0c98c86dca8.mp3,anim400k,同期の方からの昇進のお祝いですよ,0.0,5.439,3.229206
+783,audio/00783.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c5/c5d5ea3d-155b-4e96-b7ef-4a5a0b01e0c9.mp3,anim400k,6条 風呂なし 大学まで徒歩10分,0.286,7.859,3.584389
+786,audio/00786.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c6/c63470d6-95f8-4a99-a2e0-6993295feeb6.mp3,anim400k,慎重に規制しています。まず、今のところ計画通りと言ったところです。,0.1,8.699,3.369205
+787,audio/00787.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c6/c6a3d4a3-c67a-4474-bd63-eda048af5fde.mp3,anim400k,それに単純に設備がいいってや,0.077,5.439,3.385782
+788,audio/00788.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c6/c6e09a7f-b069-44e4-b892-4479a16672e4.mp3,anim400k,面白いですね。大きさも自由に変えられるのですか。,0.045,7.659,3.56119
+793,audio/00793.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c7/c7acbf95-255d-4e79-b657-8a096ef0b7bb.mp3,anim400k,艦長の意見に同意します,0.182,3.999,3.594354
+796,audio/00796.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c8/c8777438-c606-4f74-b9e6-d95bcde3b8c4.mp3,anim400k,空間を開き、初期地を定め。,0.091,5.399,3.849074
+797,audio/00797.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c8/c8a1e677-caf7-40d9-852b-0c631761b59a.mp3,anim400k,そして、そのものは間違いなく,0.0,6.279,3.354545
+798,audio/00798.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c9/c9111f97-0223-440b-bb43-b92dfddac781.mp3,anim400k,父さんがアヤをかばって死んだって言うし、母さんが病院で面会者手伝って……,0.212,8.799,3.097619
+799,audio/00799.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c9/c93f60f1-e724-4186-8240-e9e746e7cfc4.mp3,anim400k,聞く頼む タクシーを呼んだ これから依頼のあった肺病院に向かう,0.28,7.259,3.257997
+801,audio/00801.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/c9/c9a856e7-47b6-42d9-9835-6166284c29f4.mp3,anim400k,平梁級のライトニングは弾速が速くて刻写性能もまずまず,0.28,6.819,3.371573
+802,audio/00802.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ca/ca0499d5-4a0a-46b7-aa8b-904059235b00.mp3,anim400k,ファイルには。日本標準時のカウンタも記録されていて、。,0.042,5.719,3.097706
+806,audio/00806.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ca/ca99f870-ff02-4e84-a818-f5b4d2abef21.mp3,anim400k,米軍はベギルスタンとは違うわよ。,0.0,4.619,3.194999
+807,audio/00807.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cb/cb1bdee6-07cb-45aa-8c84-4d564f35cdf2.mp3,anim400k,大総統が連中と繋がっている可能性もあり,0.0,8.039,3.053298
+808,audio/00808.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cb/cb24bfe3-478f-4904-a03a-7d2341e65ded.mp3,anim400k,ああ 私は今年60になる,0.182,5.399,3.148529
+809,audio/00809.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cb/cb31f991-fb41-447a-b8ad-70c0e1f3ca1b.mp3,anim400k,1時間で到着できます。,0.1,3.579,3.428062
+810,audio/00810.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cb/cb5f5bec-e139-4c8e-a1aa-85646faedb9b.mp3,anim400k,もちろん将軍など しかし将軍でおられた 爆襲校がかまわないと言ってくださったんですよ,0.132,9.719,3.783599
+812,audio/00812.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cc/cc12a656-8f90-4276-94e5-996b37bc9064.mp3,anim400k,エルと エル知っているか、リンゴしか食べない死神は,0.25,7.059,3.429887
+813,audio/00813.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cc/cc6492ad-c841-4574-8bf3-1778893b2c5f.mp3,anim400k,悪意も害意も全くない,0.2,3.719,3.851452
+814,audio/00814.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cd/cd47cb44-f6f2-4a54-81e2-42d4f4b050cb.mp3,anim400k,ハグは田舎に帰る。,0.0,4.879,3.306562
+815,audio/00815.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cd/cdcaf92b-8775-4f59-b9de-054ce163f8a6.mp3,anim400k,今は落ち着いています。,0.0,3.719,3.705268
+816,audio/00816.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ce/ce36d0c1-89d8-4be3-bd3e-5e2466dc01ea.mp3,anim400k,明日まで待ちましょう。それまでに名乗りでなければ、全員介護します。,0.1,7.439,3.740682
+817,audio/00817.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ce/ce722b58-65e1-452e-bf1c-67c7fe2587f8.mp3,anim400k,会人まではちゃんと勤める,0.167,6.059,3.15906
+818,audio/00818.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ce/ce9f7059-ad37-4626-94aa-d832809ba89d.mp3,anim400k,輸血パクト消毒液,0.222,3.779,3.794781
+822,audio/00822.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cf/cf790b8e-7b09-4a63-8fe1-7e2fe92ea5b2.mp3,anim400k,参加者のモチベーションが高いに越したことはない,0.095,4.739,3.753245
+824,audio/00824.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/cf/cfc1ce81-9065-4fd0-8bd6-a711bdbabd44.mp3,anim400k,肩身の狭い思いを。していくよりかは。,0.062,6.079,3.410486
+827,audio/00827.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d0/d010e815-0a8c-46c8-a0ba-be1fd9b62c06.mp3,anim400k,漁業を再開すれば功の足しになる,0.214,4.879,3.637383
+829,audio/00829.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d0/d0b41579-1031-4fd0-8ccd-0682ae82099e.mp3,anim400k,事故だったんだ 後続のトラックの運転手が引っ張り出してくれなかったら以下も一緒に燃えてた,0.25,8.099,3.218694
+830,audio/00830.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d1/d112fc5e-682f-4340-a34d-26fc7a1915c8.mp3,anim400k,よこせ 罪を消す元部下が殺人犯では会社の聞こえも悪かろう,0.125,9.579,3.242261
+834,audio/00834.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d1/d19fdf1a-721f-4e43-84e2-9361cdf240d3.mp3,anim400k,おらず 当然殺人事件など一度たりとも起きたことはない,0.136,6.579,3.438176
+835,audio/00835.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d1/d1b6395a-b003-4d7a-b22c-0ece317f10d0.mp3,anim400k,その企業が、例のAUH東京総合病院と深い関係があることも分かった。,0.107,9.359,3.234493
+838,audio/00838.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d2/d26de924-614c-4cde-b0cb-5dc6d48eeb9d.mp3,anim400k,私がフランク博士の泣き後も 決してDCを辞めなかったのは,0.231,7.759,4.073247
+840,audio/00840.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d3/d3363040-f787-436f-979b-830f9cdda018.mp3,anim400k,AIのアーキテクチャを構築するループの中に 人間を一種の外部ユニットとして組み込んでしまう,0.098,9.219,3.098204
+842,audio/00842.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d3/d39aa45d-8ee6-4202-ab8b-34e06dd3fa6f.mp3,anim400k,同じトリガーを使っても威力に差が出るのは,0.278,7.899,3.68898
+844,audio/00844.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d3/d3c7f6fc-709a-43b5-90ab-849b64ba7b83.mp3,anim400k,買ってきたドリンク、この冷蔵庫に入れていいんだろう?,0.043,5.139,3.38918
+845,audio/00845.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d3/d3e06ce1-31e3-42a3-b824-554538bca313.mp3,anim400k,風力、温度、湿度、一気に確認。,0.0,5.479,3.253416
+848,audio/00848.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d4/d46233e8-b48d-4bdd-8f78-dd0bd0c60586.mp3,anim400k,かご、あしたれはやけどをおっています。それは…,0.278,5.539,3.229187
+850,audio/00850.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d4/d4b26985-fcf3-40a0-b264-1f04a5e033b5.mp3,anim400k,いえ、ただこっちのハンディカメラ,0.154,5.679,3.758511
+859,audio/00859.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d6/d6512edf-aef1-4006-b504-e42eafdd4ec8.mp3,anim400k,五ラウンド終了の休憩でき側がわしに行ったことを。,0.261,5.359,3.013518
+862,audio/00862.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d6/d6be905d-1aa8-45e8-aa81-ff744e4a39e9.mp3,anim400k,害するようなことはしない。,0.0,4.119,3.257
+864,audio/00864.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d7/d705baf7-332c-4aa3-aa3a-9fa30b7933a3.mp3,anim400k,おはつにおめにかかります、スイビック,0.294,5.459,3.469126
+867,audio/00867.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d8/d837823b-e678-4553-bd6e-52bcb1113675.mp3,anim400k,わずかな期間で対抗策を打ち出してきたものだ,0.0,5.519,3.439707
+873,audio/00873.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d8/d8c05a98-7be5-4ac0-81e7-306c5ce19414.mp3,anim400k,僕は白竜についてなきゃならないんで,0.125,4.879,3.264169
+874,audio/00874.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d9/d91488c4-b382-441a-8bef-730cfcb009ff.mp3,anim400k,水分に遅れてしまったな,0.222,4.499,3.131798
+876,audio/00876.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/d9/d9994459-736f-4fe1-84d4-833bd6f1be13.mp3,anim400k,約束通りいくつかの就職先を紹介させていただきますので どうぞご検討下さい,0.056,9.019,3.16021
+877,audio/00877.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/da/da041752-6813-49c8-93cd-d83af6a0404b.mp3,anim400k,仕事の説明とか。道中の会話のネタに残しとけばいいのに。ちょっと。,0.069,7.999,3.196668
+878,audio/00878.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/db/db0bfec1-daf2-4653-83a0-069180ad6530.mp3,anim400k,うん。耳を小さくして、もう少し上に聴けるといいかもしれませんね。クマは意外と耳が小さいですから。,0.122,9.299,3.431852
+879,audio/00879.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/db/db26fdcc-6648-4248-9b05-91fc2d1de7f9.mp3,anim400k,神殿長と交渉できることを喜んでおくしかない,0.095,5.439,3.361162
+882,audio/00882.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/dc/dc4d0802-8936-4143-bd0d-f66e1b737783.mp3,anim400k,薬をくれた 味は全くないがとてもよく効く薬だそうだ,0.263,7.499,3.271846
+883,audio/00883.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/dc/dc7d09e0-64e3-4fa2-922b-248c0567494e.mp3,anim400k,社会も同様であると勘違いしていた時期もありましたが その話はいいでしょう,0.0,7.319,3.638648
+885,audio/00885.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/dd/dd04b78b-12c8-4385-87c6-cbfae6b58f96.mp3,anim400k,磁力をとどめる技術も未熟だから 奇跡に残りがち,0.143,6.319,3.51827
+887,audio/00887.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/dd/ddb92698-284a-4514-a290-a24943d9f80c.mp3,anim400k,ルエン、我が究極の使命は、剣だけ民の穏やかな営みと、安らかな眠りを守ることです。,0.182,8.599,3.173764
+891,audio/00891.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/de/de6f7782-8b9e-41bf-9ed1-93ec884a1679.mp3,anim400k,うん。13時7分になれば、米軍から核ミサイルが東京に打ち込まれる。,0.214,7.399,3.029302
+895,audio/00895.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/de/dee5eb3a-37b1-4424-b2d6-dfb46b393975.mp3,anim400k,ただし、守備は素人同然です。だから個人的に特訓をお願いしたいんです。 うん。,0.2,9.179,3.315349
+897,audio/00897.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/df/df06c855-f06b-4d6b-97df-cb7c61ab3e4f.mp3,anim400k,何の話？ですか。あガイドとの。,0.25,6.079,3.691855
+898,audio/00898.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/df/df513670-9fa0-4b68-8fcf-b1a11cf5a332.mp3,anim400k,これは。会見を終了させていただきます。,0.118,7.019,3.227293
+900,audio/00900.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/df/dfe99ce8-1f57-4572-832b-fe1224b44336.mp3,anim400k,実戦と同じくバッターがいなければ意味もないでしょ?,0.192,6.139,3.282973
+903,audio/00903.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e0/e058bffd-355c-4f53-9cb8-7a321ce69aab.mp3,anim400k,ちょっと。一つ伺いたい。これは。どなたが撮影したものですが。,0.192,6.719,3.641244
+904,audio/00904.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e0/e0b43e8d-f239-4c1f-a2cc-aeb05bb68a5b.mp3,anim400k,骨が露出しており また,0.0,4.419,3.815681
+905,audio/00905.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e1/e1c73798-2c1a-4ae3-8074-6a1a257904eb.mp3,anim400k,ん? 手前に騎士団の駐盾地があって、水上の道は通行止めにされています。,0.233,8.859,3.139746
+911,audio/00911.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e2/e2aacabc-79c6-418b-b939-5c8f3348fb17.mp3,anim400k,ああ。前に仕事で来たんだ。さあ、食べて食べて。うまいんだ、ココのそば。,0.148,8.499,3.020095
+912,audio/00912.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e2/e2d0d08c-3a48-497e-8865-21fc10ec6294.mp3,anim400k,やはり解消が大きいとどうにもならぬ,0.222,5.219,3.395049
+913,audio/00913.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e2/e2f21f84-abb7-4304-86b1-fa40c9c2c690.mp3,anim400k,本位はない 術者としての年盛りはまだ未熟だが日常生活においては,0.231,8.159,3.999629
+914,audio/00914.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e3/e3561de4-7bdb-4266-b735-7a3af63f864b.mp3,anim400k,ステージ化だった父は、幼い私の憧れだった。,0.294,8.199,3.595579
+918,audio/00918.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e3/e39d4c3c-cd18-4be9-9cab-611626e8573a.mp3,anim400k,バーミルス教師心へ、常に生徒の向上を最優先した行動を取るように。,0.207,8.899,3.890603
+919,audio/00919.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e3/e3ba6fd8-5bd9-4205-9740-91c156c19314.mp3,anim400k,そう 都会の喧騒もないし,0.222,5.119,3.120974
+921,audio/00921.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e4/e4376912-f6d5-4bf7-825e-2cecfbd9267e.mp3,anim400k,下巻が巨魁の港まで送ります。,0.154,5.459,3.91983
+922,audio/00922.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e4/e46db9a6-cfdd-4e6a-938a-9cfcc60f4573.mp3,anim400k,彼のことを言っているなら。煮込み違いです。,0.158,6.539,3.257017
+923,audio/00923.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e4/e48348f8-f6b8-4f37-ab1a-67e1b0963dbf.mp3,anim400k,はいお待ちどうさま 今日はカレーライス,0.188,6.159,3.111567
+930,audio/00930.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e7/e77e3346-5afc-41b7-b418-6d884ee2c380.mp3,anim400k,シフトウェート。インファイターの鋭い良いやし。アウトボクサーの彼なステップワーク。,0.158,8.259,3.401583
+932,audio/00932.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e8/e88fb324-02b2-4d85-ad1a-237da592dd64.mp3,anim400k,あなたに協力します 企画,0.182,4.939,3.564126
+934,audio/00934.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e9/e9006054-7d00-4f18-8d2a-1f92af9e4404.mp3,anim400k,抽出活動を行う時間は…,0.1,5.399,3.966525
+935,audio/00935.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e9/e9421b0d-f6e7-4444-bbe7-5b75579b4aad.mp3,anim400k,十九。どう。上腕。前腕などのパツまで対象として指定できます。,0.231,9.119,3.404155
+936,audio/00936.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e9/e96dd0fb-c31b-4d0b-a439-82919cb00c5f.mp3,anim400k,……でも、どうやって? どちらかのHPが全損しないと、勝者は決まらないだろ?,0.167,9.019,3.141696
+938,audio/00938.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/e9/e9b49226-0e0d-42e9-a5dc-8b2fa3cc6c3c.mp3,anim400k,はい この店で一番安いランチョ,0.273,6.659,3.016191
+942,audio/00942.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ea/eabb99e7-ce6e-46a7-88eb-4afaf0b00623.mp3,anim400k,二人の心美しく燃ゆる,0.222,5.439,3.710569
+944,audio/00944.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/eb/eb2b0c09-65ed-48aa-ba2e-368e32f7af57.mp3,anim400k,では、ここにサインをお願いします。,0.0,4.779,3.439737
+946,audio/00946.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ec/ec08b313-ea9f-4f07-ba7c-3bd3ed9de492.mp3,anim400k,……すみません。なんの用意もできませんで。,0.125,6.499,3.660481
+951,audio/00951.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ec/ecba337a-4f11-4f8e-9553-675f8837b6f7.mp3,anim400k,子どもたちの留学のことは白紙になりました。,0.105,5.279,3.737056
+962,audio/00962.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ef/ef141817-4151-44b2-8010-b4648f3250cc.mp3,anim400k,私は七人逮捕には反対ですから。やるなら八神さんたちの責任でお願いします。,0.059,8.899,3.034527
+963,audio/00963.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ef/ef3d4677-0a3f-46ce-aa93-b7db4154ff4a.mp3,anim400k,しかしおそらくその一撃では効かん,0.2,5.539,3.507591
+964,audio/00964.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ef/ef5739cd-a31d-4991-8198-cdc6ed76a97b.mp3,anim400k,疎開することになるんでしょうね,0.071,4.439,3.338709
+968,audio/00968.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f0/f01a6d0e-c3d5-40c3-930b-24113ff5665f.mp3,anim400k,次に三谷君は右上の下がりを打つから,0.0,9.619,3.401034
+969,audio/00969.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f0/f09d38f0-5747-4362-a321-e89206d66c4c.mp3,anim400k,……彼の言う誰かが、トーマンの内部分裂を企み、幼いは利用された。,0.2,8.859,3.189071
+971,audio/00971.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f0/f0fe8ba0-b81e-4b2b-b9ad-d474f8e7b9fd.mp3,anim400k,今までのキラに関する捜査資料と、このテレビ局に送られてきた一般には未公開のビデオを見てください。,0.043,9.619,3.168761
+973,audio/00973.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f1/f1822149-4e0b-4d26-b28d-5fae4b9dcce6.mp3,anim400k,ついに彼女は7番目の死ぬ,0.273,4.679,3.576133
+980,audio/00980.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f2/f29d7a17-118e-494b-97f9-86c8e4edcfca.mp3,anim400k,白面演歌を世の中のあらゆる曲を覚えてうに歌うことができます,0.192,8.719,3.515359
+982,audio/00982.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f3/f3c18f39-3603-4659-a852-1aabef093b34.mp3,anim400k,もうワンラウンドだけやって優勢な方を勝者とする,0.273,5.639,3.177004
+983,audio/00983.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f3/f3c5d217-363d-448c-9eae-b74ece7cf8ca.mp3,anim400k,取引成立です。ご協力感謝します。,0.0,6.139,3.492533
+984,audio/00984.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f3/f3faaedc-e864-4adc-8616-1ccc4f3c6ac5.mp3,anim400k,コメントを設けるために時間をとっていて,0.105,4.439,3.413837
+985,audio/00985.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f4/f401944a-534a-4aa9-bc9e-5465ee86518b.mp3,anim400k,問題ないでしょうか?,0.0,3.559,3.972633
+987,audio/00987.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f4/f46f7e5c-b9e7-4649-91a0-74f596ba13ce.mp3,anim400k,仕事へ行きましたよ,0.0,3.659,3.397256
+990,audio/00990.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f5/f5be8fe6-d278-496a-85e7-4f7cef7f1f45.mp3,anim400k,マイクに。きました。,0.25,4.579,3.683588
+991,audio/00991.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f5/f5d65a89-1d22-4268-8d44-bf9eb1f69c97.mp3,anim400k,勤務終わりにタクシーに乗るって。ナスって儲かるんだな。,0.08,6.919,3.72841
+992,audio/00992.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f5/f5d773cd-4194-4634-80f5-0ee8a2f6acf6.mp3,anim400k,プレシオンの製造状況は?,0.182,5.599,3.757024
+993,audio/00993.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f6/f684902a-edca-405e-8a5a-8daed722d868.mp3,anim400k,弊社で製品を評価した結果ですが,0.0,5.179,4.129315
+994,audio/00994.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f6/f6ae59ce-4f0b-4fdf-a2d9-221768e7e9ff.mp3,anim400k,実はこれ、予課生本課生3分の1以上の合意のもとに計画されたものなんです,0.229,9.139,3.007115
+995,audio/00995.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f6/f6c04368-bb1b-4bbe-82ed-9321d81578f2.mp3,anim400k,左肩の切り離しは コンソール脇にある赤いボタンを押す,0.04,8.759,3.276549
+996,audio/00996.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f7/f71fa208-1de6-4c86-916b-cb8d68f3f030.mp3,anim400k,両親に恥じることがないものは 狼狽するに及ばない,0.087,7.339,3.581579
+997,audio/00997.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f7/f74262f0-7914-4435-abbe-425842235fb8.mp3,anim400k,お待ち 電話したんだ 昨日の夜,0.3,5.479,3.17319
+1001,audio/01001.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f8/f833c766-d1a4-4d39-9f8e-6fb2f9323c23.mp3,anim400k,オースイン課長 ああ、はいはい ノットパニッシャーの技術情報に目を通しました,0.188,9.219,3.237906
+1002,audio/01002.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f8/f8a270d4-14d1-4cc1-948a-6d1e9663591e.mp3,anim400k,委員長室は長らく締め切ってあるので 使うなら手入れが必要だ,0.074,7.099,3.35348
+1004,audio/01004.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f9/f9831bae-77d1-4441-bf68-8a2243be161d.mp3,anim400k,病院に行くよ 歯具が戻ってるかもしれん,0.222,5.599,3.121334
+1005,audio/01005.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f9/f998f72b-55dc-48f8-8c41-b6d4ae84d240.mp3,anim400k,いじつさんはいてもあんまり意味ないので,0.111,4.319,3.656331
+1006,audio/01006.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f9/f99e43bd-b5b7-4e14-abe5-894c07d4ff46.mp3,anim400k,渋滞の患者が運び込まれた時なんかこんなもんじゃないぞ 1分1秒が精子を分ける,0.158,8.759,3.096587
+1007,audio/01007.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/f9/f9a84fc5-304d-4cb9-9e35-c10d398fc3a4.mp3,anim400k,そして、その波状をというのが,0.083,6.299,3.528959
+1010,audio/01010.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fb/fb5926ff-514e-4e91-9aa3-a458ee35b0e5.mp3,anim400k,私は生まれつき霊が見えた それを払う力も持っていた,0.208,7.339,3.628906
+1011,audio/01011.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fb/fb7b5a69-062b-4706-bf76-b0be3d7429ca.mp3,anim400k,ここで映像は終わっている。,0.0,5.019,3.490489
+1012,audio/01012.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fb/fbca280c-01fc-4efa-896e-7bb6491a22a5.mp3,anim400k,三上は仕事で帰る時間が多少異なるくらいで 毎日ハンで押したような生活をしています,0.105,9.959,3.143366
+1015,audio/01015.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fc/fc00694e-d859-441e-b3eb-bae7c40acb5a.mp3,anim400k,漁舎や商人は、皆巨大なもので叩き潰され殺されていたそうだ,0.154,7.479,3.240798
+1018,audio/01018.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fd/fd1e4f7c-62ec-45f3-92aa-01fbe97f39b2.mp3,anim400k,アホーシステム変更の準備が整いました,0.176,6.239,4.057289
+1020,audio/01020.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fd/fd9a87cf-4fb1-4ffd-8a03-af22c4547fc3.mp3,anim400k,去年の優秀な経験を活かし、残り期間はデバッグをお願いします。,0.036,9.019,3.580383
+1021,audio/01021.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fd/fdb1f2a2-f300-4813-a1bc-03d3f02e9d66.mp3,anim400k,3番乗り場で住宅展示場前で下書か,0.2,7.139,3.076037
+1022,audio/01022.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fd/fde8e9c7-196d-4629-9618-02a59d28c75d.mp3,anim400k,あなたは誰です?,0.0,6.039,3.593989
+1024,audio/01024.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fe/fea2325a-ab3f-4dfb-a2bc-0a2773e6589c.mp3,anim400k,直接話を聞いたのです。,0.0,3.639,3.523926
+1026,audio/01026.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/fe/fea70cad-56b4-45d0-9fa8-ede827dce15d.mp3,anim400k,気持ちは分かりますが 冷静に考えても妥当な結論でしょう,0.0,8.259,3.414285
+1029,audio/01029.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ff/ff20a078-5bb0-46f3-8ac3-8351bf2a8344.mp3,anim400k,状況はチームから伝えておきます。,0.0,6.119,3.503035
+1030,audio/01030.wav,./dataset/anim400k/anim400k_audio_clips/anim400k_audio_clips/ff/ff453e55-eae4-452a-bd9a-2fe88688b8db.mp3,anim400k,私は改革の研究をしていますが、過去に言葉で難儀しなかったものはありません。,0.057,7.859,3.767573
+1034,audio/01034.wav,./dataset/reazonspeech_wav_out/000/009905752113b.wav,reazonspeech,これが成長だと思いますね。,0.0769230769230769,3.539458333333333,3.298988103866577
+1038,audio/01038.wav,./dataset/reazonspeech_wav_out/000/051944ee98935.wav,reazonspeech,私が倉石君です。,0.125,4.459458333333333,3.2098371982574463
+1039,audio/01039.wav,./dataset/reazonspeech_wav_out/000/068cd2b4e25f6.wav,reazonspeech,水戸は２３度ですが、きょうよりもちょっと上がります。,0.2692307692307692,4.619458333333333,3.0320868492126465
+1041,audio/01041.wav,./dataset/reazonspeech_wav_out/000/09bde0fc92aa9.wav,reazonspeech,警視庁などが行方を追っています。,0.0625,4.679458333333334,4.033391952514648
+1045,audio/01045.wav,./dataset/reazonspeech_wav_out/000/0d72ebd5590d4.wav,reazonspeech,石の鳥居が完全に倒れています。,0.0666666666666666,5.079458333333333,3.0990309715271
+1052,audio/01052.wav,./dataset/reazonspeech_wav_out/000/0f28e0c36136f.wav,reazonspeech,これあの前日ですね,0.0,3.839458333333333,3.748342990875244
+1054,audio/01054.wav,./dataset/reazonspeech_wav_out/000/120d3b9d59117.wav,reazonspeech,君たちは他に手がかりになりそうなものがないか探してみてくれ。,0.0333333333333333,5.299458333333333,3.621196985244751
+1056,audio/01056.wav,./dataset/reazonspeech_wav_out/000/153db09362caf.wav,reazonspeech,逆に中山さん、モロッコがしっかりとした守備を前半、見せた。,0.1379310344827586,7.179458333333334,3.170485019683838
+1058,audio/01058.wav,./dataset/reazonspeech_wav_out/000/15c0144c40f05.wav,reazonspeech,この添削は。,0.1666666666666666,7.299458333333333,3.286362409591675
+1059,audio/01059.wav,./dataset/reazonspeech_wav_out/000/1a6a8cc1029fb.wav,reazonspeech,フェンシングの全日本選手権。,0.2142857142857142,5.019458333333334,3.622241973876953
+1066,audio/01066.wav,./dataset/reazonspeech_wav_out/000/22a9f1cf3273a.wav,reazonspeech,むしろ国連が果たしている大きな役割はウクライナ国内で戦禍に苦しむ一般市民に対する人道支援です。,0.1702127659574468,8.099458333333333,3.220299243927002
+1068,audio/01068.wav,./dataset/reazonspeech_wav_out/000/233ee9dd7050c.wav,reazonspeech,どうつきあっていけばいいのかということで政府が運用している着用のルールについて確認します。,0.2222222222222222,8.639458333333334,3.352761745452881
+1069,audio/01069.wav,./dataset/reazonspeech_wav_out/000/235e235ff1b0c.wav,reazonspeech,とにかく早く刈ったほうがいいかなと思いまして。,0.1739130434782608,5.879458333333333,3.6010937690734863
+1070,audio/01070.wav,./dataset/reazonspeech_wav_out/000/2417467a93753.wav,reazonspeech,預けていたのはスマートフォン。,0.0666666666666666,6.799458333333333,3.171142339706421
+1074,audio/01074.wav,./dataset/reazonspeech_wav_out/000/2bb9dc077bcd4.wav,reazonspeech,ねっ私も就職しよっかな・,0.25,5.519458333333334,3.1704795360565186
+1075,audio/01075.wav,./dataset/reazonspeech_wav_out/000/2c41eef2f65f5.wav,reazonspeech,それじゃあね」。,0.25,3.719458333333333,3.1828858852386475
+1080,audio/01080.wav,./dataset/reazonspeech_wav_out/000/2f036e11cdfb7.wav,reazonspeech,ビートたけしさん,0.0,3.099458333333333,3.549516439437866
+1081,audio/01081.wav,./dataset/reazonspeech_wav_out/000/2fa6d4fb9a01b.wav,reazonspeech,しかし。,0.25,4.999458333333333,3.4497437477111816
+1082,audio/01082.wav,./dataset/reazonspeech_wav_out/000/315be0f41889b.wav,reazonspeech,本人しか分かりません。,0.2727272727272727,3.139458333333333,3.408077001571656
+1084,audio/01084.wav,./dataset/reazonspeech_wav_out/000/333e4eea55476.wav,reazonspeech,泣いてみせましょうか。,0.0909090909090909,3.2594583333333333,4.236823081970215
+1085,audio/01085.wav,./dataset/reazonspeech_wav_out/000/34a04c669fab9.wav,reazonspeech,では開けてみましょう。,0.0909090909090909,3.9794583333333335,3.521045207977295
+1086,audio/01086.wav,./dataset/reazonspeech_wav_out/000/355375cf7f4b3.wav,reazonspeech,素敵な方でした本当に。,0.2727272727272727,3.2594583333333333,3.7181553840637207
+1087,audio/01087.wav,./dataset/reazonspeech_wav_out/000/37a6e33d982be.wav,reazonspeech,私これからどうしよ。,0.1,4.139458333333334,3.6754150390625
+1088,audio/01088.wav,./dataset/reazonspeech_wav_out/000/37db7daf2564a.wav,reazonspeech,「祈り」と並んで今回見ていくテーマ,0.2352941176470588,6.9394583333333335,3.2266855239868164
+1092,audio/01092.wav,./dataset/reazonspeech_wav_out/000/3d8217caceb20.wav,reazonspeech,何かそういうちょっと切ない未来が待ってる気がするの彼に。,0.1071428571428571,7.059458333333334,3.125568628311157
+1093,audio/01093.wav,./dataset/reazonspeech_wav_out/000/3e3f83f8e61ff.wav,reazonspeech,その方が面白い面白くないですか？,0.1875,4.739458333333333,3.476804494857788
+1094,audio/01094.wav,./dataset/reazonspeech_wav_out/000/40b0b67694655.wav,reazonspeech,赤いのは辛み緑のは風味を足すんです。,0.2777777777777778,6.9394583333333335,3.159301996231079
+1095,audio/01095.wav,./dataset/reazonspeech_wav_out/000/425125b5c498d.wav,reazonspeech,さあ今度はクーラーボックスです。,0.0625,4.199458333333333,3.7978596687316895
+1096,audio/01096.wav,./dataset/reazonspeech_wav_out/000/43233f6b82c1b.wav,reazonspeech,でも１８度まで気温が上がります。,0.1875,3.499458333333333,3.338952779769897
+1098,audio/01098.wav,./dataset/reazonspeech_wav_out/000/47123e0fd95d1.wav,reazonspeech,落ち着いた感じの雰囲気が出てますね。,0.0555555555555555,4.339458333333333,3.4794020652771
+1099,audio/01099.wav,./dataset/reazonspeech_wav_out/000/4749445df1d3e.wav,reazonspeech,まさにそうですね。,0.2222222222222222,3.079458333333333,3.052436351776123
+1101,audio/01101.wav,./dataset/reazonspeech_wav_out/000/477cbfc99c5da.wav,reazonspeech,だが何もかもがうまくいかない。,0.0666666666666666,5.259458333333333,3.4627037048339844
+1104,audio/01104.wav,./dataset/reazonspeech_wav_out/000/4977e80d0d30e.wav,reazonspeech,ちょっとお話よろしいでしょうか？,0.0625,4.719458333333334,3.5556633472442627
+1109,audio/01109.wav,./dataset/reazonspeech_wav_out/000/4e0390c4a19ad.wav,reazonspeech,君の家族を調べたんだけどさ。,0.0714285714285714,6.279458333333333,3.693893194198608
+1110,audio/01110.wav,./dataset/reazonspeech_wav_out/000/4ffece744840f.wav,reazonspeech,管内では先週電力需給ひっ迫注意報が発表されました。,0.28,6.659458333333333,3.25996732711792
+1111,audio/01111.wav,./dataset/reazonspeech_wav_out/000/5077f4f66ee9c.wav,reazonspeech,「タクシーわたくしはタクシー」,0.1333333333333333,6.339458333333333,3.76620888710022
+1113,audio/01113.wav,./dataset/reazonspeech_wav_out/000/533422a0bc67f.wav,reazonspeech,観光の途中なんかでも来ることができる。,0.0526315789473684,3.799458333333333,3.3764421939849854
+1120,audio/01120.wav,./dataset/reazonspeech_wav_out/000/59bc10a7b222b.wav,reazonspeech,後ろでイベントっぽいのやってるの？,0.1764705882352941,4.679458333333334,3.092513084411621
+1122,audio/01122.wav,./dataset/reazonspeech_wav_out/000/5c02961e1ac71.wav,reazonspeech,あのときのこと覚えてる？,0.25,6.379458333333333,3.672557830810547
+1123,audio/01123.wav,./dataset/reazonspeech_wav_out/000/5c02f3c3448d6.wav,reazonspeech,これ、インセクト昆虫ですね。,0.1428571428571428,4.659458333333333,3.1225385665893555
+1124,audio/01124.wav,./dataset/reazonspeech_wav_out/000/5c2ec4cc26166.wav,reazonspeech,前回の銅メダリストです。,0.0833333333333333,3.659458333333333,3.5925137996673584
+1125,audio/01125.wav,./dataset/reazonspeech_wav_out/000/5c6942d484b97.wav,reazonspeech,今朝の一面です。,0.0,3.119458333333333,3.5787675380706787
+1127,audio/01127.wav,./dataset/reazonspeech_wav_out/000/5f5db011163eb.wav,reazonspeech,日曜日の朝になると梅雨前線は少し北上して本州の陸地に近づく予想です。,0.0294117647058823,8.139458333333334,3.5474650859832764
+1130,audio/01130.wav,./dataset/reazonspeech_wav_out/000/5ffa35df129bb.wav,reazonspeech,熊本市北区の北熊本駐屯地でした。,0.0625,6.799458333333333,3.6537466049194336
+1132,audio/01132.wav,./dataset/reazonspeech_wav_out/000/63a2f38530d05.wav,reazonspeech,これだって田辺さんはね,0.1818181818181818,3.499458333333333,3.266670227050781
+1133,audio/01133.wav,./dataset/reazonspeech_wav_out/000/63fc9a0c0db41.wav,reazonspeech,危険な場所からは離れてください。,0.0625,4.079458333333333,3.4097213745117188
+1134,audio/01134.wav,./dataset/reazonspeech_wav_out/000/66591cb8eccc8.wav,reazonspeech,志茂川がやったという明確な証拠はありませんからね。,0.12,4.599458333333334,3.573845624923706
+1135,audio/01135.wav,./dataset/reazonspeech_wav_out/000/692d8dffcbfb6.wav,reazonspeech,これもタコ物なんですけどカプト・メデューサといってタコ物の中で一番王様っていわれる大型の種類ですね。,0.18,8.859458333333333,3.356319189071656
+1136,audio/01136.wav,./dataset/reazonspeech_wav_out/000/694b5b803c891.wav,reazonspeech,２０００本安打も達成したスラッガーでした。,0.238095238095238,7.459458333333333,3.431506633758545
+1140,audio/01140.wav,./dataset/reazonspeech_wav_out/000/6d2675169e54a.wav,reazonspeech,もともとは保護された猫たち。,0.0,6.099458333333334,3.230785131454468
+1142,audio/01142.wav,./dataset/reazonspeech_wav_out/000/701717864805b.wav,reazonspeech,粘り強さ一つ見せました、浅野。,0.2,6.159458333333333,3.158309936523437
+1143,audio/01143.wav,./dataset/reazonspeech_wav_out/000/7028a3e8c1dc8.wav,reazonspeech,パンもしっかり冷凍されております。,0.1764705882352941,4.739458333333333,3.3730344772338867
+1144,audio/01144.wav,./dataset/reazonspeech_wav_out/000/70b5778cc58be.wav,reazonspeech,直ちに命の安全を守る行動に移ってください。,0.238095238095238,5.279458333333333,3.221583366394043
+1146,audio/01146.wav,./dataset/reazonspeech_wav_out/000/74094ea1e5f45.wav,reazonspeech,仕事中なんで。,0.1428571428571428,3.599458333333333,3.863080501556397
+1147,audio/01147.wav,./dataset/reazonspeech_wav_out/000/742438f73c03f.wav,reazonspeech,まず、こちらから。,0.2222222222222222,3.519458333333333,3.9309513568878174
+1149,audio/01149.wav,./dataset/reazonspeech_wav_out/000/7864172974e7e.wav,reazonspeech,みんな声かけてくれてなんだかうれしいな。,0.15,7.299458333333333,3.694734811782837
+1154,audio/01154.wav,./dataset/reazonspeech_wav_out/000/7e3ae617be191.wav,reazonspeech,非常に重要な式だと思います。,0.2142857142857142,4.9394583333333335,3.005777359008789
+1156,audio/01156.wav,./dataset/reazonspeech_wav_out/000/816ee0beb4f4e.wav,reazonspeech,このオレンジの虫はですね恐らくウリハムシだと思います。,0.1481481481481481,5.759458333333333,3.0731289386749268
+1158,audio/01158.wav,./dataset/reazonspeech_wav_out/000/81a030545a630.wav,reazonspeech,ワープでもしない限り人殺しなんて無理ですね。,0.2727272727272727,4.499458333333333,3.729053020477295
+1161,audio/01161.wav,./dataset/reazonspeech_wav_out/000/83ed19d951a7b.wav,reazonspeech,当局は恥ずかしげもなくそれを隠蔽し続けるだろう。,0.125,6.099458333333334,3.17683482170105
+1162,audio/01162.wav,./dataset/reazonspeech_wav_out/000/84377015d9376.wav,reazonspeech,歯と歯ぐきのイラストが目印です。,0.1875,4.079458333333333,3.7459521293640137
+1163,audio/01163.wav,./dataset/reazonspeech_wav_out/000/846e2368ffd9d.wav,reazonspeech,唐揚げ好きの皆さんに朗報です。,0.2,4.339458333333333,3.636561632156372
+1164,audio/01164.wav,./dataset/reazonspeech_wav_out/000/848d520d225c6.wav,reazonspeech,世界ランク１位復帰へ。,0.1818181818181818,4.219458333333334,4.015006065368652
+1166,audio/01166.wav,./dataset/reazonspeech_wav_out/000/8639bb614c349.wav,reazonspeech,さらにストレス。,0.125,3.2794583333333334,3.305283546447754
+1173,audio/01173.wav,./dataset/reazonspeech_wav_out/000/8a6ee1b23dfbe.wav,reazonspeech,上位４チームが準決勝に進出します。,0.1176470588235294,4.459458333333333,3.935299873352051
+1180,audio/01180.wav,./dataset/reazonspeech_wav_out/000/924ea8e9285bf.wav,reazonspeech,《仕事もうまくいってないんだ？,0.1333333333333333,6.519458333333334,3.6522796154022217
+1182,audio/01182.wav,./dataset/reazonspeech_wav_out/000/943843bde9395.wav,reazonspeech,これ何の意味があるかまでは分からないんですが。,0.0869565217391304,4.739458333333333,3.63230299949646
+1183,audio/01183.wav,./dataset/reazonspeech_wav_out/000/948a2a46b5a78.wav,reazonspeech,むかしの公園をみてみたいんだけど。,0.2941176470588235,4.279458333333333,3.0339369773864746
+1184,audio/01184.wav,./dataset/reazonspeech_wav_out/000/96dcea7847a7d.wav,reazonspeech,確かあっち側が武蔵溝ノ口駅ですよね。,0.2222222222222222,7.619458333333333,3.81562089920044
+1187,audio/01187.wav,./dataset/reazonspeech_wav_out/000/9b9568d35c0fe.wav,reazonspeech,日本舞踊のエロス,0.0,5.419458333333333,3.0551981925964355
+1191,audio/01191.wav,./dataset/reazonspeech_wav_out/000/a041eaf224adf.wav,reazonspeech,会場周辺は大混雑。,0.1111111111111111,5.379458333333333,3.75567626953125
+1193,audio/01193.wav,./dataset/reazonspeech_wav_out/000/a493af1893dfe.wav,reazonspeech,ああまあ安いか２人で割ったら。,0.1333333333333333,4.119458333333333,3.549804925918579
+1194,audio/01194.wav,./dataset/reazonspeech_wav_out/000/a4b8ccdafcc63.wav,reazonspeech,このままじゃ状況が悪くなる一方です。,0.0555555555555555,5.379458333333333,3.4058079719543457
+1196,audio/01196.wav,./dataset/reazonspeech_wav_out/000/a57a9d041ed8e.wav,reazonspeech,ぜひ、そういう中小企業もいっぱい出てきてますので未来志向で取り組んでいただければと思います。,0.1521739130434782,7.459458333333333,3.634639263153076
+1200,audio/01200.wav,./dataset/reazonspeech_wav_out/000/acd36b58e5ce8.wav,reazonspeech,だから慎重に注意,0.25,3.1794583333333333,3.026631593704224
+1206,audio/01206.wav,./dataset/reazonspeech_wav_out/000/b79401a60d3f0.wav,reazonspeech,ここで下味をつけておくのもポイントです。,0.05,6.579458333333333,3.711991786956787
+1207,audio/01207.wav,./dataset/reazonspeech_wav_out/000/b7c7333cd3e80.wav,reazonspeech,やはり来ていたのだないいとも。,0.0666666666666666,5.719458333333334,4.11842155456543
+1208,audio/01208.wav,./dataset/reazonspeech_wav_out/000/b7e651aa3795c.wav,reazonspeech,これがその車。,0.0,4.799458333333333,3.4737823009490967
+1211,audio/01211.wav,./dataset/reazonspeech_wav_out/000/bd8d3ad84579e.wav,reazonspeech,作って食べるまではいいんだよね。,0.1875,3.479458333333333,3.262869358062744
+1212,audio/01212.wav,./dataset/reazonspeech_wav_out/000/bf989110113c3.wav,reazonspeech,ゲストの井上咲楽さんは「対象にならない」ということです。,0.2142857142857142,5.139458333333334,3.1675171852111816
+1214,audio/01214.wav,./dataset/reazonspeech_wav_out/000/c523975ba9699.wav,reazonspeech,ポテトが揚がり次第私が席にお持ちするから。,0.0952380952380952,5.359458333333333,3.1734793186187744
+1215,audio/01215.wav,./dataset/reazonspeech_wav_out/000/c6a7e2c74bc70.wav,reazonspeech,中村さんのすごさっていうのがこちらなんですね。,0.0434782608695652,4.959458333333333,3.2892868518829346
+1218,audio/01218.wav,./dataset/reazonspeech_wav_out/000/c7877c34cc8ae.wav,reazonspeech,さあ、外の様子ご覧いただきます。,0.1875,4.759458333333333,3.3313088417053223
+1226,audio/01226.wav,./dataset/reazonspeech_wav_out/000/cc420447c7a69.wav,reazonspeech,明らかに敵の戦い方が昨日までとは異なる。,0.05,5.619458333333333,3.093523025512696
+1227,audio/01227.wav,./dataset/reazonspeech_wav_out/000/ccd59964a57d6.wav,reazonspeech,なんでしなかったんですかね？,0.0714285714285714,3.079458333333333,3.34846568107605
+1228,audio/01228.wav,./dataset/reazonspeech_wav_out/000/ce6782f959ef5.wav,reazonspeech,本来、２ヒット目ではスイッチの９００も持っている選手ですが。,0.2,5.759458333333333,3.0290982723236084
+1233,audio/01233.wav,./dataset/reazonspeech_wav_out/000/d1b2064f23a3e.wav,reazonspeech,具体的に学んでいきましょう。,0.2142857142857142,5.059458333333334,3.336817979812622
+1234,audio/01234.wav,./dataset/reazonspeech_wav_out/000/d29807110802e.wav,reazonspeech,また、右折した乗用車が自転車に衝突しました。,0.0909090909090909,5.9394583333333335,3.844820499420166
+1238,audio/01238.wav,./dataset/reazonspeech_wav_out/000/d4e795c915c0b.wav,reazonspeech,射程は１５００ｋｍ、ピンポイントでの攻撃が可能だ。,0.24,7.379458333333333,3.618142604827881
+1240,audio/01240.wav,./dataset/reazonspeech_wav_out/000/d863db02b025a.wav,reazonspeech,姿勢を整えましょう。,0.0,5.319458333333333,3.05532169342041
+1241,audio/01241.wav,./dataset/reazonspeech_wav_out/000/d8d03d71bcbf7.wav,reazonspeech,そんな力強いサラダが好きだ。,0.0714285714285714,7.159458333333333,3.5024285316467285
+1242,audio/01242.wav,./dataset/reazonspeech_wav_out/000/dba69598dc6dd.wav,reazonspeech,でこれって繋がるとそういう弊害が。,0.2941176470588235,3.679458333333333,3.0223581790924072
+1244,audio/01244.wav,./dataset/reazonspeech_wav_out/000/e008d3700ea5d.wav,reazonspeech,閉店のときも食べたので。,0.25,4.299458333333333,3.121854305267334
+1247,audio/01247.wav,./dataset/reazonspeech_wav_out/000/e14dcbdcd2873.wav,reazonspeech,石器時代かよって？,0.2222222222222222,4.299458333333333,3.530313014984131
+1248,audio/01248.wav,./dataset/reazonspeech_wav_out/000/e300571342a81.wav,reazonspeech,一本ずつ指を折る。,0.1111111111111111,5.719458333333334,3.065136909484864
+1250,audio/01250.wav,./dataset/reazonspeech_wav_out/000/e509c712b5e9d.wav,reazonspeech,ずっといくつになっても恋をしてたいですね、奥さんに。,0.0769230769230769,8.959458333333334,4.132889747619629
+1251,audio/01251.wav,./dataset/reazonspeech_wav_out/000/e52344d804d90.wav,reazonspeech,一世紀を超えて、なおも続くこの選手権です。,0.1904761904761904,6.319458333333333,3.3772966861724854
+1252,audio/01252.wav,./dataset/reazonspeech_wav_out/000/e6be73f20e1e3.wav,reazonspeech,住人の女性は就寝中でしたが、逃げだし、けがはないということです。,0.1875,7.439458333333333,3.3907735347747803
+1254,audio/01254.wav,./dataset/reazonspeech_wav_out/000/e987a122eb3cf.wav,reazonspeech,ポンプ車など合わせて２５台が出動。,0.2352941176470588,5.039458333333333,3.810470104217529
+1256,audio/01256.wav,./dataset/reazonspeech_wav_out/000/eb0f575ac5c6f.wav,reazonspeech,放送法第７０条,0.2857142857142857,3.759458333333333,3.3970775604248047
+1258,audio/01258.wav,./dataset/reazonspeech_wav_out/000/eb9e5b1ee18aa.wav,reazonspeech,でもまだ救出に時間がかかりそうでショックがかなり進行しています。,0.0625,8.819458333333333,3.050708055496216
+1259,audio/01259.wav,./dataset/reazonspeech_wav_out/000/eef1a2a4f9d09.wav,reazonspeech,よさげですね。,0.2857142857142857,7.519458333333334,3.153748035430908
+1261,audio/01261.wav,./dataset/reazonspeech_wav_out/000/f2715af1e8a39.wav,reazonspeech,ただですね、トルコがフィンランドとスウェーデンの加盟に否定的な姿勢を示しています。,0.048780487804878,6.299458333333333,3.6146767139434814
+1266,audio/01266.wav,./dataset/reazonspeech_wav_out/000/f8e79c2604247.wav,reazonspeech,卑怯者ここに極まれりですね。,0.0714285714285714,6.099458333333334,3.199333667755127
+1267,audio/01267.wav,./dataset/reazonspeech_wav_out/000/f970a9357d06f.wav,reazonspeech,映画は嘘だってみんな知ってます。,0.0625,4.9394583333333335,3.158854961395264
+1268,audio/01268.wav,./dataset/reazonspeech_wav_out/000/fa4261121193d.wav,reazonspeech,対向配置ですか。,0.25,3.999458333333333,3.127188205718994
+1272,audio/01272.wav,./dataset/reazonspeech_wav_out/001/00c4607cf4dd5.wav,reazonspeech,そなたの目と同じじゃ。,0.0909090909090909,3.519458333333333,3.54992413520813
+1274,audio/01274.wav,./dataset/reazonspeech_wav_out/001/025b909e31dd0.wav,reazonspeech,次はこちらです。,0.0,5.019458333333334,3.081171989440918
+1280,audio/01280.wav,./dataset/reazonspeech_wav_out/001/0803606d772a1.wav,reazonspeech,ここにある空き家は３棟。,0.1666666666666666,5.219458333333334,3.3129806518554688
+1283,audio/01283.wav,./dataset/reazonspeech_wav_out/001/0a5d78446323e.wav,reazonspeech,振り返りながら、ふと思うのは今おっしゃった、安心と安全。,0.1428571428571428,6.079458333333333,3.2448842525482178
+1286,audio/01286.wav,./dataset/reazonspeech_wav_out/001/1152045c0067a.wav,reazonspeech,大谷劇場、開幕！,0.25,7.099458333333334,3.275848388671875
+1289,audio/01289.wav,./dataset/reazonspeech_wav_out/001/16652c69bc3d6.wav,reazonspeech,佐藤さん、現地の様子はどうなっていますか？,0.1428571428571428,5.739458333333333,3.683570146560669
+1291,audio/01291.wav,./dataset/reazonspeech_wav_out/001/18c4e147676e4.wav,reazonspeech,では、ニュースからお伝えしていきます。,0.1578947368421052,4.679458333333334,3.458758592605591
+1292,audio/01292.wav,./dataset/reazonspeech_wav_out/001/18c9162407ae1.wav,reazonspeech,まあまあいいですよ。,0.1,3.2594583333333333,3.3029534816741943
+1294,audio/01294.wav,./dataset/reazonspeech_wav_out/001/1c21a1cf96240.wav,reazonspeech,布が裁てました。,0.125,4.639458333333334,3.893898487091065
+1299,audio/01299.wav,./dataset/reazonspeech_wav_out/001/1d353b905eeb1.wav,reazonspeech,４月からはゆっくりできるので、朝の方は。,0.15,4.499458333333333,3.474537372589112
+1300,audio/01300.wav,./dataset/reazonspeech_wav_out/001/1e704e533b554.wav,reazonspeech,これで音が鳴らない方というのはこの吸入器を使うのには不向きな方ということになります。,0.0238095238095238,7.099458333333334,3.000972270965576
+1301,audio/01301.wav,./dataset/reazonspeech_wav_out/001/2135726e424ea.wav,reazonspeech,定期的にお掃除しているのになかなかきれいにならないお悩み,0.0,6.4794583333333335,3.8526535034179688
+1303,audio/01303.wav,./dataset/reazonspeech_wav_out/001/22312c67faee0.wav,reazonspeech,こういうちょっと切りにくい材料ですね,0.0555555555555555,4.3994583333333335,3.672064781188965
+1305,audio/01305.wav,./dataset/reazonspeech_wav_out/001/25f001d9f888e.wav,reazonspeech,〈まずは千葉県の新浦安〉,0.1666666666666666,5.139458333333334,3.173731803894043
+1309,audio/01309.wav,./dataset/reazonspeech_wav_out/001/28cc5ba877e0a.wav,reazonspeech,頑張ってほしいですね。,0.2727272727272727,3.2794583333333334,3.170771598815918
+1312,audio/01312.wav,./dataset/reazonspeech_wav_out/001/2a8f4dfd8a3d1.wav,reazonspeech,ポットの中にあるね見てください。,0.1875,4.3994583333333335,3.606980085372925
+1313,audio/01313.wav,./dataset/reazonspeech_wav_out/001/2bf4b8c661ddd.wav,reazonspeech,確かに。,0.25,3.079458333333333,3.785250425338745
+1314,audio/01314.wav,./dataset/reazonspeech_wav_out/001/2c0e830766e14.wav,reazonspeech,井上は、これでダグアウトに戻るということになりました。,0.2222222222222222,7.199458333333333,3.1115026473999023
+1316,audio/01316.wav,./dataset/reazonspeech_wav_out/001/2e4e3c7e2e0b4.wav,reazonspeech,私がお伝えしたいのは東日本大震災の遺構です。,0.0454545454545454,5.239458333333333,3.376047134399414
+1317,audio/01317.wav,./dataset/reazonspeech_wav_out/001/2eaed75f173f3.wav,reazonspeech,石川選手はドライバーを持っています。,0.0,4.259458333333333,3.5290207862854004
+1323,audio/01323.wav,./dataset/reazonspeech_wav_out/001/34c3b14825966.wav,reazonspeech,ちょっとじゃあ、お米にこれを絡ませて。,0.1052631578947368,6.599458333333334,3.077876567840576
+1326,audio/01326.wav,./dataset/reazonspeech_wav_out/001/372d4ecd2686e.wav,reazonspeech,安定して晴れるのは北海道ぐらいですね。,0.0526315789473684,4.419458333333333,3.047255754470825
+1329,audio/01329.wav,./dataset/reazonspeech_wav_out/001/381ab2623f660.wav,reazonspeech,この近くに３８階建てのタワーマンション,0.2631578947368421,6.039458333333333,3.712984561920166
+1330,audio/01330.wav,./dataset/reazonspeech_wav_out/001/3af1cdd45a450.wav,reazonspeech,この前も少し話したけどウチ,0.0769230769230769,4.859458333333333,4.021629333496094
+1331,audio/01331.wav,./dataset/reazonspeech_wav_out/001/3bb06cc6dd55b.wav,reazonspeech,ちょっとボールが先行するピッチングになりました。,0.0416666666666666,4.4794583333333335,3.533731460571289
+1334,audio/01334.wav,./dataset/reazonspeech_wav_out/001/3f81295006170.wav,reazonspeech,少し軽く手でなじませていきますね。,0.0,7.359458333333333,3.039705276489258
+1335,audio/01335.wav,./dataset/reazonspeech_wav_out/001/3fe6684eaed1b.wav,reazonspeech,そのあとも打線がつながって一気に得点を伸ばしました。,0.1153846153846153,5.259458333333333,3.5268044471740723
+1337,audio/01337.wav,./dataset/reazonspeech_wav_out/001/46a46528438d5.wav,reazonspeech,動機を探そうって言いだしたのあんたでしょ。,0.0952380952380952,5.119458333333333,3.7878942489624015
+1339,audio/01339.wav,./dataset/reazonspeech_wav_out/001/479adbb204f91.wav,reazonspeech,あいいじゃないですか。,0.1818181818181818,3.3194583333333334,3.429772138595581
+1341,audio/01341.wav,./dataset/reazonspeech_wav_out/001/4a695a42ca174.wav,reazonspeech,ありがとうございます。,0.1818181818181818,4.239458333333333,3.203708410263061
+1343,audio/01343.wav,./dataset/reazonspeech_wav_out/001/4c567344b58e6.wav,reazonspeech,私自身が動物が好きでたくさん動物を飼ってるんですけど。,0.1481481481481481,7.059458333333334,3.4921674728393555
+1346,audio/01346.wav,./dataset/reazonspeech_wav_out/001/4f107709e3d06.wav,reazonspeech,領土であります。,0.125,3.119458333333333,3.5566084384918213
+1347,audio/01347.wav,./dataset/reazonspeech_wav_out/001/50348f9ab2549.wav,reazonspeech,じゃあ失礼します。,0.1111111111111111,3.619458333333333,3.5197594165802
+1350,audio/01350.wav,./dataset/reazonspeech_wav_out/001/540dd55b15639.wav,reazonspeech,それで私のおすすめのレシピを今日は用意しました。,0.0833333333333333,4.999458333333333,3.672905683517456
+1351,audio/01351.wav,./dataset/reazonspeech_wav_out/001/541b3a9005cbf.wav,reazonspeech,何かきっかけはあったんですか？,0.0666666666666666,3.419458333333333,4.029085159301758
+1352,audio/01352.wav,./dataset/reazonspeech_wav_out/001/55ca992887d68.wav,reazonspeech,東京オリンピック・パラリンピック、選手の活躍,0.0454545454545454,5.8994583333333335,3.681734561920166
+1353,audio/01353.wav,./dataset/reazonspeech_wav_out/001/58b9adb0452cc.wav,reazonspeech,警察が詳しい状況を調べています。,0.0625,6.179458333333334,4.001754760742188
+1354,audio/01354.wav,./dataset/reazonspeech_wav_out/001/59ba2475e299d.wav,reazonspeech,こんにちは。,0.0,5.519458333333334,3.0740318298339844
+1357,audio/01357.wav,./dataset/reazonspeech_wav_out/001/5b30e72b26326.wav,reazonspeech,その言葉ありがたかったですね。,0.1333333333333333,4.219458333333334,3.248774766921997
+1358,audio/01358.wav,./dataset/reazonspeech_wav_out/001/5d73574385cc2.wav,reazonspeech,野口にとってこれが普通なんですか？,0.1176470588235294,3.599458333333333,3.676088333129883
+1364,audio/01364.wav,./dataset/reazonspeech_wav_out/001/665c8a7e1cde9.wav,reazonspeech,続く第６ゲーム。,0.25,5.9794583333333335,3.097985029220581
+1365,audio/01365.wav,./dataset/reazonspeech_wav_out/001/67b604afb247b.wav,reazonspeech,じゃあ私からも志織ちゃんに一言言わせて。,0.3,4.099458333333334,3.11803674697876
+1367,audio/01367.wav,./dataset/reazonspeech_wav_out/001/6b8079af92a52.wav,reazonspeech,違いますか？,0.1666666666666666,3.699458333333333,3.166422128677368
+1368,audio/01368.wav,./dataset/reazonspeech_wav_out/001/6c0c0a1d6e5fe.wav,reazonspeech,そんな彼女の生活に密着してみると。,0.0588235294117647,6.239458333333333,3.533532857894897
+1369,audio/01369.wav,./dataset/reazonspeech_wav_out/001/7028da22f4acf.wav,reazonspeech,スーツも「やっと休める」って言ってる気がします。,0.1666666666666666,5.9394583333333335,3.3685226440429688
+1370,audio/01370.wav,./dataset/reazonspeech_wav_out/001/70c338974158c.wav,reazonspeech,９月２日の金曜日です。,0.2727272727272727,4.419458333333333,3.024012327194214
+1374,audio/01374.wav,./dataset/reazonspeech_wav_out/001/761fda95a3e8a.wav,reazonspeech,うまく使えば説得力のある論法になるわ。,0.0526315789473684,4.779458333333333,3.525131940841675
+1375,audio/01375.wav,./dataset/reazonspeech_wav_out/001/76d864182d4ba.wav,reazonspeech,集中してやればいいということですね。,0.2222222222222222,4.199458333333333,3.146033525466919
+1376,audio/01376.wav,./dataset/reazonspeech_wav_out/001/77356d7710300.wav,reazonspeech,さあ、それでは続きましてはスポーツ、大リーグです。,0.16,5.259458333333333,3.253324508666992
+1378,audio/01378.wav,./dataset/reazonspeech_wav_out/001/786f866ef5baa.wav,reazonspeech,私のせいでいつも遅刻してるって言いたいの？,0.1428571428571428,4.599458333333334,3.315713167190552
+1382,audio/01382.wav,./dataset/reazonspeech_wav_out/001/7d92833c3b1ae.wav,reazonspeech,まずはトマトですね。,0.1,4.199458333333333,3.524888515472412
+1383,audio/01383.wav,./dataset/reazonspeech_wav_out/001/7de9cf0e85f71.wav,reazonspeech,若旦那様,0.25,3.779458333333333,3.333857536315918
+1385,audio/01385.wav,./dataset/reazonspeech_wav_out/001/7f1842b7da6ab.wav,reazonspeech,懐かしい台所。,0.1428571428571428,5.299458333333333,3.2425732612609863
+1387,audio/01387.wav,./dataset/reazonspeech_wav_out/001/7f3c7b7b0a7a0.wav,reazonspeech,きょう午後２時６分、アメリカ軍のオスプレイ２機が、奄美空港に着陸しました。,0.2972972972972973,6.879458333333333,3.308952808380127
+1389,audio/01389.wav,./dataset/reazonspeech_wav_out/001/8082d42b3b4f5.wav,reazonspeech,「ストレートアイロンナノケア」。,0.25,4.059458333333334,3.666294574737549
+1390,audio/01390.wav,./dataset/reazonspeech_wav_out/001/81c596c834383.wav,reazonspeech,いやいや楽勝ですよ。,0.2,3.379458333333333,3.8113417625427246
+1393,audio/01393.wav,./dataset/reazonspeech_wav_out/001/83be836844f50.wav,reazonspeech,己の運命を呪っておりました。,0.0714285714285714,3.459458333333333,3.1445062160491943
+1394,audio/01394.wav,./dataset/reazonspeech_wav_out/001/83d04c87ffbc1.wav,reazonspeech,全然レモンの感じはしないんですけども。,0.0526315789473684,4.339458333333333,3.0015814304351807
+1395,audio/01395.wav,./dataset/reazonspeech_wav_out/001/85ea62fe8aef5.wav,reazonspeech,今すぐ安全な場所に避難してください。,0.0555555555555555,4.359458333333333,3.2607054710388184
+1397,audio/01397.wav,./dataset/reazonspeech_wav_out/001/87dd2dabd6d59.wav,reazonspeech,るつぼをマッフルの中に入れる。,0.1333333333333333,5.779458333333333,3.5764000415802
+1399,audio/01399.wav,./dataset/reazonspeech_wav_out/001/8850262638053.wav,reazonspeech,すぐにお店に運ばれるんじゃないのかな？,0.0526315789473684,4.759458333333333,3.525184392929077
+1401,audio/01401.wav,./dataset/reazonspeech_wav_out/001/8e9e142878faf.wav,reazonspeech,プレゼンする内容は。,0.1,4.059458333333334,3.1646530628204346
+1404,audio/01404.wav,./dataset/reazonspeech_wav_out/001/922be3d55ed4f.wav,reazonspeech,私たちは居場所を探りたい。,0.1538461538461538,4.879458333333333,3.241400718688965
+1405,audio/01405.wav,./dataset/reazonspeech_wav_out/001/96369953856a6.wav,reazonspeech,ダージリンティーは紅茶のシャンパンと呼ばれています。,0.0384615384615384,9.119458333333334,3.42142915725708
+1406,audio/01406.wav,./dataset/reazonspeech_wav_out/001/9709b5363c770.wav,reazonspeech,もう１人向こうに見えているのが佐藤心,0.1666666666666666,4.599458333333334,3.2625572681427
+1407,audio/01407.wav,./dataset/reazonspeech_wav_out/001/983f6e2385ad1.wav,reazonspeech,［フォアグラに人形焼きですか］,0.1333333333333333,5.779458333333333,3.14991307258606
+1408,audio/01408.wav,./dataset/reazonspeech_wav_out/001/985e7ff794f87.wav,reazonspeech,今の話聞いてたでしょ？,0.0909090909090909,4.539458333333333,3.21692419052124
+1409,audio/01409.wav,./dataset/reazonspeech_wav_out/001/98d8ad631a087.wav,reazonspeech,男性陣はＣということですね。,0.2142857142857142,4.379458333333333,3.4319255352020264
+1416,audio/01416.wav,./dataset/reazonspeech_wav_out/001/9e742367c61da.wav,reazonspeech,店にはこんこんと湧き出る水。,0.0,5.4794583333333335,3.541673183441162
+1419,audio/01419.wav,./dataset/reazonspeech_wav_out/001/a1e792fe169ff.wav,reazonspeech,まずこのひき肉を入れたところで一回ちょっと炒めます。,0.1538461538461538,7.739458333333333,3.104015827178955
+1420,audio/01420.wav,./dataset/reazonspeech_wav_out/001/a224c8f69fef8.wav,reazonspeech,温めたついでに下準備もできてるってこと？,0.25,7.179458333333334,3.379991054534912
+1422,audio/01422.wav,./dataset/reazonspeech_wav_out/001/a294c89017f4a.wav,reazonspeech,お肉自体はさっぱりしてるから食べやすいですねすごい。,0.0384615384615384,4.839458333333333,3.3985724449157715
+1423,audio/01423.wav,./dataset/reazonspeech_wav_out/001/a3edaa1e1bd48.wav,reazonspeech,レース展開としては前の２人を見ながらというところだったと思いますが。,0.0588235294117647,9.059458333333334,3.2874112129211426
+1425,audio/01425.wav,./dataset/reazonspeech_wav_out/001/a5cc8fef338aa.wav,reazonspeech,現在、治療に入っています。,0.1538461538461538,5.699458333333333,3.9097659587860094
+1430,audio/01430.wav,./dataset/reazonspeech_wav_out/001/a854fa1cdbcfe.wav,reazonspeech,私が発症したらあなたも。,0.0833333333333333,3.559458333333333,3.3296239376068115
+1431,audio/01431.wav,./dataset/reazonspeech_wav_out/001/a8b6cfc51fa1e.wav,reazonspeech,そして、買ってきたホイル焼きをその中へ。,0.0,6.419458333333333,3.4361894130706787
+1433,audio/01433.wav,./dataset/reazonspeech_wav_out/001/a948dd851a7a6.wav,reazonspeech,エリさん「趣味」ってやってたよね。,0.1764705882352941,5.839458333333333,3.7555768489837646
+1435,audio/01435.wav,./dataset/reazonspeech_wav_out/001/aa46cbc614c9f.wav,reazonspeech,サーブするのは合同チーム。,0.2307692307692307,3.8994583333333335,3.4029765129089355
+1440,audio/01440.wav,./dataset/reazonspeech_wav_out/001/ada7719590b76.wav,reazonspeech,あの発達障害の可能性はあると思いますね。,0.2,4.499458333333333,3.594810724258423
+1441,audio/01441.wav,./dataset/reazonspeech_wav_out/001/ae38b718662a6.wav,reazonspeech,この雪がやむまでドクターヘリを飛ばすことができない。,0.2307692307692307,5.079458333333333,3.3283278942108154
+1442,audio/01442.wav,./dataset/reazonspeech_wav_out/001/af2fb47aca8be.wav,reazonspeech,あなたには黙秘権があります。,0.0714285714285714,4.239458333333333,3.697152137756348
+1443,audio/01443.wav,./dataset/reazonspeech_wav_out/001/b0ddabfd8f850.wav,reazonspeech,道路を塞ぎました。,0.1111111111111111,3.359458333333333,3.95888352394104
+1444,audio/01444.wav,./dataset/reazonspeech_wav_out/001/b61fd2846ff55.wav,reazonspeech,ありがとうございます。,0.0,3.099458333333333,3.6003289222717285
+1451,audio/01451.wav,./dataset/reazonspeech_wav_out/001/bb6b7d3cff653.wav,reazonspeech,二刀流旋風は海を渡ったメジャーリーグでも。,0.238095238095238,8.039458333333334,3.352142810821533
+1452,audio/01452.wav,./dataset/reazonspeech_wav_out/001/bc15b1d6425c0.wav,reazonspeech,呼びました？,0.1666666666666666,3.459458333333333,3.21527361869812
+1453,audio/01453.wav,./dataset/reazonspeech_wav_out/001/bcc31939318e4.wav,reazonspeech,《その夢叶います》,0.2222222222222222,3.2594583333333333,3.0473577976226807
+1455,audio/01455.wav,./dataset/reazonspeech_wav_out/001/c52ff668b1811.wav,reazonspeech,一気に離してますね。,0.2,3.759458333333333,3.2432198524475098
+1456,audio/01456.wav,./dataset/reazonspeech_wav_out/001/c5d317dfc5290.wav,reazonspeech,１３年半ぶりの高値です。,0.25,4.219458333333334,3.900118350982666
+1458,audio/01458.wav,./dataset/reazonspeech_wav_out/001/c72b67734393c.wav,reazonspeech,風も強まっています。,0.1,3.759458333333333,3.554534435272217
+1461,audio/01461.wav,./dataset/reazonspeech_wav_out/001/c8c8a990b722a.wav,reazonspeech,それはサントリー生命科学の結晶。,0.0625,4.859458333333333,3.6078929901123047
+1462,audio/01462.wav,./dataset/reazonspeech_wav_out/001/c8e1ff72c7a75.wav,reazonspeech,次が血流の低下ですね。,0.0909090909090909,3.699458333333333,3.684523105621338
+1468,audio/01468.wav,./dataset/reazonspeech_wav_out/001/cd5c291cab128.wav,reazonspeech,これ病院行ったほうがいいよ。,0.2857142857142857,4.959458333333333,3.1701292991638184
+1470,audio/01470.wav,./dataset/reazonspeech_wav_out/001/cf15eb6e4608f.wav,reazonspeech,俺こういう人間だから遠回りはしたくないんだ。,0.0454545454545454,9.239458333333332,3.163893222808838
+1472,audio/01472.wav,./dataset/reazonspeech_wav_out/001/cfdf0a1c10bfb.wav,reazonspeech,ポンって入れるだけなの？,0.1666666666666666,3.459458333333333,3.58321213722229
+1474,audio/01474.wav,./dataset/reazonspeech_wav_out/001/d7aa9db0fdbc8.wav,reazonspeech,都内にマイホーム建ててた。,0.0769230769230769,3.699458333333333,3.555513858795166
+1475,audio/01475.wav,./dataset/reazonspeech_wav_out/001/d964f65f9c156.wav,reazonspeech,きれいにしとかなあかんからな。,0.2,4.599458333333334,3.3570942878723145
+1477,audio/01477.wav,./dataset/reazonspeech_wav_out/001/d9931cf0d1326.wav,reazonspeech,記録読むと奔放ですよね。,0.25,7.359458333333333,3.3331634998321533
+1478,audio/01478.wav,./dataset/reazonspeech_wav_out/001/d99a900d07578.wav,reazonspeech,都心周辺など、一部、活発な雨雲も発生してきているようです。,0.1034482758620689,5.819458333333333,4.0360612869262695
+1480,audio/01480.wav,./dataset/reazonspeech_wav_out/001/dc7c18946d233.wav,reazonspeech,あそこで活躍してくれるというのは本当にうれしいことだと思いますけれども。,0.25,7.639458333333334,3.146273612976074
+1481,audio/01481.wav,./dataset/reazonspeech_wav_out/001/dd57cc25f7a93.wav,reazonspeech,《買い物を楽しくする》,0.1818181818181818,3.519458333333333,3.706642150878906
+1486,audio/01486.wav,./dataset/reazonspeech_wav_out/001/dfac0a9871754.wav,reazonspeech,これで飛車角銀桂がね全部連携して攻めてる感じなのでまあなかなか先手が面白い展開だったのかなと思いますね。,0.173076923076923,8.259458333333333,3.4753623008728027
+1487,audio/01487.wav,./dataset/reazonspeech_wav_out/001/e0c623406e182.wav,reazonspeech,東京都内に出してもらおうかお店。,0.0625,4.179458333333334,3.065570592880249
+1489,audio/01489.wav,./dataset/reazonspeech_wav_out/001/e558d71f2e2d0.wav,reazonspeech,電気が消えてまいります。,0.0833333333333333,5.039458333333333,3.6726582050323486
+1490,audio/01490.wav,./dataset/reazonspeech_wav_out/001/e55c5574395da.wav,reazonspeech,ということで中村雅英さんと息子の健一郎さんと中継がつながっています。,0.2352941176470588,8.819458333333333,3.050252676010132
+1492,audio/01492.wav,./dataset/reazonspeech_wav_out/001/e7d1ec2812fea.wav,reazonspeech,反対のかかとも同じように。,0.0769230769230769,4.099458333333334,3.671256065368652
+1496,audio/01496.wav,./dataset/reazonspeech_wav_out/001/f16b128a7eabb.wav,reazonspeech,３０代後半になると妊娠しにくくなるというふうに言われているわけです。,0.088235294117647,7.759458333333333,3.135885000228882
+1497,audio/01497.wav,./dataset/reazonspeech_wav_out/001/f2ca3ed3d42cf.wav,reazonspeech,これが犠牲フライとなりました。,0.1333333333333333,4.219458333333334,3.325441360473633
+1502,audio/01502.wav,./dataset/reazonspeech_wav_out/001/f958e7691121d.wav,reazonspeech,２打席連続ヒット。,0.2222222222222222,5.959458333333333,4.006647109985352
+1506,audio/01506.wav,./dataset/reazonspeech_wav_out/002/01854978daff1.wav,reazonspeech,清水区では、まだこうした生活用水の供給が始まっていない地区もあります。,0.0571428571428571,7.799458333333333,3.7563610076904297
+1508,audio/01508.wav,./dataset/reazonspeech_wav_out/002/040c0c1f9cda7.wav,reazonspeech,世界ランク１位のシェフラー。,0.2857142857142857,5.579458333333333,3.287999391555786
+1509,audio/01509.wav,./dataset/reazonspeech_wav_out/002/04a9425585c13.wav,reazonspeech,この地震による津波はありませんでした。,0.0526315789473684,4.239458333333333,3.492157459259033
+1511,audio/01511.wav,./dataset/reazonspeech_wav_out/002/058cdc6fa0aa0.wav,reazonspeech,見た人からは、ＳＮＳの投稿はどんな反応がありましたか？,0.1851851851851851,5.619458333333333,3.3830342292785645
+1516,audio/01516.wav,./dataset/reazonspeech_wav_out/002/0dd8752156ff1.wav,reazonspeech,いつもリハーサルライブに入る前に僕１日だけもらうんですね。,0.1379310344827586,7.259458333333333,3.026167631149292
+1517,audio/01517.wav,./dataset/reazonspeech_wav_out/002/0dec94d180a9b.wav,reazonspeech,素材の風味や色を生かした和の料理をつくると春を感じます。,0.1071428571428571,6.819458333333333,3.297472715377808
+1519,audio/01519.wav,./dataset/reazonspeech_wav_out/002/0e9cce42f4d21.wav,reazonspeech,でも知ろうとするっていうこと。,0.0666666666666666,3.819458333333333,3.4707188606262207
+1522,audio/01522.wav,./dataset/reazonspeech_wav_out/002/11e58ea5f3119.wav,reazonspeech,よく見てください。,0.1111111111111111,3.139458333333333,3.2199339866638184
+1524,audio/01524.wav,./dataset/reazonspeech_wav_out/002/12bbb5ba14cb5.wav,reazonspeech,ちょっと待ってくださいね。,0.2307692307692307,4.359458333333333,3.308268070220948
+1526,audio/01526.wav,./dataset/reazonspeech_wav_out/002/1461e703ed559.wav,reazonspeech,まずは男女のペアで演技をするミックスデュエット。,0.0416666666666666,4.9794583333333335,3.0231168270111084
+1528,audio/01528.wav,./dataset/reazonspeech_wav_out/002/1613333d97654.wav,reazonspeech,では、もう１つ、ニュースです。,0.2,5.039458333333333,3.376640796661377
+1532,audio/01532.wav,./dataset/reazonspeech_wav_out/002/19cc95503b683.wav,reazonspeech,強盗事件がありました,0.0,3.119458333333333,3.7695565223693848
+1535,audio/01535.wav,./dataset/reazonspeech_wav_out/002/1ca11d7813ff6.wav,reazonspeech,指先まで冷えてくるね。,0.0909090909090909,3.559458333333333,3.1745352745056152
+1537,audio/01537.wav,./dataset/reazonspeech_wav_out/002/1fe2062eb64fb.wav,reazonspeech,最後は上がり連続バーディーとなりました。,0.05,5.9794583333333335,3.302677869796753
+1539,audio/01539.wav,./dataset/reazonspeech_wav_out/002/2187a03136fe9.wav,reazonspeech,八王子市に大雪警報が出ました。,0.0666666666666666,6.019458333333334,3.3240537643432617
+1540,audio/01540.wav,./dataset/reazonspeech_wav_out/002/221a9cd43e7fe.wav,reazonspeech,「軽食喫茶ミモザ」。,0.3,4.139458333333334,3.288154125213623
+1542,audio/01542.wav,./dataset/reazonspeech_wav_out/002/22f34792bf05e.wav,reazonspeech,土地が合ってるんですね。,0.0833333333333333,3.499458333333333,3.5643296241760254
+1545,audio/01545.wav,./dataset/reazonspeech_wav_out/002/27b69f29dc64d.wav,reazonspeech,その辺も非常に難しいところで。,0.2666666666666666,4.4394583333333335,3.107611179351806
+1547,audio/01547.wav,./dataset/reazonspeech_wav_out/002/290f5ab546e40.wav,reazonspeech,食わしてくれるんじゃないんすか？,0.125,3.119458333333333,3.1468758583068848
+1548,audio/01548.wav,./dataset/reazonspeech_wav_out/002/2a5d3f85fe1ba.wav,reazonspeech,あー、ちょっとじゃあ手広げてもらっていいですか。,0.2083333333333333,5.579458333333333,3.1410717964172363
+1549,audio/01549.wav,./dataset/reazonspeech_wav_out/002/2ada8de057d62.wav,reazonspeech,アウンサン・スー・チー氏の父親である。,0.1052631578947368,7.419458333333333,3.1841609477996826
+1550,audio/01550.wav,./dataset/reazonspeech_wav_out/002/2b7b0b3d9dd40.wav,reazonspeech,女人高野として非常に皆さんに親しまれております。,0.0833333333333333,6.059458333333334,3.276378631591797
+1555,audio/01555.wav,./dataset/reazonspeech_wav_out/002/315692604f90f.wav,reazonspeech,好きなことには夢中になるんだとか。,0.0588235294117647,5.739458333333333,3.994777202606201
+1557,audio/01557.wav,./dataset/reazonspeech_wav_out/002/333d955560b29.wav,reazonspeech,あっ食べたい？,0.2857142857142857,3.2994583333333334,3.4301440715789795
+1559,audio/01559.wav,./dataset/reazonspeech_wav_out/002/3592291fb682e.wav,reazonspeech,目には見えない地盤。,0.1,6.759458333333333,3.0562992095947266
+1561,audio/01561.wav,./dataset/reazonspeech_wav_out/002/392da300ae900.wav,reazonspeech,初対面の時ね,0.1666666666666666,3.1794583333333333,3.666481494903565
+1562,audio/01562.wav,./dataset/reazonspeech_wav_out/002/3a07f6eb61821.wav,reazonspeech,そういった意味では自分のやりたい仕事を今日しっかりできていますよね。,0.1764705882352941,7.059458333333334,3.299747467041016
+1567,audio/01567.wav,./dataset/reazonspeech_wav_out/002/3c8c974fd619e.wav,reazonspeech,こうやって終わるんですけどこの。,0.1875,7.099458333333334,3.338979005813598
+1569,audio/01569.wav,./dataset/reazonspeech_wav_out/002/3ef88111f6fb0.wav,reazonspeech,ごめんなさい。,0.1428571428571428,6.159458333333333,3.03183650970459
+1570,audio/01570.wav,./dataset/reazonspeech_wav_out/002/3f04eb74456bf.wav,reazonspeech,警察に通報があり、無事保護されました。,0.1052631578947368,8.679458333333333,3.335937738418579
+1572,audio/01572.wav,./dataset/reazonspeech_wav_out/002/40a02a111cbe8.wav,reazonspeech,動画サイトに映像がアップされてます。,0.0555555555555555,7.099458333333334,3.451977729797364
+1575,audio/01575.wav,./dataset/reazonspeech_wav_out/002/4224058919fad.wav,reazonspeech,実はこの浜,0.0,5.959458333333333,3.4703941345214844
+1579,audio/01579.wav,./dataset/reazonspeech_wav_out/002/4996915491b89.wav,reazonspeech,現在１億円を突破。,0.2222222222222222,5.959458333333333,3.762958526611328
+1581,audio/01581.wav,./dataset/reazonspeech_wav_out/002/4bae15f43c089.wav,reazonspeech,これなら渋滞してる高速のほうがキレイだね。,0.2857142857142857,5.4794583333333335,3.103614568710327
+1582,audio/01582.wav,./dataset/reazonspeech_wav_out/002/4c0dc2687325c.wav,reazonspeech,今回はＡ４サイズが入る大きさで底で二つ折りにして作ります。,0.2068965517241379,7.979458333333333,3.946900367736816
+1583,audio/01583.wav,./dataset/reazonspeech_wav_out/002/4c1c7e7f92ab1.wav,reazonspeech,女の子と付き合ったらどんな感じなんですか。,0.238095238095238,3.999458333333333,3.3206655979156494
+1584,audio/01584.wav,./dataset/reazonspeech_wav_out/002/4cef6e0c6f82b.wav,reazonspeech,季節の変わり目だからね。,0.0833333333333333,3.379458333333333,3.7554917335510254
+1590,audio/01590.wav,./dataset/reazonspeech_wav_out/002/571b3ede4c7b5.wav,reazonspeech,ロシアによるウクライナへの軍事侵攻。,0.0555555555555555,7.979458333333333,4.057827949523926
+1591,audio/01591.wav,./dataset/reazonspeech_wav_out/002/590298be5b9c0.wav,reazonspeech,なかなか覚えられないことに悩みを抱えています。,0.0434782608695652,6.9794583333333335,3.4161996841430664
+1596,audio/01596.wav,./dataset/reazonspeech_wav_out/002/5e33162c802f1.wav,reazonspeech,また育てたくなっちゃいます。,0.0714285714285714,3.699458333333333,3.394016027450561
+1598,audio/01598.wav,./dataset/reazonspeech_wav_out/002/62315d68bad42.wav,reazonspeech,私にどうしろっていうのよ。,0.1538461538461538,3.9794583333333335,3.422565221786499
+1600,audio/01600.wav,./dataset/reazonspeech_wav_out/002/6685b61710cac.wav,reazonspeech,食事券をカウンターに持っていくと。,0.1176470588235294,6.9794583333333335,3.1207845211029053
+1601,audio/01601.wav,./dataset/reazonspeech_wav_out/002/66f81f106d327.wav,reazonspeech,衝撃なんですよ。,0.125,3.3194583333333334,3.2306628227233887
+1603,audio/01603.wav,./dataset/reazonspeech_wav_out/002/683ac2fc2de4c.wav,reazonspeech,午後は各地で猛烈な雨を降らせるゲリラ雷雨が発生しています。,0.0344827586206896,6.839458333333333,3.2176198959350586
+1605,audio/01605.wav,./dataset/reazonspeech_wav_out/002/6dce4b17184ea.wav,reazonspeech,テレビ朝日の玉川と申します。,0.1428571428571428,3.9794583333333335,3.2902638912200928
+1606,audio/01606.wav,./dataset/reazonspeech_wav_out/002/71ec5513fa1cc.wav,reazonspeech,あんたら公務員が。,0.1111111111111111,5.259458333333333,3.3415093421936035
+1610,audio/01610.wav,./dataset/reazonspeech_wav_out/002/7714be1bd03be.wav,reazonspeech,８番のサード、鈴木大和。,0.25,5.559458333333334,3.467806816101074
+1611,audio/01611.wav,./dataset/reazonspeech_wav_out/002/7819fa1534e2e.wav,reazonspeech,ついに恋の三角関係が動き出す！,0.2666666666666666,5.739458333333333,3.263654947280884
+1612,audio/01612.wav,./dataset/reazonspeech_wav_out/002/786b8f7f15fbe.wav,reazonspeech,優勝しか眼中にないですね,0.0,3.839458333333333,4.026750087738037
+1613,audio/01613.wav,./dataset/reazonspeech_wav_out/002/78b9159c2f7a7.wav,reazonspeech,視聴者の皆様も選ぶとしたらどの句がいいかぜひ一緒にお考え下さい。,0.09375,5.199458333333333,3.4761669635772705
+1614,audio/01614.wav,./dataset/reazonspeech_wav_out/002/7960aa6477ad1.wav,reazonspeech,でもそれだけではないのです。,0.0,3.579458333333333,3.757450580596924
+1615,audio/01615.wav,./dataset/reazonspeech_wav_out/002/7a070a2241d92.wav,reazonspeech,初めて聞きました何だろう？,0.1538461538461538,3.9594583333333335,3.60719633102417
+1616,audio/01616.wav,./dataset/reazonspeech_wav_out/002/7aa20a9561f09.wav,reazonspeech,そして、なんといってもキャプテン、石川選手。,0.1363636363636363,3.839458333333333,3.0759427547454834
+1618,audio/01618.wav,./dataset/reazonspeech_wav_out/002/7bc5d86267646.wav,reazonspeech,わしはだから酒も飲むしねいろんなことをやると言った。,0.0384615384615384,6.519458333333334,3.10412859916687
+1621,audio/01621.wav,./dataset/reazonspeech_wav_out/002/80e8b6ececc2f.wav,reazonspeech,仁科さんとはもう連絡取らないでほしいんだ。,0.1428571428571428,7.739458333333333,3.675822973251343
+1623,audio/01623.wav,./dataset/reazonspeech_wav_out/002/83ab8cef04e96.wav,reazonspeech,これから八巻を救い出しに行く！,0.2666666666666666,4.819458333333333,3.414332151412964
+1627,audio/01627.wav,./dataset/reazonspeech_wav_out/002/894d4b5e73c08.wav,reazonspeech,今月は「ライブ」をテーマに作品を募集しました。,0.217391304347826,5.879458333333333,3.397690773010254
+1629,audio/01629.wav,./dataset/reazonspeech_wav_out/002/8a4d42954cc41.wav,reazonspeech,こうした事態を受け,0.0,3.2194583333333333,3.6010935306549072
+1631,audio/01631.wav,./dataset/reazonspeech_wav_out/002/8da87a2555dc7.wav,reazonspeech,いやしょっちゅうありました。,0.0714285714285714,3.2394583333333333,4.136121273040772
+1636,audio/01636.wav,./dataset/reazonspeech_wav_out/002/92d1e5a4c5453.wav,reazonspeech,これが細胞から作られた特殊な肉だというのはまったく感じません。,0.1612903225806451,7.399458333333333,3.582311153411865
+1640,audio/01640.wav,./dataset/reazonspeech_wav_out/002/99f34ac7974e4.wav,reazonspeech,栄養いっぱいの料理で寒い冬も乗りきれますね。,0.0909090909090909,7.959458333333333,3.2098639011383057
+1641,audio/01641.wav,./dataset/reazonspeech_wav_out/002/9b27eff570134.wav,reazonspeech,そうですね近年は特に結構そういう価値観が少し変わってきたなっていう。,0.2058823529411764,7.859458333333333,3.618269681930542
+1642,audio/01642.wav,./dataset/reazonspeech_wav_out/002/9cb02c1544488.wav,reazonspeech,でさっきの角の打ち込みのスキですね。,0.2777777777777778,4.559458333333334,3.04431700706482
+1643,audio/01643.wav,./dataset/reazonspeech_wav_out/002/9d32673239b06.wav,reazonspeech,歓喜するリーダー！,0.1111111111111111,4.999458333333333,3.727468490600586
+1644,audio/01644.wav,./dataset/reazonspeech_wav_out/002/9e685443ce6d2.wav,reazonspeech,応援席からもご家族が見つめています、大迫塁。,0.1818181818181818,5.859458333333333,3.2840371131896973
+1649,audio/01649.wav,./dataset/reazonspeech_wav_out/002/ab897c4685087.wav,reazonspeech,そのゲームゲノムをひもといていこう。,0.2222222222222222,6.279458333333333,3.2476820945739746
+1650,audio/01650.wav,./dataset/reazonspeech_wav_out/002/abbe9a7510ef7.wav,reazonspeech,対処の違いはなんなのか。,0.25,4.719458333333334,3.24648380279541
+1652,audio/01652.wav,./dataset/reazonspeech_wav_out/002/ae161925d7cab.wav,reazonspeech,私にはまだやることがある。,0.0769230769230769,3.499458333333333,3.4083850383758545
+1653,audio/01653.wav,./dataset/reazonspeech_wav_out/002/af78f31a70930.wav,reazonspeech,タモさん,0.0,3.2394583333333333,3.305431365966797
+1656,audio/01656.wav,./dataset/reazonspeech_wav_out/002/b22bfadcb8aff.wav,reazonspeech,また、中国に関してはロシアはＧ２０の重要なメンバーだと。,0.1785714285714285,6.679458333333334,3.2948267459869385
+1663,audio/01663.wav,./dataset/reazonspeech_wav_out/002/bca97c4bd0536.wav,reazonspeech,新技術で色変化を防止です。,0.0769230769230769,4.279458333333333,3.581550359725952
+1665,audio/01665.wav,./dataset/reazonspeech_wav_out/002/bdeddf3a83607.wav,reazonspeech,［それが現世とあの世の境目］,0.2142857142857142,5.4394583333333335,3.5599570274353027
+1667,audio/01667.wav,./dataset/reazonspeech_wav_out/002/c07e61553c466.wav,reazonspeech,「もう一度お願いします」。,0.1538461538461538,5.679458333333334,3.7738423347473145
+1668,audio/01668.wav,./dataset/reazonspeech_wav_out/002/c10c231d3d157.wav,reazonspeech,何をそんなに怒っているのでしょう。,0.0588235294117647,4.159458333333333,3.846358776092529
+1669,audio/01669.wav,./dataset/reazonspeech_wav_out/002/c1e093b918b06.wav,reazonspeech,過渡期だったと思います,0.0909090909090909,3.499458333333333,3.019109010696411
+1671,audio/01671.wav,./dataset/reazonspeech_wav_out/002/c583e3e2188d6.wav,reazonspeech,大阪も今日は雨の予報です。,0.0769230769230769,4.079458333333333,3.365781307220459
+1673,audio/01673.wav,./dataset/reazonspeech_wav_out/002/c6c886ac863fd.wav,reazonspeech,有名絵師になりたいっていうのは、どれくらいの有名ですか？,0.1071428571428571,5.999458333333333,3.3855514526367188
+1674,audio/01674.wav,./dataset/reazonspeech_wav_out/002/c78b09752a1ee.wav,reazonspeech,上手です。,0.2,3.2194583333333333,3.139173746109009
+1679,audio/01679.wav,./dataset/reazonspeech_wav_out/002/ca24be6d697fc.wav,reazonspeech,それが里山だと思うんです。,0.0769230769230769,5.779458333333333,3.557229995727539
+1680,audio/01680.wav,./dataset/reazonspeech_wav_out/002/ce6d6e1cbc459.wav,reazonspeech,今日も皆さんからのご意見ご感想をお待ちしております。,0.1153846153846153,5.219458333333334,3.1825766563415527
+1685,audio/01685.wav,./dataset/reazonspeech_wav_out/002/cfeab810b45bf.wav,reazonspeech,以上、中継でした。,0.0,4.259458333333333,3.742980480194092
+1687,audio/01687.wav,./dataset/reazonspeech_wav_out/002/d0b207176fdb9.wav,reazonspeech,今日中に何とかしないと責任問題になるぞ。,0.05,4.859458333333333,3.4374680519104004
+1688,audio/01688.wav,./dataset/reazonspeech_wav_out/002/d100bf358ec5b.wav,reazonspeech,好きな給食は何ですか？,0.0909090909090909,4.319458333333333,3.777480125427246
+1689,audio/01689.wav,./dataset/reazonspeech_wav_out/002/d13b6030f88b4.wav,reazonspeech,「サントリー生ビール」,0.2727272727272727,3.9594583333333335,3.9376182556152335
+1692,audio/01692.wav,./dataset/reazonspeech_wav_out/002/d519b742dafe8.wav,reazonspeech,何とか自腹で全員連れて行きます。,0.1875,5.259458333333333,3.860666751861572
+1693,audio/01693.wav,./dataset/reazonspeech_wav_out/002/d54914f3d81e5.wav,reazonspeech,今日はこちらの映像を御覧いただきましょうか。,0.0909090909090909,4.3994583333333335,3.1076486110687256
+1695,audio/01695.wav,./dataset/reazonspeech_wav_out/002/d626b22f17ddd.wav,reazonspeech,いわゆるタップキックからスタートするということですね。,0.2962962962962963,5.619458333333333,3.557898759841919
+1696,audio/01696.wav,./dataset/reazonspeech_wav_out/002/d7a04e46c2504.wav,reazonspeech,あんな状態の妻を本気で手術するっていうんですか。,0.1666666666666666,4.799458333333333,3.1461851596832275
+1699,audio/01699.wav,./dataset/reazonspeech_wav_out/002/d83e137e3d634.wav,reazonspeech,こういうような指示が出てるんですね。,0.0555555555555555,3.619458333333333,3.723656177520752
+1701,audio/01701.wav,./dataset/reazonspeech_wav_out/002/d966e952b40d2.wav,reazonspeech,磨いているのは両力士ともに押し相撲です。,0.05,8.579458333333333,3.951841592788696
+1702,audio/01702.wav,./dataset/reazonspeech_wav_out/002/da615952e0213.wav,reazonspeech,オープン記念のグッズは売り切れているものもあるそうです。,0.1071428571428571,5.039458333333333,3.2213988304138184
+1703,audio/01703.wav,./dataset/reazonspeech_wav_out/002/db3f0ccd612b2.wav,reazonspeech,勤勉な父が着ていたお気に入りのスーツ。,0.0526315789473684,6.139458333333334,3.9609785079956055
+1704,audio/01704.wav,./dataset/reazonspeech_wav_out/002/dc6901c91ac22.wav,reazonspeech,俺はあかりちゃんが好きや。,0.0769230769230769,7.219458333333334,3.4296233654022217
+1705,audio/01705.wav,./dataset/reazonspeech_wav_out/002/dc8912f116f27.wav,reazonspeech,こんなふうに打つと非常にいい消しになってくるかなと思います。,0.1666666666666666,5.379458333333333,3.304445743560791
+1706,audio/01706.wav,./dataset/reazonspeech_wav_out/002/dd453ab3d32e5.wav,reazonspeech,どうぞ上野さんは？,0.2222222222222222,4.159458333333333,3.0899899005889893
+1708,audio/01708.wav,./dataset/reazonspeech_wav_out/002/df8958a03bc15.wav,reazonspeech,「なんか提灯の後ろにペルーの国旗みたいなのありましたけどあれなんなんですか？」って言って。,0.2888888888888888,6.099458333333334,3.026292085647583
+1712,audio/01712.wav,./dataset/reazonspeech_wav_out/002/e34fddd435495.wav,reazonspeech,またそれか。,0.1666666666666666,3.8794583333333335,3.406470775604248
+1716,audio/01716.wav,./dataset/reazonspeech_wav_out/002/e5add76c6f00a.wav,reazonspeech,まだこの試合フォアボールを与えていません。,0.0476190476190476,7.459458333333333,3.4309864044189453
+1718,audio/01718.wav,./dataset/reazonspeech_wav_out/002/e5c5c2f464f87.wav,reazonspeech,ここで近づいてきたのは。,0.0833333333333333,6.879458333333333,3.348072528839112
+1719,audio/01719.wav,./dataset/reazonspeech_wav_out/002/e891c7c8234c7.wav,reazonspeech,今日、海開きだったところも多かったようですよね。,0.2083333333333333,4.339458333333333,3.0007214546203613
+1721,audio/01721.wav,./dataset/reazonspeech_wav_out/002/ed12779dfadd4.wav,reazonspeech,でも、高木さん,0.2857142857142857,3.379458333333333,3.184392213821411
+1724,audio/01724.wav,./dataset/reazonspeech_wav_out/002/efc16f041abd4.wav,reazonspeech,押し入りの強盗の仕業かと。,0.1538461538461538,4.579458333333333,3.5325255393981934
+1729,audio/01729.wav,./dataset/reazonspeech_wav_out/002/f1ef4abb24565.wav,reazonspeech,名古屋市にあるマンションは。,0.0714285714285714,4.739458333333333,4.072769641876221
+1730,audio/01730.wav,./dataset/reazonspeech_wav_out/002/f3b62bf60e317.wav,reazonspeech,「キュキュットクリア除菌」,0.2307692307692307,3.039458333333333,3.860408544540405
+1731,audio/01731.wav,./dataset/reazonspeech_wav_out/002/f417136b5aa02.wav,reazonspeech,用意できたのでこれを煮込んでいきます。,0.0526315789473684,4.199458333333333,3.44689416885376
+1732,audio/01732.wav,./dataset/reazonspeech_wav_out/002/f451869acd3ae.wav,reazonspeech,２日連続で全国最多となりました。,0.25,4.759458333333333,3.415187120437622
+1733,audio/01733.wav,./dataset/reazonspeech_wav_out/002/f62c895949ea5.wav,reazonspeech,どんなものがあるかといいますと先ほどちょっとお話ししました内臓脂肪型肥満であるとかあるいは糖尿病高血圧症,0.0384615384615384,9.519458333333333,3.5000693798065186
+1735,audio/01735.wav,./dataset/reazonspeech_wav_out/002/f7e48d78d7565.wav,reazonspeech,まずこの時間の土砂災害の危険度です。,0.1666666666666666,5.4794583333333335,3.0474469661712646
+1737,audio/01737.wav,./dataset/reazonspeech_wav_out/002/f9ae935c3a8e5.wav,reazonspeech,ここが唯一窮屈じゃない空間なんですね。,0.0526315789473684,6.419458333333333,3.219752550125122
+1739,audio/01739.wav,./dataset/reazonspeech_wav_out/002/fba1d4c2db8a5.wav,reazonspeech,［それこそが旦那さまの意図するところ］,0.2105263157894736,7.199458333333333,3.08722186088562
+1741,audio/01741.wav,./dataset/reazonspeech_wav_out/002/fd13ddcc5c156.wav,reazonspeech,まさか人質を殺して自分も？,0.1538461538461538,5.679458333333334,3.4172983169555664
+1743,audio/01743.wav,./dataset/reazonspeech_wav_out/003/01270caeb3e8f.wav,reazonspeech,このカエサルの人生っていうのはまあ５５歳で終わるんですけど最後はですねとにかく戦争尽くし。,0.1333333333333333,8.479458333333334,3.2827751636505127
+1744,audio/01744.wav,./dataset/reazonspeech_wav_out/003/02fc840315582.wav,reazonspeech,今、確認が取れそうです。,0.1666666666666666,4.739458333333333,3.223259210586548
+1745,audio/01745.wav,./dataset/reazonspeech_wav_out/003/046e6a3f7f495.wav,reazonspeech,では材料表でおさらいしましょう。,0.0,3.679458333333333,3.623828411102295
+1747,audio/01747.wav,./dataset/reazonspeech_wav_out/003/062103e8ebd3f.wav,reazonspeech,だって、責任っていうのはやっぱり明確なのは判決じゃないですか。,0.064516129032258,5.319458333333333,3.721326351165772
+1748,audio/01748.wav,./dataset/reazonspeech_wav_out/003/06de9cb832862.wav,reazonspeech,どこ行きやがったんだ？,0.0909090909090909,3.059458333333333,3.205705642700196
+1749,audio/01749.wav,./dataset/reazonspeech_wav_out/003/07707bde62b13.wav,reazonspeech,予想をはるかに超えてきたね。,0.1428571428571428,3.2594583333333333,3.559664964675904
+1750,audio/01750.wav,./dataset/reazonspeech_wav_out/003/07a2729fe28ec.wav,reazonspeech,ウミウシの一種チドリミドリガイです。,0.1111111111111111,5.919458333333333,3.2064027786254883
+1751,audio/01751.wav,./dataset/reazonspeech_wav_out/003/07f80e03c3259.wav,reazonspeech,皆さん、体調管理,0.125,3.1794583333333333,3.1657841205596924
+1753,audio/01753.wav,./dataset/reazonspeech_wav_out/003/0b75106439488.wav,reazonspeech,今日ホールインワン出して上機嫌なはずだから。,0.1818181818181818,3.9194583333333335,3.013697624206543
+1754,audio/01754.wav,./dataset/reazonspeech_wav_out/003/0c1d978e2c0df.wav,reazonspeech,歩くときの注意点とは？,0.0909090909090909,5.159458333333333,3.589287281036377
+1757,audio/01757.wav,./dataset/reazonspeech_wav_out/003/0eeac27307947.wav,reazonspeech,公安として当然ですあなたもスパイだったの？,0.1428571428571428,4.619458333333333,3.2396695613861084
+1758,audio/01758.wav,./dataset/reazonspeech_wav_out/003/0f0c97e6dd57e.wav,reazonspeech,「筆圧」という言葉の使い方が大変よかったと思います。,0.1538461538461538,5.019458333333334,3.316590547561645
+1759,audio/01759.wav,./dataset/reazonspeech_wav_out/003/0ff13ca4ea86d.wav,reazonspeech,何やってんだろうね,0.0,3.2994583333333334,3.712839603424072
+1760,audio/01760.wav,./dataset/reazonspeech_wav_out/003/11606acf191c7.wav,reazonspeech,標高３，０００メートルを超える北インドのラダックでホームステイをしていた時のこと。,0.1463414634146341,8.999458333333333,3.783425807952881
+1761,audio/01761.wav,./dataset/reazonspeech_wav_out/003/118354cf7a5e4.wav,reazonspeech,ぜひお試しください。,0.1,6.219458333333334,3.2615041732788086
+1762,audio/01762.wav,./dataset/reazonspeech_wav_out/003/12089592576f5.wav,reazonspeech,なぜ、マリックさんかといいますと。,0.1764705882352941,5.219458333333334,3.3753538131713867
+1763,audio/01763.wav,./dataset/reazonspeech_wav_out/003/12cc66484d878.wav,reazonspeech,普及を急ぐようにというふうに関係閣僚に指示を出しているんです。,0.1612903225806451,6.139458333333334,3.551549196243286
+1765,audio/01765.wav,./dataset/reazonspeech_wav_out/003/143882088caa0.wav,reazonspeech,天気予報は國本さんとお伝えしていきます。,0.15,7.539458333333333,3.857607364654541
+1769,audio/01769.wav,./dataset/reazonspeech_wav_out/003/175a8cfb6a15c.wav,reazonspeech,普段から欲しいものをリストアップしていて気分が落ち込んだ時はそれを買ってストレス発散します。,0.0217391304347826,6.639458333333334,3.6802961826324463
+1771,audio/01771.wav,./dataset/reazonspeech_wav_out/003/1b8084dfda96e.wav,reazonspeech,その警戒が必要な地域がまだあるということですね。,0.25,4.319458333333333,3.13262152671814
+1773,audio/01773.wav,./dataset/reazonspeech_wav_out/003/1be9af05ec201.wav,reazonspeech,卵かけごはんのような感じのエッグサンドを目指して作りました。,0.1333333333333333,7.939458333333333,3.0981836318969727
+1776,audio/01776.wav,./dataset/reazonspeech_wav_out/003/1fe0e52081c81.wav,reazonspeech,冷凍食品のパスタなどを値上げです。,0.0588235294117647,5.779458333333333,3.643636703491211
+1777,audio/01777.wav,./dataset/reazonspeech_wav_out/003/201863ace4f99.wav,reazonspeech,緊急降板となります。,0.3,4.259458333333333,3.3432328701019287
+1778,audio/01778.wav,./dataset/reazonspeech_wav_out/003/21edf31f6547d.wav,reazonspeech,会談を終えたラブロフ外相は。,0.0714285714285714,8.679458333333333,3.088889837265014
+1779,audio/01779.wav,./dataset/reazonspeech_wav_out/003/255fe05ac58e3.wav,reazonspeech,生きることに関わる政治っていうふうに言ってます。,0.0416666666666666,6.319458333333333,3.0658159255981445
+1781,audio/01781.wav,./dataset/reazonspeech_wav_out/003/26f53ce5e9c96.wav,reazonspeech,このあとも梅の開花、もしかしたら遅いかもしれませんね。,0.2592592592592592,6.179458333333334,3.342114210128784
+1782,audio/01782.wav,./dataset/reazonspeech_wav_out/003/273332b271313.wav,reazonspeech,最初の思い切った高さいいですね。,0.0625,3.459458333333333,3.3061256408691406
+1784,audio/01784.wav,./dataset/reazonspeech_wav_out/003/27bef36c15c1b.wav,reazonspeech,同窓会の出席者は５０人。,0.25,3.9394583333333335,3.6073520183563232
+1786,audio/01786.wav,./dataset/reazonspeech_wav_out/003/2822089d3d169.wav,reazonspeech,打球はセンターへ。,0.1111111111111111,5.8994583333333335,3.346904993057251
+1792,audio/01792.wav,./dataset/reazonspeech_wav_out/003/2bc5c6ab98136.wav,reazonspeech,いやいやだからその高橋になるのが嫌だって言ってるんじゃん。,0.1724137931034483,4.959458333333333,3.1301932334899902
+1794,audio/01794.wav,./dataset/reazonspeech_wav_out/003/30fdab86adfa4.wav,reazonspeech,座右の銘となりました。,0.0909090909090909,3.699458333333333,3.1310927867889404
+1795,audio/01795.wav,./dataset/reazonspeech_wav_out/003/325542bff6901.wav,reazonspeech,左右にバンカーがあります。,0.2307692307692307,4.619458333333333,3.5204520225524902
+1796,audio/01796.wav,./dataset/reazonspeech_wav_out/003/32626526ffd76.wav,reazonspeech,それが嫌なんですよ。,0.3,3.1994583333333333,3.399125814437866
+1798,audio/01798.wav,./dataset/reazonspeech_wav_out/003/387de7b2cd8cf.wav,reazonspeech,実はこの穴はアリの巣。,0.0909090909090909,5.659458333333333,3.042980670928955
+1799,audio/01799.wav,./dataset/reazonspeech_wav_out/003/39050bb44f41a.wav,reazonspeech,もう第二の実家みたいな感じですかね。,0.1666666666666666,5.319458333333333,3.71598482131958
+1800,audio/01800.wav,./dataset/reazonspeech_wav_out/003/39c004f16cd1d.wav,reazonspeech,結構走り回ったりしているので肩が痛い腰が痛いお年頃。,0.0384615384615384,7.719458333333334,3.295767307281494
+1802,audio/01802.wav,./dataset/reazonspeech_wav_out/003/3abc7ecc81681.wav,reazonspeech,このコーナー皆さんのご意見,0.0,3.079458333333333,3.2614333629608154
+1803,audio/01803.wav,./dataset/reazonspeech_wav_out/003/3ad66aa82253b.wav,reazonspeech,こんどはねコッシーとみんなにだすからね。,0.25,5.259458333333333,3.598551750183105
+1804,audio/01804.wav,./dataset/reazonspeech_wav_out/003/3dcacd7c5b1bd.wav,reazonspeech,その姿はふだんのゴルフウェアから一変。,0.2105263157894736,5.039458333333333,3.328033685684204
+1805,audio/01805.wav,./dataset/reazonspeech_wav_out/003/3e05708608ab5.wav,reazonspeech,熱中症警戒してください。,0.1666666666666666,3.819458333333333,3.4008805751800537
+1806,audio/01806.wav,./dataset/reazonspeech_wav_out/003/3e294aeecfc99.wav,reazonspeech,準決勝もう一つの組み合わせ。,0.0714285714285714,4.999458333333333,3.363423585891724
+1808,audio/01808.wav,./dataset/reazonspeech_wav_out/003/3e38af3cd3ec3.wav,reazonspeech,最初の大統領に選出された直後のインタビューですよね。,0.1153846153846153,5.559458333333334,3.43972396850586
+1811,audio/01811.wav,./dataset/reazonspeech_wav_out/003/40042a426ae6a.wav,reazonspeech,高畑さん,0.25,3.3394583333333334,3.332672119140625
+1815,audio/01815.wav,./dataset/reazonspeech_wav_out/003/44fdde147a34e.wav,reazonspeech,井上さんのジャンプ、ちょっと低めでしたよね。,0.0909090909090909,4.639458333333334,3.367053747177124
+1816,audio/01816.wav,./dataset/reazonspeech_wav_out/003/45ad492d56b52.wav,reazonspeech,星野陸也が３アンダーグループにいます。,0.1052631578947368,7.359458333333333,3.690306901931762
+1817,audio/01817.wav,./dataset/reazonspeech_wav_out/003/49296420e7c41.wav,reazonspeech,毎日お料理でも使うんですけどそれが常備菜としてある。,0.0384615384615384,5.099458333333334,4.097692489624023
+1818,audio/01818.wav,./dataset/reazonspeech_wav_out/003/4a027f4883908.wav,reazonspeech,そうした不運も重なって,0.1818181818181818,3.359458333333333,3.6291327476501465
+1819,audio/01819.wav,./dataset/reazonspeech_wav_out/003/4a306380b0ee0.wav,reazonspeech,山本が北海道へ行ったのは札幌にいる美登里に会うためだったと見ていいと思います。,0.1794871794871795,6.819458333333333,3.064391613006592
+1821,audio/01821.wav,./dataset/reazonspeech_wav_out/003/4b8380d90969f.wav,reazonspeech,そうするときれいに角が立ちます。,0.25,3.759458333333333,3.639554977416992
+1822,audio/01822.wav,./dataset/reazonspeech_wav_out/003/4c0bb0f7bffeb.wav,reazonspeech,Ｔａｋｕさんのシグネチャーみたいなのが入ったりとかするんですか？,0.15625,4.579458333333333,3.528370857238769
+1823,audio/01823.wav,./dataset/reazonspeech_wav_out/003/4c2c9be1b19a9.wav,reazonspeech,続いてはガチャピンの使える天気。,0.0625,3.659458333333333,3.500627040863037
+1826,audio/01826.wav,./dataset/reazonspeech_wav_out/003/4dc1c08da9e53.wav,reazonspeech,３人もいるって考えるのよ。,0.1538461538461538,4.239458333333333,3.0691325664520264
+1827,audio/01827.wav,./dataset/reazonspeech_wav_out/003/5130ad8a2065f.wav,reazonspeech,では今夜の番組のご案内です。,0.0714285714285714,4.499458333333333,3.088528871536255
+1828,audio/01828.wav,./dataset/reazonspeech_wav_out/003/515bb202d1590.wav,reazonspeech,続いては小祝です。,0.1111111111111111,5.9394583333333335,3.8698458671569824
+1830,audio/01830.wav,./dataset/reazonspeech_wav_out/003/54cee4f5ec279.wav,reazonspeech,それを３つに絞ってお伝えしたいと思うんですがまず最初は事件の経緯を振り返りたいと思います。,0.0444444444444444,8.239458333333333,3.30279278755188
+1831,audio/01831.wav,./dataset/reazonspeech_wav_out/003/57164194fb6ee.wav,reazonspeech,残るはここってわけ。,0.3,4.519458333333334,3.744792222976685
+1832,audio/01832.wav,./dataset/reazonspeech_wav_out/003/58f55ce61a829.wav,reazonspeech,まさかデミグラスソースの代わりをこれで。,0.05,4.059458333333334,3.661988735198975
+1833,audio/01833.wav,./dataset/reazonspeech_wav_out/003/5936796c73ad7.wav,reazonspeech,第４位が味変するという魔法のスプーンとおわん、エレキソルト。,0.2333333333333333,5.919458333333333,3.32401704788208
+1834,audio/01834.wav,./dataset/reazonspeech_wav_out/003/5d9ee5a997e79.wav,reazonspeech,入れたら高さが違うので少し揺らして均等にします。,0.0416666666666666,6.079458333333333,3.0618555545806885
+1839,audio/01839.wav,./dataset/reazonspeech_wav_out/003/6256078844f85.wav,reazonspeech,急な暑さで応えます。,0.1,3.2994583333333334,3.582026481628418
+1840,audio/01840.wav,./dataset/reazonspeech_wav_out/003/672583c70f4d9.wav,reazonspeech,片方の腕を伸ばしながら伸びの運動です。,0.0526315789473684,4.819458333333333,3.14320707321167
+1841,audio/01841.wav,./dataset/reazonspeech_wav_out/003/672bf98faea29.wav,reazonspeech,沸いてきたぜ。,0.2857142857142857,4.779458333333333,3.3155791759490967
+1842,audio/01842.wav,./dataset/reazonspeech_wav_out/003/67fc967a01f38.wav,reazonspeech,ここを延長します。,0.1111111111111111,3.2194583333333333,3.4427521228790283
+1845,audio/01845.wav,./dataset/reazonspeech_wav_out/003/6b011a5b69800.wav,reazonspeech,はっ変わりございませぬ。,0.25,5.499458333333333,3.2540950775146484
+1846,audio/01846.wav,./dataset/reazonspeech_wav_out/003/6c3e6503734b4.wav,reazonspeech,一日も早く帰ってきて下さい。,0.2142857142857142,4.999458333333333,3.315357685089112
+1849,audio/01849.wav,./dataset/reazonspeech_wav_out/003/6f0c9a4fc335b.wav,reazonspeech,ＡＩを使ってシミュレーションしました。,0.1578947368421052,3.739458333333333,3.610188484191896
+1855,audio/01855.wav,./dataset/reazonspeech_wav_out/003/7686a42e3dd25.wav,reazonspeech,こういう所があると思わなかった。,0.25,4.579458333333333,3.051647663116455
+1857,audio/01857.wav,./dataset/reazonspeech_wav_out/003/7786f4214dd56.wav,reazonspeech,お前はまだ反逆者だ。,0.1,3.839458333333333,4.009415626525879
+1859,audio/01859.wav,./dataset/reazonspeech_wav_out/003/7b3f493088548.wav,reazonspeech,もし堂々と出ていけないんだったら今は辞めるべきじゃない。,0.1071428571428571,6.079458333333333,3.604404211044312
+1861,audio/01861.wav,./dataset/reazonspeech_wav_out/003/7cf09aee2666c.wav,reazonspeech,親しみがわいて。,0.25,3.119458333333333,3.063293218612671
+1862,audio/01862.wav,./dataset/reazonspeech_wav_out/003/7cfe4a23b73be.wav,reazonspeech,スロベニアのガンブレット,0.1666666666666666,3.499458333333333,3.725813627243042
+1863,audio/01863.wav,./dataset/reazonspeech_wav_out/003/7e233f429f19e.wav,reazonspeech,だから多分私みんなをパパにしちゃったんです。,0.0454545454545454,7.159458333333333,3.851037979125977
+1864,audio/01864.wav,./dataset/reazonspeech_wav_out/003/7f907fd2f9603.wav,reazonspeech,〈芝は当然知らないふり〉,0.1666666666666666,4.219458333333334,3.3989369869232178
+1865,audio/01865.wav,./dataset/reazonspeech_wav_out/003/7fc159ddefccd.wav,reazonspeech,投げ返してくるボールの精度がものすごくよくて,0.0454545454545454,5.039458333333333,3.7210171222686768
+1873,audio/01873.wav,./dataset/reazonspeech_wav_out/003/89e9df3a9734a.wav,reazonspeech,シャロン・グリーンさん。,0.25,4.199458333333333,3.050884485244751
+1874,audio/01874.wav,./dataset/reazonspeech_wav_out/003/8a246d95a4683.wav,reazonspeech,ああのただの思いつきです。,0.1538461538461538,3.719458333333333,3.223156690597534
+1877,audio/01877.wav,./dataset/reazonspeech_wav_out/003/8b263b9539c46.wav,reazonspeech,ロシアは不信感を募らせました。,0.0666666666666666,4.559458333333334,3.762675046920776
+1881,audio/01881.wav,./dataset/reazonspeech_wav_out/003/9ae75f10108f5.wav,reazonspeech,その一つが、生活費です。,0.1666666666666666,5.099458333333334,3.697178363800049
+1882,audio/01882.wav,./dataset/reazonspeech_wav_out/003/9b16e0c32b823.wav,reazonspeech,あっ私はだけどね。,0.1111111111111111,3.579458333333333,3.796117067337036
+1883,audio/01883.wav,./dataset/reazonspeech_wav_out/003/9bacaf9e86d82.wav,reazonspeech,それができたら苦労しないよ。,0.0714285714285714,4.319458333333333,3.5763540267944336
+1886,audio/01886.wav,./dataset/reazonspeech_wav_out/003/9e83aa94f0d8a.wav,reazonspeech,突然前を走るトラックから落下物が。,0.1764705882352941,4.199458333333333,3.478938579559326
+1888,audio/01888.wav,./dataset/reazonspeech_wav_out/003/a16a6946336e4.wav,reazonspeech,ごま油の香りにガーリックのうま味。,0.1176470588235294,7.439458333333333,3.2964980602264404
+1894,audio/01894.wav,./dataset/reazonspeech_wav_out/003/a6bc06327aa33.wav,reazonspeech,どういたしまして。,0.1111111111111111,3.839458333333333,3.141125440597534
+1895,audio/01895.wav,./dataset/reazonspeech_wav_out/003/a7d9111a363eb.wav,reazonspeech,最終的には田嶋選手のペースとなりました。,0.3,4.619458333333333,3.1998226642608643
+1897,audio/01897.wav,./dataset/reazonspeech_wav_out/003/aba79b7d024f9.wav,reazonspeech,カジキグルメがあるんですね。,0.0714285714285714,3.459458333333333,3.517872810363769
+1898,audio/01898.wav,./dataset/reazonspeech_wav_out/003/ac08d766126d1.wav,reazonspeech,アイアンドームによる撃墜なんでしょうか,0.0,4.659458333333333,3.3576884269714355
+1901,audio/01901.wav,./dataset/reazonspeech_wav_out/003/ace500297272c.wav,reazonspeech,まあ自信がないわけではないんですけど。,0.1578947368421052,4.079458333333333,3.0828874111175537
+1907,audio/01907.wav,./dataset/reazonspeech_wav_out/003/b2e9e2a3a91ba.wav,reazonspeech,今回番組で紹介したのはこちらです。,0.0588235294117647,4.539458333333333,3.471489667892456
+1912,audio/01912.wav,./dataset/reazonspeech_wav_out/003/b614458af9630.wav,reazonspeech,２ストライクと追い込まれますが。,0.25,7.039458333333333,3.180396318435669
+1915,audio/01915.wav,./dataset/reazonspeech_wav_out/003/bbeee60e34334.wav,reazonspeech,続いて気象情報です。,0.1,4.739458333333333,3.952430009841919
+1917,audio/01917.wav,./dataset/reazonspeech_wav_out/003/bccbc02ac7df3.wav,reazonspeech,〈でもなんで泣いてるんだろう？〉,0.25,5.219458333333334,3.025628566741944
+1919,audio/01919.wav,./dataset/reazonspeech_wav_out/003/bdbfbabb3444d.wav,reazonspeech,この大山もオールスターは初出場。,0.0625,4.639458333333334,4.091411113739014
+1920,audio/01920.wav,./dataset/reazonspeech_wav_out/003/c224bd7d45067.wav,reazonspeech,ここ数年、非常に厳しい状況が続いていると。,0.0952380952380952,5.039458333333333,3.399691104888916
+1923,audio/01923.wav,./dataset/reazonspeech_wav_out/003/c4b30805dc5b0.wav,reazonspeech,だめだっていうんでレンタカー借りて車で走ろうとしたんだよ,0.1785714285714285,6.219458333333334,3.194455623626709
+1924,audio/01924.wav,./dataset/reazonspeech_wav_out/003/c75b2ec068e01.wav,reazonspeech,次々に現場から担架で運ばれていきます。,0.2631578947368421,7.679458333333334,3.581514358520508
+1926,audio/01926.wav,./dataset/reazonspeech_wav_out/003/ca6433aabcf14.wav,reazonspeech,遊びのページを作りました。,0.1538461538461538,3.9794583333333335,4.0488128662109375
+1927,audio/01927.wav,./dataset/reazonspeech_wav_out/003/ccede32d6ca37.wav,reazonspeech,日本のこのときの相手がキューバでした。,0.1578947368421052,4.559458333333334,3.491708517074585
+1928,audio/01928.wav,./dataset/reazonspeech_wav_out/003/cdcf829a0f997.wav,reazonspeech,ネバーエンディングスタンプＤＶＤプレーヤー。は？,0.25,5.8994583333333335,3.0193979740142822
+1932,audio/01932.wav,./dataset/reazonspeech_wav_out/003/d33f4854bdfb5.wav,reazonspeech,柳澤さんはこの編入要請をどのように見ますか。,0.1363636363636363,5.279458333333333,3.3686625957489014
+1933,audio/01933.wav,./dataset/reazonspeech_wav_out/003/d38b8e4180fa9.wav,reazonspeech,家電泥棒です。,0.1428571428571428,4.719458333333334,3.459928274154663
+1936,audio/01936.wav,./dataset/reazonspeech_wav_out/003/d6963cb197bf1.wav,reazonspeech,これからよろしくお願いします。,0.0,3.719458333333333,3.1184089183807373
+1938,audio/01938.wav,./dataset/reazonspeech_wav_out/003/d8473874facbd.wav,reazonspeech,楽しみですね。,0.1428571428571428,3.2194583333333333,3.47426700592041
+1941,audio/01941.wav,./dataset/reazonspeech_wav_out/003/dd914edeee0b8.wav,reazonspeech,年に２回の緊急事態に対する訓練。,0.125,5.619458333333333,3.664787769317627
+1942,audio/01942.wav,./dataset/reazonspeech_wav_out/003/deb8b3b8758b1.wav,reazonspeech,なので外に引き出しながら縫っていくのがいいと思います。,0.074074074074074,5.279458333333333,3.490497350692749
+1943,audio/01943.wav,./dataset/reazonspeech_wav_out/003/e0ff6fbaf44aa.wav,reazonspeech,これをですね肉食性というんですね。,0.1764705882352941,5.139458333333334,3.113974094390869
+1944,audio/01944.wav,./dataset/reazonspeech_wav_out/003/e11f68d6e5139.wav,reazonspeech,このお店の場所,0.1428571428571428,3.059458333333333,3.060521125793457
+1948,audio/01948.wav,./dataset/reazonspeech_wav_out/003/e7dfcb169e77c.wav,reazonspeech,安易に使って申し訳ございません。,0.1875,3.659458333333333,3.080420970916748
+1950,audio/01950.wav,./dataset/reazonspeech_wav_out/003/e9bac9a11105f.wav,reazonspeech,もしかしたら華丸さんのうちの近くにも行くかもしれません。,0.1428571428571428,5.559458333333334,3.41836166381836
+1952,audio/01952.wav,./dataset/reazonspeech_wav_out/003/ed422a6efc24d.wav,reazonspeech,そのことから犯行が多くなってきているということはあります。,0.0689655172413793,4.9394583333333335,3.1335904598236084
+1953,audio/01953.wav,./dataset/reazonspeech_wav_out/003/f080d711281f3.wav,reazonspeech,ほらどっかタイかなんかのなんつったっけ？,0.25,4.8994583333333335,3.257070302963257
+1954,audio/01954.wav,./dataset/reazonspeech_wav_out/003/f0af5134393b1.wav,reazonspeech,季節の変わり目だからね。,0.0833333333333333,3.359458333333333,3.953137874603272
+1957,audio/01957.wav,./dataset/reazonspeech_wav_out/003/f56bd3843aa6e.wav,reazonspeech,お前何枚か持ってるか？,0.0909090909090909,3.139458333333333,3.7260758876800537
+1959,audio/01959.wav,./dataset/reazonspeech_wav_out/003/f6b326437e14e.wav,reazonspeech,おいしそう。,0.1666666666666666,5.3994583333333335,3.425139904022217
+1960,audio/01960.wav,./dataset/reazonspeech_wav_out/003/f8d46ce9adb78.wav,reazonspeech,でもさ、翠、誕生日とかあんまりこだわりないでしょ。,0.16,5.759458333333333,3.76273775100708
+1963,audio/01963.wav,./dataset/reazonspeech_wav_out/003/fbfc6a06040f3.wav,reazonspeech,こっちの手がかりは１８年前の映画だな。,0.1578947368421052,6.059458333333334,3.30162000656128
+1964,audio/01964.wav,./dataset/reazonspeech_wav_out/003/fdb7185dd24da.wav,reazonspeech,そうしましたらここに残ってる油を取りますね。,0.1818181818181818,5.679458333333334,3.5441784858703613
+1968,audio/01968.wav,./dataset/reazonspeech_wav_out/003/fff67b26f5d60.wav,reazonspeech,「実感年齢」でいきましょう。,0.2142857142857142,4.379458333333333,3.554939031600952
