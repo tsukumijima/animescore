@@ -31,7 +31,7 @@
 
 ```bash
 cd /path/to/animescore  # リポジトリルート
-uv sync --python 3.11 --extra training --no-managed-python
+uv sync --python 3.11 --group train --group sidon --no-managed-python
 ```
 
 推論ライブラリとして他プロジェクトから使うだけであれば、git URL を直接指定して install できます。

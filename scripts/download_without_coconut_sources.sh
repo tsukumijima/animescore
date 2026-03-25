@@ -34,22 +34,26 @@ download_reazonspeech_file() {
   local destination_path="$CACHE_ROOT/downloads/reazonspeech/$relative_path"
   local source_url="$REAZONSPEECH_BASE_URL/$relative_path"
 
-  if [ -f "$destination_path" ]; then
-    return 0
-  fi
-
   mkdir -p "$(dirname "$destination_path")"
   curl \
     --fail \
     --location \
     --retry 3 \
+    --retry-delay 5 \
+    --max-time 7200 \
     --continue-at - \
     --output "$destination_path" \
     "$source_url"
 }
 
-download_reazonspeech_file "data/000.tar"
-download_reazonspeech_file "data/001.tar"
-download_reazonspeech_file "data/002.tar"
-download_reazonspeech_file "data/003.tar"
-download_reazonspeech_file "tsv/small.tsv"
+export -f download_reazonspeech_file
+export CACHE_ROOT
+export REAZONSPEECH_BASE_URL
+
+printf "%s\n" \
+  "data/000.tar" \
+  "data/001.tar" \
+  "data/002.tar" \
+  "data/003.tar" \
+  "tsv/small.tsv" \
+  | xargs -P "$MAX_WORKERS" -I {} bash -lc 'download_reazonspeech_file "$1"' _ "{}"

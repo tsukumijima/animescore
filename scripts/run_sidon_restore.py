@@ -11,44 +11,20 @@ from __future__ import annotations
 
 import argparse
 import csv
-import importlib
 import logging
 import os
-import sys
-from contextlib import contextmanager
 from pathlib import Path
 
+from huggingface_hub import hf_hub_download
+from sidon.cleansing import extract_seamless_m4t_features
+import soundfile
 import torch
-import torchaudio
 from torch.nn.utils.rnn import pad_sequence
 
 
 logger = logging.getLogger(__name__)
-
-
-@contextmanager
-def temporary_sys_path(entries: list[str]):
-    """
-    Temporarily prepend paths to `sys.path`.
-
-    Args:
-        entries (list[str]): Paths to prepend while inside the context.
-
-    Yields:
-        None: Control returns to the caller inside the managed context.
-    """
-
-    added_entries: list[str] = []
-    for entry in entries:
-        if entry not in sys.path:
-            sys.path.insert(0, entry)
-            added_entries.append(entry)
-    try:
-        yield
-    finally:
-        for entry in reversed(added_entries):
-            if entry in sys.path:
-                sys.path.remove(entry)
+DEFAULT_SIDON_CHECKPOINT_REPO = "sarulab-speech/sidon-v0.1"
+DEFAULT_SIDON_CHECKPOINT_REVISION = "b3b02d8bbd55fdbc410e6e46e76ef95ace4fbf52"
 
 
 def parse_args() -> argparse.Namespace:
@@ -71,11 +47,6 @@ def parse_args() -> argparse.Namespace:
         help="Utterance metadata CSV.",
     )
     parser.add_argument(
-        "--sidon-root",
-        default=os.environ.get("SIDON_ROOT", "../Sidon"),
-        help="Sidon repository root.",
-    )
-    parser.add_argument(
         "--feature-extractor",
         default="",
         help="Sidon TorchScript feature extractor checkpoint.",
@@ -84,6 +55,31 @@ def parse_args() -> argparse.Namespace:
         "--decoder",
         default="",
         help="Sidon TorchScript decoder checkpoint.",
+    )
+    parser.add_argument(
+        "--checkpoint-repo",
+        default=DEFAULT_SIDON_CHECKPOINT_REPO,
+        help="Hugging Face repository that provides Sidon TorchScript checkpoints.",
+    )
+    parser.add_argument(
+        "--checkpoint-revision",
+        default=DEFAULT_SIDON_CHECKPOINT_REVISION,
+        help="Pinned Hugging Face revision that provides the Sidon checkpoints.",
+    )
+    parser.add_argument(
+        "--feature-extractor-filename",
+        default="feature_extractor_cuda.pt",
+        help="Feature extractor filename inside the checkpoint repository.",
+    )
+    parser.add_argument(
+        "--decoder-filename",
+        default="decoder_cuda.pt",
+        help="Decoder filename inside the checkpoint repository.",
+    )
+    parser.add_argument(
+        "--hf-token",
+        default="",
+        help="Optional Hugging Face token used to download Sidon checkpoints.",
     )
     parser.add_argument(
         "--device",
@@ -110,44 +106,166 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def import_sidon_processor(sidon_root: Path):
+def resolve_checkpoint_path(
+    candidate_path: str,
+    checkpoint_repo: str,
+    checkpoint_revision: str,
+    filename: str,
+    hf_token: str,
+) -> str:
     """
-    Import Sidon's batch processor from the external repository.
+    Resolve a Sidon TorchScript checkpoint path.
 
     Args:
-        sidon_root (Path): Sidon repository root.
+        candidate_path (str): Explicit local checkpoint path override.
+        checkpoint_repo (str): Hugging Face repository that hosts the checkpoint.
+        checkpoint_revision (str): Pinned repository revision.
+        filename (str): Checkpoint filename inside the repository.
+        hf_token (str): Optional Hugging Face token.
 
     Returns:
-        type: `SpeechDenoisingProcessor` class.
+        str: Local path to the resolved checkpoint.
     """
 
-    sidon_scripts_dir = sidon_root / "scripts"
-    if sidon_root.exists() is False:
-        raise FileNotFoundError(f"Sidon root directory was not found: {sidon_root}")
-    if sidon_scripts_dir.exists() is False:
-        raise FileNotFoundError(
-            f"Sidon scripts directory was not found: {sidon_scripts_dir}",
-        )
+    if candidate_path != "":
+        return str(Path(candidate_path).expanduser().resolve())
 
-    sidon_root_string = str(sidon_root)
-    sidon_scripts_string = str(sidon_scripts_dir)
+    auth_args: dict[str, str] = {}
+    resolved_token = hf_token or os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_TOKEN")
+    if resolved_token:
+        auth_args["token"] = resolved_token
 
     try:
-        with temporary_sys_path([sidon_root_string, sidon_scripts_string]):
-            sidon_module = importlib.import_module("scripts.cleanse_webdataset")
-    except (ImportError, ModuleNotFoundError) as ex:
-        raise ImportError(
-            "Failed to import SpeechDenoisingProcessor from Sidon. "
-            f"sidon_root: {sidon_root}",
+        return hf_hub_download(
+            repo_id=checkpoint_repo,
+            revision=checkpoint_revision,
+            filename=filename,
+            **auth_args,
+        )
+    except Exception as ex:
+        raise RuntimeError(
+            "Failed to resolve a Sidon checkpoint. "
+            f"checkpoint_repo: {checkpoint_repo}, checkpoint_revision: {checkpoint_revision}, filename: {filename}",
         ) from ex
 
-    if hasattr(sidon_module, "SpeechDenoisingProcessor") is False:
-        raise AttributeError(
-            "SpeechDenoisingProcessor was not found in Sidon module. "
-            f"sidon_root: {sidon_root}",
-        )
 
-    return sidon_module.SpeechDenoisingProcessor
+def build_sidon_processor():
+    """
+    Build a minimal Sidon processor for inference-only restoration.
+
+    Returns:
+        type: A local `SpeechDenoisingProcessor`-compatible class.
+    """
+
+    class LocalSpeechDenoisingProcessor:
+        """
+        Run Sidon's TorchScripted feature extractor and decoder for inference.
+        """
+
+        def __init__(
+            self,
+            feature_extractor_path: str,
+            decoder_path: str,
+            device: str,
+            chunk_seconds: float,
+            target_sample_rate: int,
+        ) -> None:
+            if device == "auto":
+                device = "cuda" if torch.cuda.is_available() else "cpu"
+            self.device = torch.device(device)
+            self.feature_extractor = torch.jit.load(
+                feature_extractor_path,
+                map_location=self.device,
+            )
+            self.decoder = torch.jit.load(
+                decoder_path,
+                map_location=self.device,
+            )
+            self.feature_extractor.eval()
+            self.decoder.eval()
+            self.chunk_samples = max(int(chunk_seconds * 16_000), 1_600)
+            self.target_sample_rate = target_sample_rate
+
+        def _prepare_waveform_batch(
+            self,
+            waveforms: list[torch.Tensor] | torch.Tensor,
+            sample_rates: list[int],
+        ) -> torch.Tensor:
+            del sample_rates
+            waveforms_padded = torch.zeros(
+                len(waveforms),
+                self.chunk_samples,
+                dtype=torch.float32,
+            )
+            if isinstance(waveforms, torch.Tensor):
+                copy_length = min(waveforms.shape[-1], self.chunk_samples)
+                if waveforms.shape[-1] > self.chunk_samples:
+                    logger.warning(
+                        f"Input waveform was truncated. target_samples: {self.chunk_samples}",
+                    )
+                waveforms_padded[:, :copy_length] = waveforms[:, :copy_length]
+                return waveforms_padded
+
+            for index, waveform in enumerate(waveforms):
+                if waveform.shape[-1] > self.chunk_samples:
+                    logger.warning(
+                        f"Input waveform was truncated. target_samples: {self.chunk_samples}",
+                    )
+                    waveform = waveform[: self.chunk_samples]
+                waveforms_padded[index, : waveform.shape[-1]] = waveform
+            return waveforms_padded
+
+        @torch.inference_mode()
+        def process_batch(
+            self,
+            waveforms: list[torch.Tensor] | torch.Tensor,
+            sample_rates: list[int] | None = None,
+            expected_lengths: list[int] | None = None,
+        ) -> list[torch.Tensor]:
+            if sample_rates is None:
+                raise ValueError("sample_rates must be provided for Sidon restore.")
+            if expected_lengths is None:
+                expected_lengths = []
+                for waveform, sample_rate in zip(waveforms, sample_rates):
+                    duration_seconds = waveform.shape[-1] / float(sample_rate)
+                    expected_lengths.append(
+                        int(round(duration_seconds * self.target_sample_rate))
+                    )
+
+            prepared_waveforms = self._prepare_waveform_batch(
+                waveforms,
+                sample_rates,
+            )
+            features = extract_seamless_m4t_features(
+                list(prepared_waveforms),
+                return_tensors="pt",
+                padding_value=1.0,
+                device=str(self.device),
+            )
+            feature_tensor = self.feature_extractor(
+                features["input_features"].to(self.device)
+            )["last_hidden_state"]
+            restored_waveforms = self.decoder(feature_tensor.transpose(1, 2)).cpu()
+
+            results: list[torch.Tensor] = []
+            for sample_index, sample in enumerate(restored_waveforms):
+                restored_waveform = sample.view(-1)
+                target_length = expected_lengths[sample_index]
+                current_length = restored_waveform.shape[-1]
+                if target_length > 0 and current_length != target_length:
+                    diff = target_length - current_length
+                    if diff > 0:
+                        restored_waveform = torch.nn.functional.pad(
+                            restored_waveform,
+                            (0, diff),
+                        )
+                    elif diff < 0:
+                        restored_waveform = restored_waveform[:target_length]
+                results.append(restored_waveform.contiguous())
+
+            return results
+
+    return LocalSpeechDenoisingProcessor
 
 
 def load_rows(utterance_csv: Path) -> list[dict[str, str]]:
@@ -176,7 +294,12 @@ def load_waveform(audio_path: Path) -> tuple[torch.Tensor, int]:
         tuple[torch.Tensor, int]: Mono waveform and sample rate.
     """
 
-    waveform, sample_rate = torchaudio.load(audio_path)
+    waveform_array, sample_rate = soundfile.read(
+        str(audio_path),
+        dtype="float32",
+        always_2d=True,
+    )
+    waveform = torch.from_numpy(waveform_array).transpose(0, 1)
     if waveform.size(0) > 1:
         waveform = waveform.mean(dim=0, keepdim=True)
     return waveform.squeeze(0).to(dtype=torch.float32), int(sample_rate)
@@ -193,10 +316,11 @@ def save_waveform(output_path: Path, waveform: torch.Tensor, sample_rate: int) -
     """
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    torchaudio.save(
+    soundfile.write(
         str(output_path),
-        waveform.view(1, -1).cpu(),
+        waveform.detach().cpu().numpy(),
         sample_rate,
+        subtype="PCM_16",
     )
 
 
@@ -252,18 +376,22 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(message)s")
     repo_root = Path(args.repo_root).resolve()
     utterance_csv = (repo_root / args.utterance_csv).resolve()
-    sidon_root = Path(args.sidon_root).resolve()
-    feature_extractor_path = args.feature_extractor.strip()
-    decoder_path = args.decoder.strip()
+    feature_extractor_path = resolve_checkpoint_path(
+        candidate_path=args.feature_extractor.strip(),
+        checkpoint_repo=args.checkpoint_repo,
+        checkpoint_revision=args.checkpoint_revision,
+        filename=args.feature_extractor_filename,
+        hf_token=args.hf_token.strip(),
+    )
+    decoder_path = resolve_checkpoint_path(
+        candidate_path=args.decoder.strip(),
+        checkpoint_repo=args.checkpoint_repo,
+        checkpoint_revision=args.checkpoint_revision,
+        filename=args.decoder_filename,
+        hf_token=args.hf_token.strip(),
+    )
 
-    if feature_extractor_path == "":
-        feature_extractor_path = str(
-            sidon_root / "checkpoints" / "feature_extractor_cuda.pt"
-        )
-    if decoder_path == "":
-        decoder_path = str(sidon_root / "checkpoints" / "decoder_cuda.pt")
-
-    SpeechDenoisingProcessor = import_sidon_processor(sidon_root)
+    SpeechDenoisingProcessor = build_sidon_processor()
     processor = SpeechDenoisingProcessor(
         feature_extractor_path=feature_extractor_path,
         decoder_path=decoder_path,

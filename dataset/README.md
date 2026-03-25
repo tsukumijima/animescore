@@ -39,7 +39,7 @@ If you are reproducing the `without_coconut` flow in this fork, run:
 
 ```bash
 cd /path/to/animescore  # repository root
-uv sync --python 3.11 --extra training --no-managed-python
+uv sync --python 3.11 --group train --group sidon --no-managed-python
 hf auth login
 
 uv run python scripts/build_without_coconut_dataset.py \
@@ -105,7 +105,6 @@ All utterances were processed with **Sidon** (Nakata et al., ICASSP 2026), a neu
 For the `without_coconut` flow, restore the selected files with:
 
 ```bash
-SIDON_ROOT=/path/to/Sidon \
 uv run python scripts/run_sidon_restore.py \
   --repo-root . \
   --utterance-csv data/utterance_set/pair_pool_metadata_without_coconut.csv \
@@ -115,10 +114,8 @@ uv run python scripts/run_sidon_restore.py \
   --skip-existing
 ```
 
-If `--feature-extractor` and `--decoder` are omitted, the script uses:
-
-- `${SIDON_ROOT}/checkpoints/feature_extractor_cuda.pt`
-- `${SIDON_ROOT}/checkpoints/decoder_cuda.pt`
+If `--feature-extractor` and `--decoder` are omitted, the script downloads the
+default TorchScript checkpoints from `sarulab-speech/sidon-v0.1`.
 
 The restored files are written directly to `audio/{id}.wav`, matching the `shuffled_file` column.
 

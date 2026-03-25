@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=69"]
+requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,6 +8,19 @@ version = "0.1.0"
 description = "AnimeScore: A Preference-Based Dataset and Framework for Evaluating Anime-Like Speech Style"
 readme = "README.md"
 requires-python = ">=3.11"
+license = { text = "MIT" }
+keywords = ["speech", "audio", "anime", "ranking", "mos"]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 dependencies = [
     "huggingface-hub>=1.3.0",
     "soundfile>=0.13.1",
@@ -16,14 +29,20 @@ dependencies = [
     "transformers>=4.35.0",
 ]
 
-[project.optional-dependencies]
-training = [
+[project.urls]
+Repository = "https://github.com/tsukumijima/animescore"
+
+[dependency-groups]
+train = [
     "numpy>=1.24.0",
     "pandas>=1.5.0",
     "scikit-learn>=1.2.0",
     "scipy>=1.10.0",
     "statsmodels>=0.14.0",
     "tqdm>=4.65.0",
+]
+sidon = [
+    "sidon",
 ]
 
 [[tool.uv.index]]
@@ -32,8 +51,14 @@ url = "https://download.pytorch.org/whl/cu128"
 explicit = true
 
 [tool.uv.sources]
+sidon = { git = "https://github.com/sarulab-speech/Sidon.git" }
 torch = [{ index = "pytorch-cu128" }]
 torchaudio = [{ index = "pytorch-cu128" }]
 
+[tool.setuptools]
+include-package-data = false
+
 [tool.setuptools.packages.find]
+where = ["."]
 include = ["animescore*"]
+namespaces = false
