@@ -57,8 +57,8 @@ out/
 utils/wav2vec2_checkpoints/
 
 .hf-cache/
-.cache/
+.cache*
 audio/
 ckpt/
-dataset/anim400k/
-dataset/reazonspeech_wav_out/
+dataset/anim400k*
+dataset/reazonspeech*
