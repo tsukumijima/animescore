@@ -47,7 +47,7 @@ animescore/
 
 ```bash
 cd /path/to/animescore  # repository root
-uv sync --python 3.11 --group train --no-managed-python
+uv sync --python 3.11 --group train
 ```
 
 Requires Python ≥ 3.11, PyTorch ≥ 2.0. CUDA recommended.
